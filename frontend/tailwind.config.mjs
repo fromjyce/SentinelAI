@@ -12,7 +12,7 @@ export default {
         foreground: "var(--foreground)",
       },
       fontFamily: {
-        myFont: ['SDDystopian', 'sans-serif'],
+        sddystopian: ['SDDystopian', 'sans-serif'],
       },
     },
   },
