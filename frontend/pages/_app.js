@@ -1,5 +1,6 @@
 import "../app/globals.css";
 import {Poppins, Play, Space_Grotesk, Urbanist} from "next/font/google";
+import { GeistSans } from 'geist/font/sans';
 
 const poppins_init = Poppins({
     subsets: ["latin"],
@@ -32,7 +33,7 @@ const poppins_init = Poppins({
 
 function MyApp({ Component, pageProps }) {
     return (
-        <div className={`${urbanist_init.variable} ${space_grotesk_init.variable} ${play_init.variable} ${poppins_init.variable} antialiased`}>
+        <div className={`${urbanist_init.variable} ${space_grotesk_init.variable} ${play_init.variable} ${poppins_init.variable} ${poppins_init.variable} ${GeistSans.className} antialiased`}>
           <main>
             <Component {...pageProps} />
           </main>
