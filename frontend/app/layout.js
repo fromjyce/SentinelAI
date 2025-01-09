@@ -3,26 +3,26 @@ import "./globals.css";
 
 const poppins_init = Poppins({
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-  variable: "--font-afacad",
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  variable: "--font-poppins",
 });
 
 const play_init = Play({
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-  variable: "--font-afacad",
+  weight: ["400", "700"],
+  variable: "--font-play",
 });
 
 const space_grotesk_init = Space_Grotesk({
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-  variable: "--font-afacad",
+  weight: ["300", "400", "500", "600", "700"],
+  variable: "--font-space_grotesk",
 });
 
 const urbanist_init = Urbanist({
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-  variable: "--font-afacad",
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  variable: "--font-urbanist",
 });
 
 export const metadata = {
