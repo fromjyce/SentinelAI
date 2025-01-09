@@ -1,5 +1,13 @@
-export default function Home() {
+import Navbar from "@/components/Navbar";
+import HomeIOT from "@/pages/homeiot";
+
+export default function Page() {
   return (
-    <h1 className="font-sans font-bold">Use in Next.js</h1>
-  )
+    <div>
+      <Navbar />
+      <main className="mt-20 p-6">
+        <HomeIOT />
+      </main>
+    </div>
+  );
 }
