@@ -1,0 +1,35 @@
+root@Jayashre:/home/fromjyce/codered/sentinelai/actual# testrpc --version
+EthereumJS TestRPC v6.0.3 (ganache-core: 2.0.2)
+
+Available Accounts
+==================
+(0) 0x652a0603f33670de6568f091f90ea153f134e7e2
+(1) 0x6190619f8036129a8112258eea21ae1c036431bb
+(2) 0x1af69fa71562a96b7d46e846a3d38272c6bb55ec
+(3) 0x0decd668ea49d4d211697d798d59cb5b178b06db
+(4) 0xc42f7717810331a6c4f1df09183caac30214a8cb
+(5) 0x9750771d29c74ee463ed2675eaed2222b6fd40af
+(6) 0x1869eb3fb065c7f13ed50da56389fdb226bee323
+(7) 0xd282f72ec403af886c42475c6063fb20546f1cb7
+(8) 0xa71e9bb3be07666903c97032357e589975501957
+(9) 0xcc70e7fc6cc22b20ab3467fcc04571196f23b51b
+
+Private Keys
+==================
+(0) 53e00ae7babd28d878ccdc6fcebb0b4df9af86014c67e7a5cbfec3b7ac65e01a
+(1) ea831b12a219ea795a70e75ab3188e207ce155f97752f250a5580d690b2bd23e
+(2) 7483bdf008b4524a347e9c45e125d80d557e1e7aa1bedea3c1e6d15f1f76c8bc
+(3) 47b78406a10107a5292c08b9c2042d2de37abc06d5fd98139d0b87079ce1de79
+(4) 7ee29e513488f566ca4d9344df2b1b61589f6878824a519ae77c24c4a9ac8df0
+(5) 85a40859b435b03e91b18d1d66df8bad2579ae73a3de45871c6c1253216b01ef
+(6) 96fccfac03a5bfc27ccbb29bfe7f6df59bb8f6cb5ea5b35e50ca4005672d8024
+(7) a39dc087f88c0b35489cb7139c973878a8edc9512554573cbae42ee3d1351641
+(8) e52c1bd1f64a541d9e908e1d072b139cef4612c921eac4ccb1e8bf474573c872
+(9) 1632e7ded2bc246add25067851e1df59b9622d43c3c5783b2a866cd2ce8ac273
+
+HD Wallet
+==================
+Mnemonic:      pottery rescue enhance innocent caught memory cube note spike forward hurry green
+Base HD Path:  m/44'/60'/0'/0/{account_index}
+
+Listening on localhost:8545
