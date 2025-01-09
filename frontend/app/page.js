@@ -2,6 +2,7 @@
 import Image from 'next/image'
 import { ArrowUpRight, Shield, Thermometer, Lock, Camera, Activity, AlertTriangle, CheckCircle, X, Tv, Lightbulb } from 'lucide-react'
 import { useState } from 'react'
+import { jsPDF } from "jspdf"
 import {
   Select,
   SelectContent,
@@ -82,6 +83,49 @@ export default function Home() {
     alert(`New device "${newDevice.name}" has been added successfully!`);
   };
 
+  const generatePDF = () => {
+    const doc = new jsPDF();
+  
+    // Title
+    doc.setFontSize(20);
+    doc.text('SentinelAI Report', 20, 20);
+  
+    // Add system health data
+    doc.setFontSize(14);
+    doc.text(`System Health: 98%`, 20, 40);
+    doc.text(`Devices Online: 5`, 20, 50);
+    doc.text(`Active Threats: 0`, 20, 60);
+  
+    // Device-specific details (you can dynamically add this data)
+    let yOffset = 70;
+    Object.entries(deviceMetrics).forEach(([deviceName, metrics]) => {
+      doc.text(`Device: ${deviceName}`, 20, yOffset);
+      yOffset += 10;
+  
+      Object.entries(metrics).forEach(([key, value], idx) => {
+        doc.text(`${key}: ${value}`, 20, yOffset);
+        yOffset += 10;
+      });
+      yOffset += 10; // Add some space after each device
+    });
+  
+    // Isolated devices table (dynamically filled data)
+    doc.text('Isolated Devices:', 20, yOffset);
+    yOffset += 10;
+    
+    isolatedDevices.forEach(device => {
+      doc.text(`${device.name} - ${device.reason} - ${device.time}`, 20, yOffset);
+      yOffset += 10;
+    });
+  
+    // Save the PDF with a filename
+    doc.save('sentinelAI_report.pdf');
+  };
+
+  const handleViewReportClick = () => {
+    generatePDF();
+  };
+
   return (
     <div className="min-h-screen bg-gray-100 p-4 md:p-8 poppins">
       <main className="max-w-7xl mx-auto space-y-8">
@@ -124,7 +168,9 @@ export default function Home() {
                   </SelectContent>
                 </Select>
               </div>
-              <button className="w-full bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition duration-300 flex items-center justify-center">
+              <button 
+               onClick={handleViewReportClick}
+              className="w-full bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition duration-300 flex items-center justify-center">
                 View Detailed Report
                 <ArrowUpRight className="ml-2 h-4 w-4" />
               </button>
