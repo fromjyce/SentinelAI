@@ -28,3 +28,19 @@
   font-weight: normal;
   font-style: normal;
 }
+
+.poppins {
+  font-family: var(--font-poppins);
+}
+
+.play {
+  font-family: var(--font-play);
+}
+
+.space_grotesk {
+  font-family: var(--font-space_grotesk);
+}
+
+.urbanist {
+  font-family: var(--font-urbanist);
+}
