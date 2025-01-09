@@ -54,7 +54,8 @@ export default {
   			sddystopian: [
   				'SDDystopian',
   				'sans-serif'
-  			]
+  			],
+			sans: ['var(--font-geist-sans)'],
   		},
   		borderRadius: {
   			lg: 'var(--radius)',
