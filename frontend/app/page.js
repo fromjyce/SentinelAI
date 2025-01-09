@@ -1,7 +1,7 @@
 'use client'
 import Image from 'next/image'
 import { ArrowUpRight, Shield, Thermometer, Lock, Camera, Activity, AlertTriangle, CheckCircle, X, Tv, Lightbulb } from 'lucide-react'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { jsPDF } from "jspdf"
 import {
   Select,
@@ -27,7 +27,7 @@ const initialDeviceMetrics = {
   'Smart Lock': { operatingTime: '68h', connectionQuality: 'Fair', temperature: '70°F', usageFrequency: 'Low', connectivityType: 'Bluetooth', priority: 'High' },
 }
 
-const isolatedDevices = [
+const initialIsolatedDevices = [
   { name: 'Smart TV', reason: 'Unauthorized Access', time: '2h ago', status: 'Under Review' },
   { name: 'Smart Bulb', reason: 'Firmware Outdated', time: '4d ago', status: 'Resolved' },
 ]
@@ -44,6 +44,12 @@ export default function Home() {
   const [selectedDeviceType, setSelectedDeviceType] = useState('');
   const [deviceTypes, setDeviceTypes] = useState(initialDeviceTypes);
   const [deviceMetrics, setDeviceMetrics] = useState(initialDeviceMetrics);
+  const [isolatedDevices, setIsolatedDevices] = useState(initialIsolatedDevices);
+  const [currentImage, setCurrentImage] = useState('/images/default_image.png');
+  const [deviceCount, setDeviceCount] = useState(0);
+  const [firstDevice, setFirstDevice] = useState(null);
+  const [onlineDeviceCount, setOnlineDeviceCount] = useState(3);
+  const [activeDevices, setActiveDevices] = useState([]);
   const [newDevice, setNewDevice] = useState({
     name: '',
     location: '',
@@ -53,6 +59,55 @@ export default function Home() {
     securityStatus: '',
     initialOperatingStatus: '',
   });
+
+  useEffect(() => {
+    let timeout1, timeout2;
+    
+    const handleImageChanges = async () => {
+      if (deviceCount === 1 && firstDevice) {
+        timeout1 = setTimeout(() => {
+          setCurrentImage('/images/first_node.png');
+          setOnlineDeviceCount(prev => prev + 1); // Increment when first device is added
+        }, 2000);
+      } 
+      else if (deviceCount === 2) {
+        timeout1 = setTimeout(() => {
+          setCurrentImage('/images/second_node.png');
+          setOnlineDeviceCount(prev => prev + 1); // Increment when second device is added
+          
+          timeout2 = setTimeout(() => {
+            setCurrentImage('/images/second.png');
+            
+            // Move first device to isolated devices
+            if (firstDevice) {
+              setDeviceMetrics(prev => {
+                const newMetrics = { ...prev };
+                delete newMetrics[firstDevice.name];
+                return newMetrics;
+              });
+              
+              setIsolatedDevices(prev => [...prev, {
+                name: firstDevice.name,
+                reason: 'Suspicious Activity Detected',
+                time: 'Just now',
+                status: 'Under Review'
+              }]);
+
+              setOnlineDeviceCount(prev => prev - 1);
+            }
+          }, 1000);
+        }, 2000);
+      }
+    };
+
+    handleImageChanges();
+
+    // Cleanup function
+    return () => {
+      if (timeout1) clearTimeout(timeout1);
+      if (timeout2) clearTimeout(timeout2);
+    };
+  }, [deviceCount, firstDevice]); // Only depend on deviceCount and firstDevice
 
   const handleDeviceSelect = (value) => {
     setSelectedDeviceType(value);
@@ -65,9 +120,30 @@ export default function Home() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const updatedDeviceTypes = [...deviceTypes, { name: newDevice.name, icon: deviceTypes.find(d => d.name === selectedDeviceType)?.icon || Camera }];
-    const updatedDeviceMetrics = {
-      ...deviceMetrics,
+    
+    const selectedDevice = deviceTypes.find(d => d.name === selectedDeviceType);
+    if (!selectedDevice) return;
+
+    const newDeviceData = {
+      name: newDevice.name,
+      type: selectedDeviceType,
+      icon: selectedDevice.icon
+    };
+
+    // Update device count and first device in a single batch
+    const newCount = deviceCount + 1;
+    setDeviceCount(newCount);
+    
+    if (newCount === 1) {
+      setFirstDevice(newDeviceData);
+    }
+
+    // Add to active devices instead of device types
+    setActiveDevices(prev => [...prev, newDeviceData]);
+
+    // Update device metrics
+    setDeviceMetrics(prev => ({
+      ...prev,
       [newDevice.name]: {
         operatingTime: '0h',
         connectionQuality: 'New',
@@ -76,12 +152,22 @@ export default function Home() {
         connectivityType: newDevice.connectivityType,
         priority: newDevice.priorityLevel,
       }
-    };
-    setDeviceTypes(updatedDeviceTypes);
-    setDeviceMetrics(updatedDeviceMetrics);
+    }));
+
     setShowPopup(false);
+    setNewDevice({
+      name: '',
+      location: '',
+      connectivityType: '',
+      priorityLevel: '',
+      firmwareVersion: '',
+      securityStatus: '',
+      initialOperatingStatus: '',
+    });
+    
     alert(`New device "${newDevice.name}" has been added successfully!`);
   };
+
 
   const generatePDF = () => {
     const doc = new jsPDF();
@@ -141,7 +227,7 @@ export default function Home() {
                   <p className="text-sm text-blue-800">System Health</p>
                 </div>
                 <div className="bg-green-100 rounded-lg p-4 text-center">
-                  <p className="text-2xl font-bold text-green-600">5</p>
+                <p className="text-2xl font-bold text-green-600">{onlineDeviceCount}</p>
                   <p className="text-sm text-green-800">Devices Online</p>
                 </div>
                 <div className="bg-yellow-100 rounded-lg p-4 text-center">
@@ -178,7 +264,7 @@ export default function Home() {
           </div>
           <div className="bg-white rounded-xl shadow-md p-6 flex flex-col items-center justify-center">
           <h1 className="text-3xl font-bold text-gray-800 mb-4 poppins text-left">Simulation</h1>
-            <Image src="/images/default_image.png" width={400} height={300} alt="IoT Devices Visualization" className="rounded-lg" />
+          <Image src={currentImage} width={400} height={300} alt="IoT Devices Visualization" className="rounded-lg" />
           </div>
         </section>
 
