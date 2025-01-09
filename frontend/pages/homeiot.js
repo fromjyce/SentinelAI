@@ -221,8 +221,6 @@ const [insights, setInsights] = useState([
             ))}
           </div>
         </div>
-
-        {/* Right Side: Isolated Nodes */}
         <div className="p-6">
           <h2 className="text-3xl font-semibold mb-4 play text-[#e53e3e]">Isolated Nodes</h2>
           <div className="space-y-4">
@@ -332,7 +330,7 @@ const [insights, setInsights] = useState([
         <h3 className="text-xl font-semibold mb-2 poppins text-[#890408]">Collaborative Threat Insights</h3>
         <div className="space-y-6">
           {insights.map((insight, index) => (
-            <div key={index} className="bg- p-4 rounded-lg shadow-lg">
+            <div key={index} className="bg-blue-50 p-4 rounded-lg shadow-lg">
               <h4 className="text-lg font-semibold mb-2 poppins">{insight.title}</h4>
               <p className="urbanist">{insight.description}</p>
             </div>
