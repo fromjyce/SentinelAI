@@ -30,7 +30,7 @@ const Navbar = () => {
         />
         <span className="text-2xl font-bold text-[#ffffff] space_grotesk">SentinelAI</span>
         </div>
-      <div className="flex items-center space-x-6 poppins">
+      <div className="flex items-center space-x-6 font-sans font-semibold">
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
             <Button className="bg-[#FB0000] hover:bg-[#FF4D4D] text-[#ffffff] text-sm rounded-md px-4 py-2 flex items-center space-x-2">
