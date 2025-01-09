@@ -33,7 +33,7 @@ const poppins_init = Poppins({
 
 function MyApp({ Component, pageProps }) {
     return (
-        <div className={`${urbanist_init.variable} ${space_grotesk_init.variable} ${play_init.variable} ${poppins_init.variable} ${poppins_init.variable} ${GeistSans.className} antialiased`}>
+        <div className={`${urbanist_init.variable} ${space_grotesk_init.variable} ${play_init.variable} ${poppins_init.variable} ${poppins_init.variable} ${GeistSans.variable} antialiased`}>
           <main>
             <Component {...pageProps} />
           </main>

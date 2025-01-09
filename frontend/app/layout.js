@@ -36,7 +36,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${urbanist_init.variable} ${space_grotesk_init.variable} ${GeistSans.className} ${play_init.variable} ${poppins_init.variable} antialiased`}
+        className={`${urbanist_init.variable} ${space_grotesk_init.variable} ${GeistSans.variable} ${play_init.variable} ${poppins_init.variable} antialiased`}
       >
         {children}
       </body>
