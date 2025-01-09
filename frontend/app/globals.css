@@ -4,18 +4,20 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #0A0A0F;
+  --cyber-accent: #FF4D4D;
+  --cyber-black: #0A0A0F;
+  --cyber-dark: #1a1a1a;
+  --cyber-gray: #888888;
+  --cyber-primary: #890408;
+  --cyber-red: #dd0000;
+  --cyber-secondary: #FB0000;
+  --cyber-white: #FFFFFF;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #1a1a1a;
+    --foreground: #FFFFFF;
   }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
 }
