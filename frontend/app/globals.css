@@ -21,3 +21,10 @@
     --foreground: #FFFFFF;
   }
 }
+
+@font-face {
+  font-family: 'SDDystopian';
+  src: url('/fonts/SD-Dystopian.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
