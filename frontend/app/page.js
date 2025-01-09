@@ -89,7 +89,7 @@ export default function Home() {
         <section className="grid md:grid-cols-2 gap-8">
           <div className="bg-white rounded-xl shadow-md p-6 flex flex-col justify-between">
             <div>
-              <h1 className="text-3xl font-bold text-gray-800 mb-4">Home IoT Threat Detection</h1>
+              <h1 className="text-5xl font-bold text-gray-800 mb-2 font-sddystopian">SentinelAI</h1>
               <p className="text-gray-600 mb-4">Your smart home is secure. No active threats detected.</p>
               <div className="grid grid-cols-3 gap-4 mb-6">
                 <div className="bg-blue-100 rounded-lg p-4 text-center">
@@ -130,8 +130,9 @@ export default function Home() {
               </button>
             </div>
           </div>
-          <div className="bg-white rounded-xl shadow-md p-6 flex items-center justify-center">
-            <Image src="/placeholder.svg?height=300&width=400" width={400} height={300} alt="IoT Devices Visualization" className="rounded-lg" />
+          <div className="bg-white rounded-xl shadow-md p-6 flex flex-col items-center justify-center">
+          <h1 className="text-3xl font-bold text-gray-800 mb-4 poppins text-left">Simulation</h1>
+            <Image src="/images/default_image.png" width={400} height={300} alt="IoT Devices Visualization" className="rounded-lg" />
           </div>
         </section>
 
@@ -163,10 +164,10 @@ export default function Home() {
 
         {/* Device-Wide Analytics and Isolated Devices */}
         <section className="grid md:grid-cols-2 gap-8">
-          <div className="bg-white rounded-xl shadow-md p-6">
+          <div className="bg-white rounded-xl shadow-md p-6 justify-center items-center">
             <h2 className="text-2xl font-semibold text-gray-800 mb-4">Device-Wide Analytics</h2>
             <div className="aspect-w-16 aspect-h-9">
-              <Image src="/placeholder.svg?height=300&width=500" width={500} height={300} alt="Analytics Chart" className="rounded-lg" />
+              <Image src="/images/device_analytics.png" width={500} height={300} alt="Analytics Chart" className="rounded-lg" />
             </div>
           </div>
           <div className="bg-white rounded-xl shadow-md p-6">
