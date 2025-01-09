@@ -11,19 +11,94 @@ const summaryData = [
 ];
 
 const activeNodes = [
-  { id: 1, name: "Node 1", operatingTime: "14h", connectionQuality: "Excellent", temperature: "72°F", usageFrequency: "High", connectivityType: "Wi-Fi", priority: "High", location: "Living Room", status: "Healthy", nodeHealth: "Good" },
-  { id: 2, name: "Node 2", operatingTime: "10h", connectionQuality: "Good", temperature: "70°F", usageFrequency: "Medium", connectivityType: "Ethernet", priority: "Medium", location: "Bedroom", status: "Stable", nodeHealth: "Good" },
-  { id: 3, name: "Node 3", operatingTime: "18h", connectionQuality: "Fair", temperature: "74°F", usageFrequency: "Low", connectivityType: "Wi-Fi", priority: "Low", location: "Kitchen", status: "Stable", nodeHealth: "Fair" }
+  { 
+    id: 1, 
+    name: "Node 1", 
+    operatingTime: "14h", 
+    connectionQuality: "Excellent", 
+    temperature: "72°F", 
+    usageFrequency: "High", 
+    connectivityType: "Wi-Fi", 
+    priority: "High", 
+    location: "Living Room", 
+    status: "Healthy", 
+    nodeHealth: "Good" 
+  },
+  { 
+    id: 2, 
+    name: "Node 2", 
+    operatingTime: "10h", 
+    connectionQuality: "Good", 
+    temperature: "70°F", 
+    usageFrequency: "Medium", 
+    connectivityType: "Ethernet", 
+    priority: "Medium", 
+    location: "Bedroom", 
+    status: "Stable", 
+    nodeHealth: "Good" 
+  },
+  { 
+    id: 3, 
+    name: "Node 3", 
+    operatingTime: "18h", 
+    connectionQuality: "Fair", 
+    temperature: "74°F", 
+    usageFrequency: "Low", 
+    connectivityType: "Wi-Fi", 
+    priority: "Low", 
+    location: "Kitchen", 
+    status: "Stable", 
+    nodeHealth: "Fair" 
+  }
 ];
 
 const isolatedNodes = [
-  { id: 1, name: "Node 4", operatingTime: "8h", connectionQuality: "Poor", temperature: "68°F", usageFrequency: "Low", connectivityType: "Wi-Fi", priority: "Low", location: "Garage", status: "Isolated", nodeHealth: "Critical", ifpsStorageLink: "https://storage.link/4" },
-  { id: 2, name: "Node 5", operatingTime: "5h", connectionQuality: "Fair", temperature: "71°F", usageFrequency: "Medium", connectivityType: "Ethernet", priority: "Medium", location: "Office", status: "Isolated", nodeHealth: "Fair", ifpsStorageLink: "https://storage.link/5" }
+  { 
+    id: 1, 
+    name: "Node 4", 
+    operatingTime: "8h", 
+    connectionQuality: "Poor", 
+    temperature: "68°F", 
+    usageFrequency: "Low", 
+    connectivityType: "Wi-Fi", 
+    priority: "Low", 
+    location: "Garage", 
+    status: "Isolated", 
+    nodeHealth: "Critical",
+    ifpsStorageLink: "https://storage.link/4"
+  },
+  { 
+    id: 2, 
+    name: "Node 5", 
+    operatingTime: "5h", 
+    connectionQuality: "Fair", 
+    temperature: "71°F", 
+    usageFrequency: "Medium", 
+    connectivityType: "Ethernet", 
+    priority: "Medium", 
+    location: "Office", 
+    status: "Isolated", 
+    nodeHealth: "Fair",
+    ifpsStorageLink: "https://storage.link/5"
+  }
 ];
 
 const imageData = "/images/default_image.png";
 
 export default function HomeIOT() {
+  const [threats, setThreats] = useState([
+  { type: 'DDoS Attack', affectedNodes: 2, riskLevel: 'High', mitigation: 'Node Isolation' },
+  { type: 'Phishing Attack', affectedNodes: 1, riskLevel: 'Medium', mitigation: 'User Education & Block' },
+  { type: 'Malware Infection', affectedNodes: 1, riskLevel: 'High', mitigation: 'Antivirus Scan & Patch' },
+  { type: 'Brute Force Attempt', affectedNodes: 1, riskLevel: 'Low', mitigation: 'Password Strengthening' },
+]);
+
+const [insights, setInsights] = useState([
+  { title: 'Global Insight', description: 'Recent federated learning has helped detect a new type of malware with a 20% higher accuracy.' },
+  { title: 'Model Efficiency', description: 'Collaborative insights have improved the model’s prediction accuracy from 85% to 92% in identifying DDoS attacks.' },
+  { title: 'Shared Knowledge', description: 'A shared node identified multiple brute-force attempts, leading to faster global model updates.' },
+]);
+
   const [activeNodeDetails, setActiveNodeDetails] = useState(null);
   const [isolatedNodeDetails, setIsolatedNodeDetails] = useState(null);
 
@@ -61,7 +136,6 @@ export default function HomeIOT() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Here you can handle adding the new device logic (e.g., send it to an API or add it to the state)
     console.log("New Device Added:", newDevice);
     closeAddDeviceModal(); // Close the modal after submission
   };
@@ -86,7 +160,7 @@ export default function HomeIOT() {
                 >
                   <div>
                     <p className="text-4xl font-bold mb-2">{item.value}</p>
-                    <h3 className="text-sm font-semibold">{item.title}</h3>
+                    <h3 className="text-xl font-semibold">{item.title}</h3>
                   </div>
                 </div>
               ))}
@@ -116,7 +190,7 @@ export default function HomeIOT() {
         {/* Left Side: Active Nodes */}
         <div className="p-6">
           <div className="flex justify-between items-center">
-            <h2 className="text-3xl font-semibold mb-4 play text-[#2b6cb0]">Active Nodes</h2>
+            <h2 className="text-3xl font-semibold mb-1 play text-[#2b6cb0]">Active Nodes</h2>
             <div className="flex items-center space-x-2">
               <CirclePlus className="text-blue-500" size={24} onClick={openAddDeviceModal} />
               <span className="text-lg font-medium urbanist">Add a Device</span>
@@ -178,59 +252,164 @@ export default function HomeIOT() {
         </div>
       </div>
 
-      {/* Modal for Adding a Device */}
-      {showAddDeviceModal && (
+      {activeNodeDetails && (
         <div className="fixed inset-0 bg-gray-700 bg-opacity-50 flex justify-center items-center z-50">
           <div className="bg-white rounded-lg p-6 w-96 shadow-xl">
+            <h3 className="text-2xl font-semibold mb-4 text-center space_grotesk">{activeNodeDetails.name} Details</h3>
+            <div className="space-y-2 poppins">
+              <p><strong>Operating Time:</strong> {activeNodeDetails.operatingTime}</p>
+              <p><strong>Connection Quality:</strong> {activeNodeDetails.connectionQuality}</p>
+              <p><strong>Temperature:</strong> {activeNodeDetails.temperature}</p>
+              <p><strong>Usage Frequency:</strong> {activeNodeDetails.usageFrequency}</p>
+              <p><strong>Connectivity Type:</strong> {activeNodeDetails.connectivityType}</p>
+              <p><strong>Priority:</strong> {activeNodeDetails.priority}</p>
+              <p><strong>Location:</strong> {activeNodeDetails.location}</p>
+              <p><strong>Status:</strong> {activeNodeDetails.status}</p>
+              <p><strong>Node Health:</strong> {activeNodeDetails.nodeHealth}</p>
+            </div>
+            <div className="mt-4 text-right">
+              <button
+                className="px-4 py-2 bg-red-500 text-white rounded-lg hover:bg-red-600 poppins"
+                onClick={closeActiveNodeDetailsModal}
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+{isolatedNodeDetails && (
+  <div className="fixed inset-0 bg-gray-700 bg-opacity-50 flex justify-center items-center z-50">
+    <div className="bg-white rounded-lg p-6 w-96 shadow-xl">
+      <h3 className="text-2xl font-semibold mb-4 text-center space_grotesk">{isolatedNodeDetails.name} Details</h3>
+      <div className="space-y-2 poppins">
+        <p><strong>Operating Time:</strong> {isolatedNodeDetails.operatingTime}</p>
+        <p><strong>Connection Quality:</strong> {isolatedNodeDetails.connectionQuality}</p>
+        <p><strong>Temperature:</strong> {isolatedNodeDetails.temperature}</p>
+        <p><strong>Usage Frequency:</strong> {isolatedNodeDetails.usageFrequency}</p>
+        <p><strong>Connectivity Type:</strong> {isolatedNodeDetails.connectivityType}</p>
+        <p><strong>Priority:</strong> {isolatedNodeDetails.priority}</p>
+        <p><strong>Location:</strong> {isolatedNodeDetails.location}</p>
+        <p><strong>Status:</strong> {isolatedNodeDetails.status}</p>
+        <p><strong>Node Health:</strong> {isolatedNodeDetails.nodeHealth}</p>
+        <p><strong>IFPS Storage Link:</strong> <a href={isolatedNodeDetails.ifpsStorageLink} className="text-blue-500" target="_blank" rel="noopener noreferrer">{isolatedNodeDetails.ifpsStorageLink}</a></p>
+      </div>
+      <div className="mt-4 text-right">
+        <button
+          className="px-4 py-2 bg-red-500 text-white rounded-lg hover:bg-red-600 poppins"
+          onClick={closeIsolatedNodeDetailsModal}
+        >
+          Close
+        </button>
+      </div>
+    </div>
+  </div>
+)}
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        {/* Left Side: Threat Analysis */}
+        <div className="col-span-2 p-6">
+      <h2 className="text-3xl font-semibold mb-4 play text-[#e53e3e]">Threat Analysis</h2>
+
+      {/* Threat Overview */}
+      <div className="mb-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+          {threats.map((threat, index) => (
+            <div key={index} className="bg-[#f4f4f4] p-4 rounded-lg shadow-lg poppins">
+              <h4 className="text-lg font-semibold mb-2">{threat.type}</h4>
+              <p><strong>Affected Nodes:</strong> {threat.affectedNodes}</p>
+              <p><strong>Risk Level:</strong> {threat.riskLevel}</p>
+              <p><strong>Mitigation:</strong> {threat.mitigation}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+      <div className="mb-6">
+        {/* Add a graph visualization here */}
+        <div className="h-32 bg-gray-300">[Graph Placeholder]</div>
+      </div>
+      <div className="mb-6">
+        <h3 className="text-xl font-semibold mb-2 poppins text-[#890408]">Collaborative Threat Insights</h3>
+        <div className="space-y-6">
+          {insights.map((insight, index) => (
+            <div key={index} className="bg- p-4 rounded-lg shadow-lg">
+              <h4 className="text-lg font-semibold mb-2 poppins">{insight.title}</h4>
+              <p className="urbanist">{insight.description}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+<div className="col-span-1 p-6">
+  <h2 className="text-3xl font-semibold mb-4 play text-[#dd6b20]">Global Model Status</h2>
+  <div className="mb-6">
+    <h3 className="text-xl font-semibold mb-2">Model Accuracy</h3>
+    <div className="h-32 bg-gray-300">[Model Accuracy Placeholder]</div>
+  </div>
+  <div className="mb-6">
+    <h3 className="text-xl font-semibold mb-2">Model Update Progress</h3>
+    <div className="h-32 bg-gray-300">[Update Progress Placeholder]</div>
+  </div>
+</div>
+
+      </div>
+
+      {/* Add Device Modal */}
+      {showAddDeviceModal && (
+        <div className="fixed inset-0 flex justify-center items-center bg-black bg-opacity-50">
+          <div className="bg-white p-6 rounded-lg shadow-xl urbanist">
             <h3 className="text-2xl font-semibold mb-4 text-center space_grotesk">Add New Device</h3>
-            <form onSubmit={handleSubmit} className="space-y-4 poppins">
-              <div className="flex flex-col">
-                <label htmlFor="deviceId" className="font-medium">Device ID</label>
+            <form onSubmit={handleSubmit}>
+              <div className="mb-4">
+                <label htmlFor="deviceId" className="block text-lg font-semibold">
+                  Device ID:
+                </label>
                 <input
                   type="text"
                   id="deviceId"
                   name="deviceId"
                   value={newDevice.deviceId}
                   onChange={handleInputChange}
-                  className="px-4 py-2 border border-gray-300 rounded-lg"
-                  required
+                  className="w-full p-3 border border-gray-300 rounded-lg"
                 />
               </div>
-              <div className="flex flex-col">
-                <label htmlFor="type" className="font-medium">Device Type</label>
+              <div className="mb-4">
+                <label htmlFor="type" className="block text-lg font-semibold">
+                  Device Type:
+                </label>
                 <input
                   type="text"
                   id="type"
                   name="type"
                   value={newDevice.type}
                   onChange={handleInputChange}
-                  className="px-4 py-2 border border-gray-300 rounded-lg"
-                  required
+                  className="w-full p-3 border border-gray-300 rounded-lg"
                 />
               </div>
-              <div className="flex flex-col">
-                <label htmlFor="location" className="font-medium">Location</label>
+              <div className="mb-4">
+                <label htmlFor="location" className="block text-lg font-semibold">
+                  Location:
+                </label>
                 <input
                   type="text"
                   id="location"
                   name="location"
                   value={newDevice.location}
                   onChange={handleInputChange}
-                  className="px-4 py-2 border border-gray-300 rounded-lg"
-                  required
+                  className="w-full p-3 border border-gray-300 rounded-lg"
                 />
               </div>
-              <div className="flex justify-end space-x-4 mt-4">
+              <div className="flex justify-between">
                 <button
                   type="button"
+                  className="px-4 py-2 bg-gray-300 rounded-lg poppins"
                   onClick={closeAddDeviceModal}
-                  className="px-4 py-2 bg-gray-300 rounded-lg"
                 >
                   Cancel
                 </button>
                 <button
                   type="submit"
-                  className="px-4 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600"
+                  className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 poppins"
                 >
                   Add Device
                 </button>
