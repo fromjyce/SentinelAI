@@ -21,18 +21,18 @@ const initialDeviceTypes = [
 ]
 
 const initialDeviceMetrics = {
-  'Smart Camera': { operatingTime: '24h', connectionQuality: 'Excellent', temperature: '72°F', usageFrequency: 'High', connectivityType: 'Wi-Fi', priority: 'High' },
-  'Smart Thermostat': { operatingTime: '720h', connectionQuality: 'Good', temperature: '68°F', usageFrequency: 'Medium', connectivityType: 'Z-Wave', priority: 'Medium' },
-  'Smart Lock': { operatingTime: '168h', connectionQuality: 'Fair', temperature: '70°F', usageFrequency: 'Low', connectivityType: 'Bluetooth', priority: 'High' },
+  'Smart Camera': { operatingTime: '14h', connectionQuality: 'Excellent', temperature: '72°F', usageFrequency: 'High', connectivityType: 'Wi-Fi', priority: 'High' },
+  'Smart Thermostat': { operatingTime: '72h', connectionQuality: 'Good', temperature: '68°F', usageFrequency: 'Medium', connectivityType: 'Z-Wave', priority: 'Medium' },
+  'Smart Lock': { operatingTime: '68h', connectionQuality: 'Fair', temperature: '70°F', usageFrequency: 'Low', connectivityType: 'Bluetooth', priority: 'High' },
 }
 
 const isolatedDevices = [
   { name: 'Smart TV', reason: 'Unauthorized Access', time: '2h ago', status: 'Under Review' },
-  { name: 'Smart Bulb', reason: 'Firmware Outdated', time: '1d ago', status: 'Resolved' },
+  { name: 'Smart Bulb', reason: 'Firmware Outdated', time: '4d ago', status: 'Resolved' },
 ]
 
 const feedItems = [
-  { icon: Shield, color: 'text-green-600', bg: 'bg-green-100', message: 'System-wide security scan completed. No threats detected.', time: '2 minutes ago' },
+  { icon: Shield, color: 'text-green-600', bg: 'bg-green-100', message: 'System-wide security scan completed. No threats detected.', time: '30 minutes ago' },
   { icon: AlertTriangle, color: 'text-yellow-600', bg: 'bg-yellow-100', message: 'Unusual activity detected on Smart Camera. Monitoring closely.', time: '10 minutes ago' },
   { icon: Activity, color: 'text-blue-600', bg: 'bg-blue-100', message: 'Smart Thermostat firmware updated successfully.', time: '1 hour ago' },
   { icon: CheckCircle, color: 'text-green-600', bg: 'bg-green-100', message: 'Smart Lock access granted to authorized user.', time: '2 hours ago' },
