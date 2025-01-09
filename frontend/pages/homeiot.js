@@ -1,7 +1,7 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Image from "next/image";
-import { Server, CirclePlus } from "lucide-react";
+import { Server, CirclePlus, CircleCheckBig, UserCog, Trophy, ChartLine } from "lucide-react";
 
 const summaryData = [
   { title: "Total Devices", value: 5, bgColor: "bg-yellow-100" },
@@ -139,11 +139,41 @@ const [insights, setInsights] = useState([
     console.log("New Device Added:", newDevice);
     closeAddDeviceModal(); // Close the modal after submission
   };
+  const [step, setStep] = useState(0); // Initialize step state
+
+
+  const [globalModelStatus, setGlobalModelStatus] = useState(null);
+  const [learningProgress, setLearningProgress] = useState(null);
+  const [nodeContributions, setNodeContributions] = useState(null);
+  const [modelPerformance, setModelPerformance] = useState(null);
+  
+
+  // Simulate fetching fake data
+  useEffect(() => {
+    const fetchData = () => {
+      setGlobalModelStatus("Up to Date");
+      setLearningProgress(`${(Math.random() * 100).toFixed(2)}%`);
+      setNodeContributions(Math.floor(Math.random() * 100 + 1)); // Random 1-100 nodes
+      setModelPerformance({
+        accuracy: `${(Math.random() * (100 - 80) + 80).toFixed(2)}%`, // 80-100%
+        detectionRate: `${(Math.random() * (100 - 70) + 70).toFixed(2)}%`, // 70-100%
+        improvement: `${(Math.random() * (20 - 5) + 5).toFixed(2)}%`, // 5-20%
+      });
+    };
+
+    fetchData();
+
+    // Refresh data every 5 seconds
+    const interval = setInterval(fetchData, 5000);
+
+    return () => clearInterval(interval);
+  }, []);
+
 
   return (
     <div className="min-h-screen">
       {/* Page Title */}
-      <h1 className="text-5xl font-bold mb-4 mt-2 urbanist text-[#dd0000]">Dashboard</h1>
+      <h1 className="text-5xl font-bold mb-4 mt-2 urbanist text-[#dd0000]">Home - Dashboard</h1>
 
       {/* Grid Layout for Uniform Width and Height */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center justify-center">
@@ -305,11 +335,8 @@ const [insights, setInsights] = useState([
   </div>
 )}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-        {/* Left Side: Threat Analysis */}
         <div className="col-span-2 p-6">
       <h2 className="text-3xl font-semibold mb-4 play text-[#e53e3e]">Threat Analysis</h2>
-
-      {/* Threat Overview */}
       <div className="mb-6">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           {threats.map((threat, index) => (
@@ -338,21 +365,44 @@ const [insights, setInsights] = useState([
         </div>
       </div>
     </div>
-<div className="col-span-1 p-6">
-  <h2 className="text-3xl font-semibold mb-4 play text-[#dd6b20]">Global Model Status</h2>
-  <div className="mb-6">
-    <h3 className="text-xl font-semibold mb-2">Model Accuracy</h3>
-    <div className="h-32 bg-gray-300">[Model Accuracy Placeholder]</div>
-  </div>
-  <div className="mb-6">
-    <h3 className="text-xl font-semibold mb-2">Model Update Progress</h3>
-    <div className="h-32 bg-gray-300">[Update Progress Placeholder]</div>
-  </div>
-</div>
-
+    <div className="col-span-1 p-6">
+      <h2 className="text-3xl font-semibold mb-4 play text-[#dd6b20]">Global Model Status</h2>
+      <div className="grid grid-cols-1 gap-6 p-6">
+        {step >= 1 && (
+          <CardWidget
+            icon={<CircleCheckBig className="text-green-500 text-3xl" />}
+            title="Global Model Status"
+            value={globalModelStatus || "Loading..."}
+          />
+        )}
+        {step >= 2 && (
+          <CardWidget
+            icon={<ChartLine className="text-blue-500 text-3xl" />}
+            title="Learning Progress"
+            value={learningProgress || "Loading..."}
+          />
+        )}
+        {step >= 3 && (
+          <CardWidget
+            icon={<UserCog className="text-purple-500 text-3xl" />}
+            title="Node Contributions"
+            value={nodeContributions !== null ? `${nodeContributions} nodes` : "Loading..."}
+          />
+        )}
+        {step >= 4 && (
+          <CardWidget
+            icon={<Trophy className="text-yellow-500 text-3xl" />}
+            title="Model Performance"
+            value={
+              modelPerformance
+                ? `Accuracy: ${modelPerformance.accuracy}, Detection: ${modelPerformance.detectionRate}, Improvement: ${modelPerformance.improvement}`
+                : "Loading..."
+            }
+          />
+        )}
       </div>
-
-      {/* Add Device Modal */}
+    </div>
+      </div>
       {showAddDeviceModal && (
         <div className="fixed inset-0 flex justify-center items-center bg-black bg-opacity-50">
           <div className="bg-white p-6 rounded-lg shadow-xl urbanist">
@@ -416,6 +466,21 @@ const [insights, setInsights] = useState([
           </div>
         </div>
       )}
+    </div>
+  );
+}
+
+function CardWidget({ icon, title, value }) {
+  return (
+    <div className="rounded-lg shadow-md bg-white p-4 flex items-center">
+      <div className="flex items-center gap-4">
+        {icon}
+        <div className="text-left">
+          <h3 className="text-lg font-semibold">{title}</h3>
+        </div>
+      </div>
+      {/* Value */}
+      <div className="ml-auto text-xl font-bold text-gray-800">{value}</div>
     </div>
   );
 }
