@@ -97,7 +97,7 @@ export default function Home() {
                   <p className="text-sm text-blue-800">System Health</p>
                 </div>
                 <div className="bg-green-100 rounded-lg p-4 text-center">
-                  <p className="text-2xl font-bold text-green-600">12</p>
+                  <p className="text-2xl font-bold text-green-600">5</p>
                   <p className="text-sm text-green-800">Devices Online</p>
                 </div>
                 <div className="bg-yellow-100 rounded-lg p-4 text-center">
