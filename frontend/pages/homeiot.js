@@ -5,6 +5,7 @@ import { Server, CirclePlus, CircleCheckBig, UserCog, Trophy, ChartLine, Downloa
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import UpdateFooter from "@/components/UpdateFooter";
+import Head from "next/head";
 
 const summaryData = [
   { title: "Total Devices", value: 5, bgColor: "bg-yellow-100" },
@@ -192,6 +193,7 @@ const realTimeFeed = [
 
   return (
     <>
+    <Head><title>SentinelAI | Home Dashboard</title></Head>
     <div className="min-h-screen p-6">
       <h1 className="text-5xl font-bold mb-4 mt-2 urbanist text-[#dd0000]">Home IOT - Dashboard</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
