@@ -81,41 +81,6 @@ SentinelAI is an advanced cybersecurity framework designed to safeguard the rapi
 
 ---
 
-## **Setup Instructions**
-
-### **Prerequisites**
-1. **Blockchain Network**: Ethereum setup.
-2. **Python Environment**: Install Python 3.8+ and required libraries.
-3. **Mininet Simulator**: Install Mininet for IoT node simulation.
-4. **AI Frameworks**: TensorFlow Lite, PyTorch Mobile.
-
-### **Steps to Run**
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/SentinelAI.git
-   cd SentinelAI
-   ```
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Deploy the smart contract:
-   ```bash
-   cd blockchain
-   truffle migrate --network development
-   ```
-4. Start the simulation:
-   ```bash
-   sudo mn --custom simulation.py --topo single,3
-   ```
-5. Launch the application:
-   ```bash
-   python app.py
-   ```
-6. Access the dashboard at `http://localhost:5000`.
-
----
-
 ## **Evaluation Metrics**
 
 - **Detection Accuracy**: Performance of AI models in identifying threats.
