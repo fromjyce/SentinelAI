@@ -175,11 +175,11 @@ const realTimeFeed = [
     return (
       <Card className={`transition-all duration-300 hover:shadow-lg ${className}`}>
         <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-          <CardTitle className="text-sm font-medium">{title}</CardTitle>
+          <CardTitle className="text-xl font-semibold urbanist">{title}</CardTitle>
           {icon && <div className="p-2 bg-gray-100 rounded-full">{icon}</div>}
         </CardHeader>
         <CardContent>
-          <div className="text-2xl font-bold">{value}</div>
+          <div className="text-xl font-bold poppins">{value}</div>
         </CardContent>
       </Card>
     );
@@ -440,12 +440,12 @@ const realTimeFeed = [
             <CardHeader>
               <div className="flex items-center space-x-4">
                 <Trophy className="text-yellow-500" size={24} />
-                <CardTitle className="text-lg font-semibold urbanist">
+                <CardTitle className="text-xl font-semibold urbanist">
                   Model Performance
                 </CardTitle>
               </div>
             </CardHeader>
-            <CardContent className="space-y-2">
+            <CardContent className="space-y-2 text-lg poppins">
               <p><strong>Detection Accuracy:</strong> {modelPerformance || "Data not available"}</p>
               <p><strong>Average Latency:</strong> {latency || "Data not available"}</p>
               <p><strong>Average Recovery Time:</strong> {recoveryTime || "Data not available"}</p>
@@ -459,7 +459,7 @@ const realTimeFeed = [
 <div className="mt-6">
   <Card>
     <CardHeader>
-      <CardTitle className="text-xl font-semibold text-[#FF4D4D] play">
+      <CardTitle className="text-3xl font-semibold text-[#FF4D4D] play">
         Real-Time Feed
       </CardTitle>
     </CardHeader>
