@@ -380,7 +380,7 @@ const realTimeFeed = [
           {threats.map((threat, index) => (
             <Card key={index} className="bg-[#f4f4f4]">
               <CardContent className="pt-6">
-                <h4 className="text-lg font-semibold mb-2 urbanist">{threat.type}</h4>
+                <h4 className="text-xl font-semibold mb-2 urbanist">{threat.type}</h4>
                 <p className="poppins"><strong>Affected Nodes:</strong> {threat.affectedNodes}</p>
                 <p className="poppins"><strong>Risk Level:</strong> {threat.riskLevel}</p>
                 <p className="poppins"><strong>Mitigation:</strong> {threat.mitigation}</p>
