@@ -1,4 +1,5 @@
 "use client";
+import Navbar from "@/components/Navbar";
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import { Server, CirclePlus, CircleCheckBig, UserCog, Trophy, ChartLine, Download } from "lucide-react";
@@ -9,10 +10,10 @@ import Head from "next/head";
 
 const summaryData = [
   { title: "Total Devices", value: 5, bgColor: "bg-yellow-100" },
-  { title: "Active Threats", value: 3, bgColor: "bg-blue-100" },
+  { title: "Active Devices", value: 3, bgColor: "bg-blue-100" },
   { title: "Isolated Devices", value: 2, bgColor: "bg-[#fca5a5]" },
   { title: "System Health", value: "Good", bgColor: "bg-green-100" },
-  { title: "System Health", value: "Good", bgColor: "bg-green-100" }
+  { title: "Active Threats", value: 0, bgColor: "bg-green-100" },
 ];
 
 const activeNodes = [
@@ -194,7 +195,8 @@ const realTimeFeed = [
   return (
     <>
     <Head><title>SentinelAI | Home Dashboard</title></Head>
-    <div className="min-h-screen p-6">
+    <Navbar/>
+    <div className="min-h-screen p-6 mt-20">
       <h1 className="text-5xl font-bold mb-4 mt-2 urbanist text-[#dd0000]">Home IOT - Dashboard</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
       <div className="w-full h-[500px]">
