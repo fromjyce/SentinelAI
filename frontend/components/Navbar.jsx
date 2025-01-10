@@ -22,14 +22,15 @@ const Navbar = () => {
     <div className="fixed top-4 left-4 right-4 bg-[#0A0A0F] rounded-full shadow-lg flex justify-between items-center px-6 py-3 z-50 border border-black">
       <div className="flex items-center space-x-4">
         <Image
-            src="/logos/logo_red.png"
-            alt="Brand Logo"
-            className="w-10 h-10 rounded-full"
-            width={40}
-            height={40} 
+          src="/logos/logo_red.png"
+          alt="Brand Logo"
+          className="w-10 h-10 rounded-full"
+          width={40}
+          height={40}
         />
         <span className="text-2xl font-bold text-[#ffffff] space_grotesk">SentinelAI</span>
-        </div>
+      </div>
+
       <div className="flex items-center space-x-6 font-sans font-semibold">
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
@@ -55,6 +56,14 @@ const Navbar = () => {
             ))}
           </DropdownMenuContent>
         </DropdownMenu>
+
+        {/* Upload Network Button with Link */}
+        <Link href="/upload-network">
+          <Button className="bg-[#FB0000] hover:bg-[#FF4D4D] text-white text-sm rounded-md px-4 py-2">
+            Upload your network
+          </Button>
+        </Link>
+
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
             <Button className="w-10 h-10 bg-[#FB0000] hover:bg-[#FF4D4D] rounded-full flex items-center justify-center">
@@ -65,26 +74,26 @@ const Navbar = () => {
             className="bg-white rounded-md shadow-md border border-gray-200 max-h-60 overflow-auto"
             align="end"
             sideOffset={8}
-            >
+          >
             <DropdownMenuItem className="flex items-center px-4 py-2 text-sm hover:bg-gray-100 cursor-pointer">
-                <Link href="/settings" className="flex items-center text-[#0a0a0f]">
+              <Link href="/settings" className="flex items-center text-[#0a0a0f]">
                 <CogIcon className="w-5 h-5 text-gray-500 mr-2" />
                 Settings
-                </Link>
+              </Link>
             </DropdownMenuItem>
             <DropdownMenuItem className="flex items-center px-4 py-2 text-sm hover:bg-gray-100 cursor-pointer">
-                <Link href="/profile" className="flex items-center text-[#0a0a0f]">
+              <Link href="/profile" className="flex items-center text-[#0a0a0f]">
                 <UserIcon className="w-5 h-5 text-gray-500 mr-2" />
                 Profile
-                </Link>
+              </Link>
             </DropdownMenuItem>
             <DropdownMenuItem className="flex items-center px-4 py-2 text-sm hover:bg-gray-100 cursor-pointer">
-                <Link href="/logout" className="flex items-center text-[#0a0a0f]">
+              <Link href="/logout" className="flex items-center text-[#0a0a0f]">
                 <LogoutIcon className="w-5 h-5 text-gray-500 mr-2" />
                 Logout
-                </Link>
+              </Link>
             </DropdownMenuItem>
-            </DropdownMenuContent>
+          </DropdownMenuContent>
         </DropdownMenu>
       </div>
     </div>
