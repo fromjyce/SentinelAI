@@ -89,14 +89,12 @@ const isolatedNodes = [
   }
 ];
 
-const imageData = "/images/default_image.png";
+const imageData = "/images/home_iot/1.png";
 
 export default function HomeIOT() {
   const [threats, setThreats] = useState([
   { type: 'DDoS Attack', affectedNodes: 2, riskLevel: 'High', mitigation: 'Node Isolation' },
   { type: 'Phishing Attack', affectedNodes: 1, riskLevel: 'Medium', mitigation: 'User Education & Block' },
-  { type: 'Malware Infection', affectedNodes: 1, riskLevel: 'High', mitigation: 'Antivirus Scan & Patch' },
-  { type: 'Brute Force Attempt', affectedNodes: 1, riskLevel: 'Low', mitigation: 'Password Strengthening' },
 ]);
 
 const [insights, setInsights] = useState([

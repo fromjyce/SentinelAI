@@ -9,87 +9,122 @@ import Navbar from "@/components/Navbar";
 import Head from "next/head";
 
 const summaryData = [
-  { title: "Total Devices", value: 5, bgColor: "bg-yellow-100" },
-  { title: "Active Threats", value: 3, bgColor: "bg-blue-100" },
-  { title: "Isolated Devices", value: 2, bgColor: "bg-[#fca5a5]" },
-  { title: "System Health", value: "Good", bgColor: "bg-green-100" },
-  { title: "System Health", value: "Good", bgColor: "bg-green-100" }
+  { title: "Total Devices", value: 6, bgColor: "bg-yellow-100" },
+  { title: "Active Threats", value: 0, bgColor: "bg-blue-100" },
+  { title: "Isolated Devices", value: 1, bgColor: "bg-[#fca5a5]" },
+  { title: "Active Devices", value: 5, bgColor: "bg-green-100" },
+  { title: "System Health", value: "Risky", bgColor: "bg-green-100" }
 ];
 
 const activeNodes = [
-  { 
-    id: 1, 
-    name: "Node 1", 
-    operatingTime: "14h", 
-    connectionQuality: "Excellent", 
-    temperature: "72°F", 
-    usageFrequency: "High", 
-    connectivityType: "Wi-Fi", 
-    priority: "High", 
-    location: "Living Room", 
-    status: "Healthy", 
-    nodeHealth: "Good" 
+  {
+    id: 1,
+    name: "Heart Rate Monitor",
+    deviceId: "HRM1234",
+    batteryStatus: "95%",
+    deviceTemperature: "36.5°C",
+    eventLogs: 25,
+    connectivityStatus: "Stable",
+    alertResponseTime: "120 ms",
+    firmwareVulnerabilities: "None",
+    calibrationStatus: "Calibrated",
+    maintenanceStatus: "Good",
+    patientCriticality: "Normal",
+    label: "Healthy",
+    attackType: "None",
+    protocol: "Secure"
   },
-  { 
-    id: 2, 
-    name: "Node 2", 
-    operatingTime: "10h", 
-    connectionQuality: "Good", 
-    temperature: "70°F", 
-    usageFrequency: "Medium", 
-    connectivityType: "Ethernet", 
-    priority: "Medium", 
-    location: "Bedroom", 
-    status: "Stable", 
-    nodeHealth: "Good" 
+  {
+    id: 2,
+    name: "Infusion Pump",
+    deviceId: "IP5678",
+    batteryStatus: "80%",
+    deviceTemperature: "35.8°C",
+    eventLogs: 18,
+    connectivityStatus: "Stable",
+    alertResponseTime: "150 ms",
+    firmwareVulnerabilities: "Low",
+    calibrationStatus: "Pending",
+    maintenanceStatus: "Good",
+    patientCriticality: "Moderate",
+    label: "Stable",
+    attackType: "None",
+    protocol: "Secure"
   },
-  { 
-    id: 3, 
-    name: "Node 3", 
-    operatingTime: "18h", 
-    connectionQuality: "Fair", 
-    temperature: "74°F", 
-    usageFrequency: "Low", 
-    connectivityType: "Wi-Fi", 
-    priority: "Low", 
-    location: "Kitchen", 
-    status: "Stable", 
-    nodeHealth: "Fair" 
+  {
+    id: 3,
+    name: "Patient Monitor",
+    deviceId: "PM9101",
+    batteryStatus: "60%",
+    deviceTemperature: "36.0°C",
+    eventLogs: 12,
+    connectivityStatus: "Stable",
+    alertResponseTime: "200 ms",
+    firmwareVulnerabilities: "Medium",
+    calibrationStatus: "Calibrated",
+    maintenanceStatus: "Due",
+    patientCriticality: "Critical",
+    label: "Under Observation",
+    attackType: "DDoS",
+    protocol: "Secure"
+  },
+  {
+    id: 4,
+    name: "Ventilator",
+    deviceId: "VENT3344",
+    batteryStatus: "75%",
+    deviceTemperature: "37.0°C",
+    eventLogs: 15,
+    connectivityStatus: "Stable",
+    alertResponseTime: "100 ms",
+    firmwareVulnerabilities: "None",
+    calibrationStatus: "Calibrated",
+    maintenanceStatus: "Good",
+    patientCriticality: "High",
+    label: "Stable",
+    attackType: "None",
+    protocol: "Secure"
+  },
+  {
+    id: 5,
+    name: "Glucose Monitor",
+    deviceId: "GLM5566",
+    batteryStatus: "85%",
+    deviceTemperature: "36.7°C",
+    eventLogs: 20,
+    connectivityStatus: "Stable",
+    alertResponseTime: "110 ms",
+    firmwareVulnerabilities: "None",
+    calibrationStatus: "Pending",
+    maintenanceStatus: "Good",
+    patientCriticality: "Normal",
+    label: "Healthy",
+    attackType: "None",
+    protocol: "Secure"
   }
 ];
 
 const isolatedNodes = [
-  { 
-    id: 1, 
-    name: "Node 4", 
-    operatingTime: "8h", 
-    connectionQuality: "Poor", 
-    temperature: "68°F", 
-    usageFrequency: "Low", 
-    connectivityType: "Wi-Fi", 
-    priority: "Low", 
-    location: "Garage", 
-    status: "Isolated", 
-    nodeHealth: "Critical",
-    ifpsStorageLink: "https://storage.link/4"
-  },
-  { 
-    id: 2, 
-    name: "Node 5", 
-    operatingTime: "5h", 
-    connectionQuality: "Fair", 
-    temperature: "71°F", 
-    usageFrequency: "Medium", 
-    connectivityType: "Ethernet", 
-    priority: "Medium", 
-    location: "Office", 
-    status: "Isolated", 
-    nodeHealth: "Fair",
-    ifpsStorageLink: "https://storage.link/5"
+  {
+    id: 6,
+    name: "ECG Machine",
+    deviceId: "ECG9101",
+    batteryStatus: "40%",
+    deviceTemperature: "38.0°C",
+    eventLogs: 10,
+    connectivityStatus: "Unstable",
+    alertResponseTime: "250 ms",
+    firmwareVulnerabilities: "High",
+    calibrationStatus: "Out of Calibration",
+    maintenanceStatus: "Critical",
+    patientCriticality: "Severe",
+    label: "Compromised",
+    attackType: "Malware",
+    protocol: "Insecure"
   }
 ];
 
-const imageData = "/images/default_image.png";
+const imageData = "/images/healthcare_iot/1.png";
 
 export default function HeathCareIOT() {
   const [threats, setThreats] = useState([

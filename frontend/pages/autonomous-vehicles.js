@@ -9,109 +9,131 @@ import Navbar from "@/components/Navbar";
 import Head from "next/head";
 
 const summaryData = [
-  { title: "Total Devices", value: 5, bgColor: "bg-yellow-100" },
-  { title: "Active Threats", value: 3, bgColor: "bg-blue-100" },
-  { title: "Isolated Devices", value: 2, bgColor: "bg-[#fca5a5]" },
-  { title: "System Health", value: "Good", bgColor: "bg-green-100" },
+  { title: "Total Sensors", value: 6, bgColor: "bg-yellow-100" },
+  { title: "Active Threats", value: 0, bgColor: "bg-blue-100" },
+  { title: "Compromised Sensors", value: 1, bgColor: "bg-[#fca5a5]" },
   { title: "System Health", value: "Good", bgColor: "bg-green-100" }
 ];
 
 const activeNodes = [
-  { 
-    id: 1, 
-    name: "Node 1", 
-    operatingTime: "14h", 
-    connectionQuality: "Excellent", 
-    temperature: "72°F", 
-    usageFrequency: "High", 
-    connectivityType: "Wi-Fi", 
-    priority: "High", 
-    location: "Living Room", 
-    status: "Healthy", 
-    nodeHealth: "Good" 
+  {
+    id: 1,
+    name: "Node 1",
+    vehicleId: "VID1234",
+    sensorType: "Radar",
+    sensorStatus: "Normal",
+    speed: "80 km/h",
+    location: "(25.34567, 44.6789)",
+    batteryLevel: "90%",
+    connectionType: "Wi-Fi",
+    eventLogs: "12",
+    usage: "Daily",
+    attackType: "None",
+    protocolLabel: "Normal"
   },
-  { 
-    id: 2, 
-    name: "Node 2", 
-    operatingTime: "10h", 
-    connectionQuality: "Good", 
-    temperature: "70°F", 
-    usageFrequency: "Medium", 
-    connectivityType: "Ethernet", 
-    priority: "Medium", 
-    location: "Bedroom", 
-    status: "Stable", 
-    nodeHealth: "Good" 
+  {
+    id: 2,
+    name: "Node 2",
+    vehicleId: "VID5678",
+    sensorType: "LIDAR",
+    sensorStatus: "Faulty",
+    speed: "60 km/h",
+    location: "(12.12345, 56.2345)",
+    batteryLevel: "85%",
+    connectionType: "Cellular",
+    eventLogs: "75",
+    usage: "Weekly",
+    attackType: "MITM",
+    protocolLabel: "Compromised"
   },
-  { 
-    id: 3, 
-    name: "Node 3", 
-    operatingTime: "18h", 
-    connectionQuality: "Fair", 
-    temperature: "74°F", 
-    usageFrequency: "Low", 
-    connectivityType: "Wi-Fi", 
-    priority: "Low", 
-    location: "Kitchen", 
-    status: "Stable", 
-    nodeHealth: "Fair" 
+  {
+    id: 3,
+    name: "Node 3",
+    vehicleId: "VID9101",
+    sensorType: "Camera",
+    sensorStatus: "Disabled",
+    speed: "50 km/h",
+    location: "(20.34567, 44.1234)",
+    batteryLevel: "50%",
+    connectionType: "Bluetooth",
+    eventLogs: "30",
+    usage: "Occasionally",
+    attackType: "DDoS",
+    protocolLabel: "Compromised"
+  },
+  {
+    id: 4,
+    name: "Node 4",
+    vehicleId: "VID3344",
+    sensorType: "ECU",
+    sensorStatus: "Faulty",
+    speed: "70 km/h",
+    location: "(22.23456, 55.6789)",
+    batteryLevel: "80%",
+    connectionType: "Cellular",
+    eventLogs: "90",
+    usage: "Weekly",
+    attackType: "Jamming",
+    protocolLabel: "Compromised"
+  },
+  {
+    id: 5,
+    name: "Node 5",
+    vehicleId: "VID5566",
+    sensorType: "Radar",
+    sensorStatus: "Normal",
+    speed: "90 km/h",
+    location: "(18.12345, 47.5678)",
+    batteryLevel: "70%",
+    connectionType: "Bluetooth",
+    eventLogs: "20",
+    usage: "Occasionally",
+    attackType: "None",
+    protocolLabel: "Normal"
   }
 ];
 
-const isolatedNodes = [
-  { 
-    id: 1, 
-    name: "Node 4", 
-    operatingTime: "8h", 
-    connectionQuality: "Poor", 
-    temperature: "68°F", 
-    usageFrequency: "Low", 
-    connectivityType: "Wi-Fi", 
-    priority: "Low", 
-    location: "Garage", 
-    status: "Isolated", 
-    nodeHealth: "Critical",
-    ifpsStorageLink: "https://storage.link/4"
-  },
-  { 
-    id: 2, 
-    name: "Node 5", 
-    operatingTime: "5h", 
-    connectionQuality: "Fair", 
-    temperature: "71°F", 
-    usageFrequency: "Medium", 
-    connectivityType: "Ethernet", 
-    priority: "Medium", 
-    location: "Office", 
-    status: "Isolated", 
-    nodeHealth: "Fair",
-    ifpsStorageLink: "https://storage.link/5"
+const compromisedNodes = [
+  {
+    id: 6,
+    name: "Node 6",
+    vehicleId: "VID9101",
+    sensorType: "Camera",
+    sensorStatus: "Disabled",
+    speed: "50 km/h",
+    location: "(20.34567, 44.1234)",
+    batteryLevel: "50%",
+    connectionType: "Bluetooth",
+    eventLogs: "30",
+    usage: "Occasionally",
+    attackType: "DDoS",
+    protocolLabel: "Compromised"
   }
 ];
 
-const imageData = "/images/default_image.png";
+const imageData = "/images/av_iot/1.png";
 
 export default function AutoVehIOT() {
   const [threats, setThreats] = useState([
-  { type: 'DDoS Attack', affectedNodes: 2, riskLevel: 'High', mitigation: 'Node Isolation' },
-  { type: 'Phishing Attack', affectedNodes: 1, riskLevel: 'Medium', mitigation: 'User Education & Block' },
-  { type: 'Malware Infection', affectedNodes: 1, riskLevel: 'High', mitigation: 'Antivirus Scan & Patch' },
-  { type: 'Brute Force Attempt', affectedNodes: 1, riskLevel: 'Low', mitigation: 'Password Strengthening' },
-]);
-
-const [insights, setInsights] = useState([
-  { title: 'Global Insight', description: 'Recent federated learning has helped detect a new type of malware with a 20% higher accuracy.' },
-  { title: 'Model Efficiency', description: 'Collaborative insights have improved the model’s prediction accuracy from 85% to 92% in identifying DDoS attacks.' },
-  { title: 'Shared Knowledge', description: 'A shared node identified multiple brute-force attempts, leading to faster global model updates.' },
-]);
-
-const realTimeFeed = [
-  { text: "Threat detected in Node A", duration: "5 minutes ago" },
-  { text: "Mitigation initiated for Node B", duration: "10 minutes ago" },
-  { text: "Update received from Node C", duration: "15 minutes ago" },
-  { text: "Node D back online", duration: "20 minutes ago" },
-  { text: "Global model updated", duration: "30 minutes ago" },
-];
+    { type: 'Sensor Spoofing', affectedNodes: 2, riskLevel: 'High', mitigation: 'Sensor Calibration & Isolation' },
+    { type: 'GPS Jamming', affectedNodes: 1, riskLevel: 'Medium', mitigation: 'Backup Navigation & Signal Blocking' },
+    { type: 'CAN Bus Attack', affectedNodes: 1, riskLevel: 'High', mitigation: 'Network Segmentation & Intrusion Detection' },
+    { type: 'Over-the-Air Update Exploit', affectedNodes: 1, riskLevel: 'Low', mitigation: 'Firmware Validation & Secure Updates' },
+  ]);
+  
+  const [insights, setInsights] = useState([
+    { title: 'Vehicle-to-Vehicle Insight', description: 'Advanced data sharing has enhanced response time to GPS jamming incidents by 25%.' },
+    { title: 'Autonomous Model Efficiency', description: 'Improved algorithms have increased detection accuracy for CAN Bus attacks from 80% to 95%.' },
+    { title: 'Shared Traffic Patterns', description: 'Collaborative analysis of traffic data has reduced false positives in radar anomaly detection by 15%.' },
+  ]);
+  
+  const realTimeFeed = [
+    { text: "Sensor spoofing detected in Vehicle VID1234", duration: "5 minutes ago" },
+    { text: "GPS jamming mitigated in Vehicle VID5678", duration: "10 minutes ago" },
+    { text: "CAN Bus anomaly detected in Vehicle VID9101", duration: "15 minutes ago" },
+    { text: "Firmware update secured for Vehicle VID3344", duration: "20 minutes ago" },
+    { text: "Global navigation system update deployed", duration: "30 minutes ago" },
+  ];
 
   const [activeNodeDetails, setActiveNodeDetails] = useState(null);
   const [isolatedNodeDetails, setIsolatedNodeDetails] = useState(null);
@@ -199,52 +221,51 @@ const realTimeFeed = [
     <div className="min-h-screen p-6 mt-20">
       <h1 className="text-5xl font-bold mb-4 mt-2 urbanist text-[#dd0000]">Autonomous Vehicles - Dashboard</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-      <div className="w-full h-[500px]">
-      <Card className="h-full">
-    <CardHeader>
-        <CardTitle className="text-3xl font-semibold play text-[#890408]">
-            Network Summary
-        </CardTitle>
-    </CardHeader>
-    <CardContent className="h-[calc(100%-5rem)]">
-        <div className="grid grid-cols-3 grid-rows-2 gap-4 h-full poppins">
-            {summaryData.map((item, index) => (
-                <Card 
-                    key={index} 
-                    className={`${item.bgColor} transition-all duration-300 hover:shadow-lg flex items-center justify-center ${index < 3 ? 'col-span-1' : index === 3 ? 'col-span-2' : 'col-span-1'}`}
-                >
-                    <CardContent className="w-full h-full flex items-center justify-center">
+          <div className="w-full h-[500px]">
+            <Card className="h-full">
+              <CardHeader>
+                <CardTitle className="text-3xl font-semibold play text-[#890408]">
+                  Network Summary
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="h-[calc(100%-5rem)]">
+                <div className="grid grid-cols-3 grid-rows-2 gap-4 h-full poppins">
+                  {summaryData.map((item, index) => (
+                    <Card
+                      key={index}
+                      className={`${item.bgColor} transition-all duration-300 hover:shadow-lg flex items-center justify-center ${index < 3 ? 'col-span-1' : index === 3 ? 'col-span-2' : 'col-span-1'}`}
+                    >
+                      <CardContent className="w-full h-full flex items-center justify-center">
                         <div className="text-center">
-                            <div className="text-4xl font-bold">{item.value}</div>
-                            <div className="text-xl font-semibold mt-2">{item.title}</div>
+                          <div className="text-4xl font-bold">{item.value}</div>
+                          <div className="text-xl font-semibold mt-2">{item.title}</div>
                         </div>
-                    </CardContent>
-                </Card>
-            ))}
+                      </CardContent>
+                    </Card>
+                  ))}
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+          <div className="w-full h-[500px]">
+            <Card className="h-full">
+              <CardHeader>
+                <CardTitle className="text-3xl font-semibold play text-[#890408]">
+                  Simulated Network
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="relative h-[calc(100%-5rem)]">
+                <Image
+                  src={imageData}
+                  alt="Autonomous Vehicle System Overview"
+                  layout="fill"
+                  objectFit="contain"
+                  className="rounded-lg"
+                />
+              </CardContent>
+            </Card>
+          </div>
         </div>
-    </CardContent>
-</Card>
-</div>
-  
-  <div className="w-full h-[500px]">
-    <Card className="h-full">
-      <CardHeader>
-        <CardTitle className="text-3xl font-semibold play text-[#890408]">
-          Simulated Network
-        </CardTitle>
-      </CardHeader>
-      <CardContent className="relative h-[calc(100%-5rem)]">
-        <Image
-          src={imageData}
-          alt="IoT System Overview"
-          layout="fill"
-          objectFit="contain"
-          className="rounded-lg"
-        />
-      </CardContent>
-    </Card>
-  </div>
-</div>
       {activeNodeDetails && (
         <div className="fixed inset-0 bg-gray-700 bg-opacity-50 flex justify-center items-center z-50">
           <div className="bg-white rounded-lg p-6 w-96 shadow-xl">
@@ -300,78 +321,63 @@ const realTimeFeed = [
   </div>
 )}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8 mt-12">
-        <Card>
-          <CardHeader>
-            <div className="flex justify-between items-center">
+          <Card>
+            <CardHeader>
               <CardTitle className="text-3xl font-semibold play text-[#2b6cb0]">
                 Active Nodes
               </CardTitle>
-              <button
-                onClick={openAddDeviceModal}
-                className="flex items-center space-x-2 text-blue-500"
-              >
-                <CirclePlus size={24} />
-                <span className="text-lg font-medium urbanist">Add a Device</span>
-              </button>
-            </div>
-          </CardHeader>
-          <CardContent className="space-y-4">
-            {activeNodes.map((node) => (
-              <div
-                key={node.id}
-                className="flex justify-between items-center bg-blue-50 p-4 rounded-lg"
-              >
-                <div className="flex items-center space-x-3">
-                  <Server className="text-blue-500" size={24} />
-                  <span className="font-medium text-lg urbanist">{node.name}</span>
+            </CardHeader>
+            <CardContent className="space-y-4">
+              {activeNodes.map((node) => (
+                <div
+                  key={node.id}
+                  className="flex justify-between items-center bg-blue-50 p-4 rounded-lg"
+                >
+                  <div className="flex items-center space-x-3">
+                    <Server className="text-blue-500" size={24} />
+                    <span className="font-medium text-lg urbanist">{node.name}</span>
+                  </div>
+                  <div className="flex space-x-2">
+                    <button
+                      className="px-4 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600 poppins"
+                      onClick={() => openActiveNodeDetailsModal(node)}
+                    >
+                      View Details
+                    </button>
+                  </div>
                 </div>
-                <div className="flex space-x-2">
-                  <button
-                    className="px-4 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600 poppins"
-                    onClick={() => openActiveNodeDetailsModal(node)}
-                  >
-                    View Details
-                  </button>
-                  <button className="px-4 py-2 bg-[#FB0000] text-white rounded-lg hover:bg-[#FF4D4D] poppins">
-                    Isolate
-                  </button>
-                </div>
-              </div>
-            ))}
-          </CardContent>
-        </Card>
+              ))}
+            </CardContent>
+          </Card>
 
-        <Card>
-          <CardHeader>
-            <CardTitle className="text-3xl font-semibold play text-[#e53e3e]">
-              Isolated Nodes
-            </CardTitle>
-          </CardHeader>
-          <CardContent className="space-y-4">
-            {isolatedNodes.map((node) => (
-              <div
-                key={node.id}
-                className="flex justify-between items-center bg-red-50 p-4 rounded-lg"
-              >
-                <div className="flex items-center space-x-3">
-                  <Server className="text-red-500" size={24} />
-                  <span className="font-medium text-lg urbanist">{node.name}</span>
+          <Card>
+            <CardHeader>
+              <CardTitle className="text-3xl font-semibold play text-[#e53e3e]">
+                Compromised Nodes
+              </CardTitle>
+            </CardHeader>
+            <CardContent className="space-y-4">
+              {compromisedNodes.map((node) => (
+                <div
+                  key={node.id}
+                  className="flex justify-between items-center bg-red-50 p-4 rounded-lg"
+                >
+                  <div className="flex items-center space-x-3">
+                    <Server className="text-red-500" size={24} />
+                    <span className="font-medium text-lg urbanist">{node.name}</span>
+                  </div>
+                  <div className="flex space-x-2">
+                    <button
+                      className="px-4 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600 poppins"
+                      onClick={() => openCompromisedNodeDetailsModal(node)}
+                    >
+                      View Details
+                    </button>
+                  </div>
                 </div>
-                <div className="flex space-x-2">
-                  <button
-                    className="px-4 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600 poppins"
-                    onClick={() => openIsolatedNodeDetailsModal(node)}
-                  >
-                    View Details
-                  </button>
-                  <button className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 poppins">
-                    Recover
-                  </button>
-                </div>
-              </div>
-            ))}
-          </CardContent>
-        </Card>
+              ))}
+            </CardContent>
+          </Card>
       </div>
 
       {/* Global Model Status */}

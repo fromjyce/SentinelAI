@@ -9,87 +9,129 @@ import Navbar from "@/components/Navbar";
 import Head from "next/head";
 
 const summaryData = [
-  { title: "Total Devices", value: 5, bgColor: "bg-yellow-100" },
-  { title: "Active Threats", value: 3, bgColor: "bg-blue-100" },
+  { title: "Total Devices", value: 6, bgColor: "bg-yellow-100" },
+  { title: "Active Threats", value: 0, bgColor: "bg-blue-100" },
   { title: "Isolated Devices", value: 2, bgColor: "bg-[#fca5a5]" },
-  { title: "System Health", value: "Good", bgColor: "bg-green-100" },
-  { title: "System Health", value: "Good", bgColor: "bg-green-100" }
+  { title: "Active Devices", value: 4, bgColor: "bg-green-100" },
+  { title: "System Health", value: "Risky", bgColor: "bg-green-100" }
 ];
 
 const activeNodes = [
-  { 
-    id: 1, 
-    name: "Node 1", 
-    operatingTime: "14h", 
-    connectionQuality: "Excellent", 
-    temperature: "72°F", 
-    usageFrequency: "High", 
-    connectivityType: "Wi-Fi", 
-    priority: "High", 
-    location: "Living Room", 
-    status: "Healthy", 
-    nodeHealth: "Good" 
+  {
+    id: 1,
+    name: "Drone",
+    deviceId: "ID1234",
+    batteryLevel: "85%",
+    temperature: "22°C",
+    signalStrength: "70%",
+    operationalHours: 300,
+    maintenanceStatus: "Yes",
+    criticalityLevel: "Medium",
+    threatDetectionAlerts: 10,
+    firmwareVulnerabilities: 1,
+    environmentType: "Desert",
+    serviceInterval: 90,
+    eventLogs: 50,
+    calibrationStatus: "Yes",
+    deviceHealth: "Normal"
   },
-  { 
-    id: 2, 
-    name: "Node 2", 
-    operatingTime: "10h", 
-    connectionQuality: "Good", 
-    temperature: "70°F", 
-    usageFrequency: "Medium", 
-    connectivityType: "Ethernet", 
-    priority: "Medium", 
-    location: "Bedroom", 
-    status: "Stable", 
-    nodeHealth: "Good" 
+  {
+    id: 3,
+    name: "Body Armor Sensor",
+    deviceId: "ID9101",
+    batteryLevel: "60%",
+    temperature: "25°C",
+    signalStrength: "50%",
+    operationalHours: 400,
+    maintenanceStatus: "Yes",
+    criticalityLevel: "Low",
+    threatDetectionAlerts: 15,
+    firmwareVulnerabilities: 0,
+    environmentType: "Urban",
+    serviceInterval: 100,
+    eventLogs: 60,
+    calibrationStatus: "Yes",
+    deviceHealth: "Normal"
   },
-  { 
-    id: 3, 
-    name: "Node 3", 
-    operatingTime: "18h", 
-    connectionQuality: "Fair", 
-    temperature: "74°F", 
-    usageFrequency: "Low", 
-    connectivityType: "Wi-Fi", 
-    priority: "Low", 
-    location: "Kitchen", 
-    status: "Stable", 
-    nodeHealth: "Fair" 
+  {
+    id: 4,
+    name: "Surveillance Camera",
+    deviceId: "ID3344",
+    batteryLevel: "75%",
+    temperature: "30°C",
+    signalStrength: "65%",
+    operationalHours: 500,
+    maintenanceStatus: "Yes",
+    criticalityLevel: "Medium",
+    threatDetectionAlerts: 5,
+    firmwareVulnerabilities: 1,
+    environmentType: "Desert",
+    serviceInterval: 180,
+    eventLogs: 40,
+    calibrationStatus: "Yes",
+    deviceHealth: "Normal"
+  },
+  {
+    id: 5,
+    name: "Weapon System",
+    deviceId: "ID5566",
+    batteryLevel: "90%",
+    temperature: "35°C",
+    signalStrength: "80%",
+    operationalHours: 600,
+    maintenanceStatus: "Yes",
+    criticalityLevel: "High",
+    threatDetectionAlerts: 20,
+    firmwareVulnerabilities: 0,
+    environmentType: "Mountain",
+    serviceInterval: 100,
+    eventLogs: 75,
+    calibrationStatus: "Yes",
+    deviceHealth: "Normal"
   }
 ];
 
 const isolatedNodes = [
-  { 
-    id: 1, 
-    name: "Node 4", 
-    operatingTime: "8h", 
-    connectionQuality: "Poor", 
-    temperature: "68°F", 
-    usageFrequency: "Low", 
-    connectivityType: "Wi-Fi", 
-    priority: "Low", 
-    location: "Garage", 
-    status: "Isolated", 
-    nodeHealth: "Critical",
-    ifpsStorageLink: "https://storage.link/4"
+  {
+    id: 2,
+    name: "Radar System",
+    deviceId: "ID5678",
+    batteryLevel: "40%",
+    temperature: "55°C",
+    signalStrength: "40%",
+    operationalHours: 200,
+    maintenanceStatus: "No",
+    criticalityLevel: "High",
+    threatDetectionAlerts: 80,
+    firmwareVulnerabilities: 2,
+    environmentType: "Forest",
+    serviceInterval: 120,
+    eventLogs: 150,
+    calibrationStatus: "No",
+    deviceHealth: "Compromised"
   },
-  { 
-    id: 2, 
-    name: "Node 5", 
-    operatingTime: "5h", 
-    connectionQuality: "Fair", 
-    temperature: "71°F", 
-    usageFrequency: "Medium", 
-    connectivityType: "Ethernet", 
-    priority: "Medium", 
-    location: "Office", 
-    status: "Isolated", 
-    nodeHealth: "Fair",
-    ifpsStorageLink: "https://storage.link/5"
+  {
+    id: 6,
+    name: "Communication Equipment",
+    deviceId: "ID1122",
+    batteryLevel: "20%",
+    temperature: "45°C",
+    signalStrength: "25%",
+    operationalHours: 150,
+    maintenanceStatus: "No",
+    criticalityLevel: "High",
+    threatDetectionAlerts: 100,
+    firmwareVulnerabilities: 3,
+    environmentType: "Arctic",
+    serviceInterval: 60,
+    eventLogs: 120,
+    calibrationStatus: "No",
+    deviceHealth: "Compromised"
   }
 ];
 
-const imageData = "/images/default_image.png";
+
+const imageData = "/images/military_iot/1.png";
 
 export default function MilitaryIOT() {
   const [threats, setThreats] = useState([

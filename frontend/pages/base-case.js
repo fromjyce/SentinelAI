@@ -9,11 +9,11 @@ import Navbar from "@/components/Navbar";
 import Head from "next/head";
 
 const summaryData = [
-  { title: "Total Devices", value: 5, bgColor: "bg-yellow-100" },
-  { title: "Active Threats", value: 3, bgColor: "bg-blue-100" },
-  { title: "Isolated Devices", value: 2, bgColor: "bg-[#fca5a5]" },
-  { title: "System Health", value: "Good", bgColor: "bg-green-100" },
-  { title: "System Health", value: "Good", bgColor: "bg-green-100" }
+  { title: "Total Devices", value: 3, bgColor: "bg-yellow-100" },
+  { title: "Active Threats", value: 0, bgColor: "bg-blue-100" },
+  { title: "Isolated Devices", value: 0, bgColor: "bg-[#fca5a5]" },
+  { title: "Active Devices", value: 3, bgColor: "bg-green-100" },
+  { title: "System Health", value: "Fair", bgColor: "bg-green-100" }
 ];
 
 const activeNodes = [
@@ -59,37 +59,9 @@ const activeNodes = [
 ];
 
 const isolatedNodes = [
-  { 
-    id: 1, 
-    name: "Node 4", 
-    operatingTime: "8h", 
-    connectionQuality: "Poor", 
-    temperature: "68°F", 
-    usageFrequency: "Low", 
-    connectivityType: "Wi-Fi", 
-    priority: "Low", 
-    location: "Garage", 
-    status: "Isolated", 
-    nodeHealth: "Critical",
-    ifpsStorageLink: "https://storage.link/4"
-  },
-  { 
-    id: 2, 
-    name: "Node 5", 
-    operatingTime: "5h", 
-    connectionQuality: "Fair", 
-    temperature: "71°F", 
-    usageFrequency: "Medium", 
-    connectivityType: "Ethernet", 
-    priority: "Medium", 
-    location: "Office", 
-    status: "Isolated", 
-    nodeHealth: "Fair",
-    ifpsStorageLink: "https://storage.link/5"
-  }
 ];
 
-const imageData = "/images/default_image.png";
+const imageData = "/images/base_ case/1.png";
 
 export default function BaseIOT() {
   const [threats, setThreats] = useState([
