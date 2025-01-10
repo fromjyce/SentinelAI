@@ -5,9 +5,25 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Upload } from 'lucide-react'
 import Head from "next/head"
 import Image from "next/image"
+import { useRouter } from "next/router" 
 import UpdateFooter from "@/components/UpdateFooter"
 
 export default function UploadForm() {
+  const router = useRouter();
+
+  const handleFileChange = (e) => {
+    const file = e.target.files[0];
+    if (file && file.name.endsWith(".py")) {
+      const isConfirmed = window.confirm(`Are you sure you want to submit your network file: ${file.name}?`);
+      
+      if (isConfirmed) {
+        router.push(`/upload-dashboard?filename=${file.name}`);
+      }
+    } else {
+      alert("Please upload a valid .py file.");
+    }
+  };
+
   return (
     <>
       <Head><title>SentinelAI | Upload your Network</title></Head>
@@ -15,7 +31,6 @@ export default function UploadForm() {
         <Card className="w-full max-w-4xl h-[600px] bg-[#f4f4f4] backdrop-blur-md border-0 shadow-2xl">
           <CardContent className="p-10 h-full flex items-center justify-center">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 w-full h-full">
-              {/* Left side */}
               <div className="flex flex-col justify-center items-center text-center space-y-8">
                 <div className="w-full space-y-6">
                   <p className="text-black text-lg urbanist mb-4 font-semibold">
@@ -27,9 +42,7 @@ export default function UploadForm() {
                       type="file"
                       accept=".py"
                       className="hidden"
-                      onChange={(e) => {
-                        console.log(e.target.files[0]);
-                      }}
+                      onChange={handleFileChange}
                     />
                     <Button 
                       className="w-full py-6 text-lg bg-[#FB0000] hover:bg-[#FF4D4D] transition-colors duration-300" 
@@ -43,8 +56,6 @@ export default function UploadForm() {
                   Note: Please upload only .py (Python) files
                 </CardDescription>
               </div>
-
-              {/* Right side */}
               <div className="flex flex-col items-center justify-center">
                 <div className="text-center space-y-6">
                   <Image
@@ -66,4 +77,3 @@ export default function UploadForm() {
     </>
   )
 }
-
