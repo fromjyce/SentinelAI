@@ -38,11 +38,11 @@ const UploadDashboard = () => {
     if (router.query.filename) {
       setFilename(router.query.filename);
 
-      if (router.query.filename === 'test.py') {
+      if (router.query.filename === 'base_demo.py') {
         setImagePath('/images/base_case_comp/1.png');
         setIsHighPriority(false);
         simulateTestPyWorkflow();
-      } else if (router.query.filename === 'manage.py') {
+      } else if (router.query.filename === 'home_demo.py') {
         setImagePath('/images/home_ping/1.png');
         setIsHighPriority(true);
         simulateManagePyWorkflow();
