@@ -1,0 +1,57 @@
+[
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "_oldKey",
+          "type": "string"
+        },
+        {
+          "name": "_newKey",
+          "type": "string"
+        }
+      ],
+      "name": "recoverDevice",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "deviceName",
+          "type": "string"
+        },
+        {
+          "indexed": false,
+          "name": "identityKey",
+          "type": "string"
+        },
+        {
+          "indexed": false,
+          "name": "timestamp",
+          "type": "uint256"
+        }
+      ],
+      "name": "DeviceRegistered",
+      "type": "event"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "getTransactionCount",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ]
+  

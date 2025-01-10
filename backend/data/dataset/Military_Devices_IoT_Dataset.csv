@@ -1,0 +1,2003 @@
+Device ID,Device Name,Battery Level (%),Temperature (°C),Signal Strength (%),Operational Hours,Maintenance Status,Criticality Level,Threat Detection Alerts,Firmware Vulnerabilities,Environment Type,Service Interval (days),Event Logs,Calibration Status,Device Health
+ID9785,Body Armor Sensor,25,-8,30,201,No,High,67,5,Forest,52,152,Yes,compromised
+ID1073,Body Armor Sensor,83,18,99,259,Yes,Medium,19,0,Arctic,133,79,Yes,normal
+ID7299,Communication Equipment,38,42,23,168,Yes,High,25,3,Forest,113,103,Yes,compromised
+ID5301,Body Armor Sensor,28,25,87,462,Yes,Low,21,3,Desert,73,48,Yes,normal
+ID9460,Body Armor Sensor,70,49,56,332,Yes,Low,28,2,Forest,129,23,No,compromised
+ID5131,Weapon System,12,8,94,351,Yes,Low,87,1,Arctic,131,76,Yes,compromised
+ID6283,Surveillance Camera,45,12,33,282,Yes,Low,36,3,Desert,158,76,Yes,normal
+ID4883,Body Armor Sensor,42,42,43,136,Yes,Medium,77,1,Urban,33,17,No,compromised
+ID3126,Unmanned Ground Vehicle,65,19,68,361,Yes,Low,7,1,Desert,81,28,Yes,normal
+ID5232,Body Armor Sensor,59,47,66,116,No,High,64,1,Urban,134,136,Yes,compromised
+ID3954,Surveillance Camera,65,26,99,452,Yes,Low,20,2,Urban,103,9,Yes,normal
+ID5007,Weapon System,46,-5,29,451,Yes,Medium,42,4,Urban,58,68,No,compromised
+ID7746,Surveillance Camera,50,1,67,148,No,Medium,79,1,Forest,77,168,No,compromised
+ID2415,Communication Equipment,47,6,37,177,Yes,Medium,41,4,Arctic,175,97,Yes,normal
+ID2594,Weapon System,83,10,43,120,Yes,Low,34,4,Forest,39,75,Yes,normal
+ID9523,Surveillance Camera,91,42,33,207,Yes,Low,41,1,Urban,97,38,Yes,normal
+ID6691,Drone,39,-9,71,498,Yes,Low,13,0,Desert,90,69,Yes,normal
+ID7240,Radar System,77,46,69,480,Yes,Medium,18,2,Arctic,147,0,Yes,normal
+ID8445,Drone,82,7,49,130,No,Medium,36,0,Urban,59,132,Yes,compromised
+ID9744,Unmanned Ground Vehicle,65,11,85,412,Yes,Low,6,1,Arctic,129,163,No,compromised
+ID6485,Unmanned Ground Vehicle,74,1,70,434,Yes,Medium,46,1,Arctic,179,9,Yes,normal
+ID9438,Surveillance Camera,74,7,38,382,No,High,6,5,Forest,84,134,Yes,compromised
+ID7487,Radar System,45,21,91,213,Yes,Medium,1,2,Arctic,124,76,No,compromised
+ID1586,Radar System,64,13,61,153,No,Medium,10,2,Desert,161,119,No,compromised
+ID9696,Weapon System,12,-4,40,365,No,Low,68,1,Desert,33,153,No,compromised
+ID4728,Radar System,62,9,95,389,Yes,Medium,23,2,Desert,134,35,Yes,normal
+ID3609,Radar System,60,13,55,499,Yes,High,57,1,Urban,76,127,Yes,compromised
+ID7857,Weapon System,49,39,80,448,Yes,Medium,17,2,Desert,84,19,Yes,normal
+ID7810,Radar System,82,18,82,271,Yes,High,48,5,Urban,143,30,Yes,normal
+ID9188,Body Armor Sensor,52,0,56,347,Yes,High,9,1,Forest,116,16,Yes,normal
+ID6537,Drone,60,50,80,140,Yes,Medium,16,3,Urban,136,62,Yes,normal
+ID8163,Body Armor Sensor,91,58,100,250,No,Low,39,0,Urban,173,96,No,compromised
+ID1442,Body Armor Sensor,68,-2,96,473,Yes,Medium,20,4,Urban,113,69,Yes,normal
+ID2902,Drone,67,57,84,380,No,Low,45,4,Forest,44,130,No,compromised
+ID7168,Unmanned Ground Vehicle,85,35,40,355,Yes,Medium,7,3,Arctic,73,18,No,compromised
+ID8285,Surveillance Camera,59,-5,43,428,Yes,Medium,8,2,Desert,99,76,Yes,normal
+ID4043,Body Armor Sensor,53,1,43,333,No,High,58,3,Urban,117,157,No,compromised
+ID7027,Communication Equipment,86,-1,86,214,Yes,High,6,1,Forest,94,112,No,compromised
+ID2018,Body Armor Sensor,54,9,90,181,No,Medium,19,1,Arctic,84,170,Yes,compromised
+ID8217,Drone,89,-8,96,364,Yes,Low,34,1,Desert,126,51,Yes,normal
+ID6574,Weapon System,85,27,59,368,Yes,High,23,5,Forest,153,17,Yes,normal
+ID1336,Communication Equipment,31,36,32,108,No,Medium,98,2,Urban,90,100,No,compromised
+ID3743,Communication Equipment,94,12,100,492,Yes,Medium,37,3,Urban,57,2,Yes,normal
+ID4423,Drone,45,7,36,124,Yes,High,37,2,Arctic,55,33,Yes,normal
+ID6302,Radar System,26,52,58,316,No,Low,45,3,Forest,166,51,Yes,compromised
+ID9219,Drone,20,58,97,317,Yes,Medium,3,5,Urban,164,166,No,compromised
+ID9395,Body Armor Sensor,72,1,64,436,Yes,Medium,30,3,Urban,152,87,Yes,normal
+ID3905,Drone,20,0,41,498,Yes,Low,85,1,Arctic,163,105,Yes,compromised
+ID4291,Radar System,90,6,92,237,Yes,Medium,22,5,Desert,139,78,Yes,normal
+ID8210,Body Armor Sensor,79,28,88,407,Yes,Medium,12,0,Desert,115,158,Yes,compromised
+ID1296,Radar System,78,-5,56,193,No,Low,31,4,Arctic,65,186,No,compromised
+ID8280,Unmanned Ground Vehicle,48,36,81,364,Yes,High,12,5,Desert,144,54,Yes,normal
+ID5290,Weapon System,18,2,85,426,Yes,Medium,9,2,Urban,34,49,No,compromised
+ID4258,Radar System,50,-2,82,294,Yes,High,27,4,Urban,37,94,Yes,normal
+ID4953,Unmanned Ground Vehicle,38,-10,86,297,Yes,Medium,30,1,Urban,53,59,Yes,normal
+ID9365,Unmanned Ground Vehicle,41,59,74,213,Yes,High,79,0,Arctic,130,132,Yes,compromised
+ID2684,Weapon System,93,10,50,324,Yes,Medium,36,0,Arctic,72,17,Yes,normal
+ID3153,Surveillance Camera,46,30,81,353,No,Medium,61,1,Desert,64,21,No,compromised
+ID3609,Drone,11,52,78,438,No,Medium,49,2,Desert,43,89,Yes,compromised
+ID7275,Unmanned Ground Vehicle,99,39,53,444,Yes,Low,34,4,Arctic,160,0,Yes,normal
+ID7200,Weapon System,59,14,60,239,No,Medium,44,0,Desert,47,139,Yes,compromised
+ID3906,Weapon System,85,29,49,468,Yes,High,47,3,Forest,177,1,Yes,normal
+ID7067,Drone,30,1,97,219,Yes,High,80,2,Urban,123,12,No,compromised
+ID3507,Drone,69,23,21,430,No,High,42,3,Arctic,151,182,Yes,compromised
+ID7562,Body Armor Sensor,40,39,35,183,Yes,High,65,5,Arctic,75,84,Yes,compromised
+ID6315,Weapon System,51,-5,72,315,No,Low,51,4,Urban,145,136,Yes,compromised
+ID8251,Radar System,81,40,75,163,Yes,Low,9,5,Desert,87,73,Yes,normal
+ID2573,Radar System,84,46,73,392,No,High,22,4,Arctic,83,188,No,compromised
+ID2963,Communication Equipment,50,24,59,496,Yes,Low,48,4,Desert,163,43,Yes,normal
+ID7347,Communication Equipment,29,38,88,434,Yes,High,48,4,Urban,60,40,Yes,normal
+ID1981,Drone,67,42,94,125,Yes,Low,14,1,Arctic,129,94,Yes,normal
+ID3872,Radar System,49,22,38,310,Yes,High,50,0,Desert,42,71,Yes,normal
+ID4378,Weapon System,25,13,77,482,Yes,Low,78,3,Arctic,125,177,Yes,compromised
+ID1763,Unmanned Ground Vehicle,73,39,46,390,No,High,96,1,Urban,134,63,Yes,compromised
+ID6505,Radar System,55,50,84,283,Yes,Low,42,1,Urban,104,8,Yes,normal
+ID9139,Body Armor Sensor,58,49,47,270,Yes,Low,49,5,Desert,152,53,Yes,normal
+ID6382,Body Armor Sensor,93,-10,61,105,Yes,High,71,5,Forest,68,114,Yes,compromised
+ID8184,Body Armor Sensor,65,-10,99,221,Yes,High,44,3,Urban,31,84,Yes,normal
+ID9334,Unmanned Ground Vehicle,67,12,56,393,Yes,High,14,1,Arctic,76,78,Yes,normal
+ID4299,Body Armor Sensor,32,34,38,445,No,Medium,92,4,Arctic,151,25,Yes,compromised
+ID5798,Body Armor Sensor,68,-3,73,259,Yes,High,35,2,Forest,46,62,Yes,normal
+ID7313,Drone,73,54,81,461,Yes,Medium,26,3,Forest,57,167,No,compromised
+ID9666,Radar System,82,52,27,291,No,Low,61,2,Desert,180,102,No,compromised
+ID7231,Communication Equipment,32,25,27,299,No,Medium,70,2,Arctic,148,121,No,compromised
+ID9346,Unmanned Ground Vehicle,86,27,98,327,No,High,41,0,Forest,113,197,Yes,compromised
+ID9563,Drone,87,48,83,199,Yes,Medium,36,0,Urban,37,20,No,compromised
+ID3394,Unmanned Ground Vehicle,49,17,63,195,No,High,83,2,Urban,109,21,Yes,compromised
+ID3941,Weapon System,90,-1,64,396,Yes,Low,38,2,Arctic,64,10,Yes,normal
+ID6427,Communication Equipment,78,29,46,357,Yes,High,4,3,Forest,114,6,Yes,normal
+ID9884,Weapon System,65,54,31,220,No,Low,97,2,Forest,172,106,Yes,compromised
+ID8321,Weapon System,12,50,57,239,No,Low,7,4,Forest,42,23,No,compromised
+ID2970,Body Armor Sensor,90,38,42,418,Yes,Low,3,0,Desert,132,21,Yes,normal
+ID6508,Radar System,25,20,60,225,Yes,Medium,20,4,Forest,150,23,Yes,normal
+ID1419,Radar System,40,-6,45,411,Yes,Low,29,4,Arctic,149,37,Yes,normal
+ID4979,Surveillance Camera,87,-4,63,417,Yes,High,2,3,Urban,82,132,No,compromised
+ID1220,Unmanned Ground Vehicle,69,30,48,210,No,Medium,45,0,Forest,177,27,Yes,compromised
+ID1227,Radar System,99,40,39,270,Yes,High,22,0,Forest,34,25,Yes,normal
+ID8703,Unmanned Ground Vehicle,79,48,46,252,Yes,Low,47,0,Desert,164,107,Yes,compromised
+ID6083,Unmanned Ground Vehicle,55,4,58,287,Yes,Low,16,5,Arctic,155,40,Yes,normal
+ID3964,Unmanned Ground Vehicle,14,51,60,105,Yes,High,66,3,Desert,84,114,Yes,compromised
+ID8938,Drone,77,28,23,122,Yes,High,64,2,Forest,139,87,No,compromised
+ID8053,Body Armor Sensor,82,30,49,179,Yes,Low,0,0,Arctic,105,72,Yes,normal
+ID2600,Drone,61,4,95,453,Yes,Medium,50,3,Arctic,163,21,Yes,normal
+ID3048,Body Armor Sensor,93,35,93,393,Yes,Medium,2,2,Forest,108,36,Yes,normal
+ID7370,Drone,38,15,73,460,Yes,Medium,16,0,Arctic,104,66,Yes,normal
+ID1007,Communication Equipment,94,31,33,319,No,Low,32,0,Urban,163,22,No,compromised
+ID3217,Weapon System,28,47,62,117,Yes,Low,48,0,Desert,89,27,Yes,normal
+ID9913,Surveillance Camera,81,43,54,321,Yes,High,38,3,Arctic,51,83,Yes,normal
+ID6817,Communication Equipment,49,29,44,323,Yes,Low,3,0,Forest,59,22,Yes,normal
+ID2518,Weapon System,91,14,90,334,Yes,Low,10,3,Urban,79,77,Yes,normal
+ID8301,Radar System,55,50,52,253,Yes,High,34,2,Desert,115,53,Yes,normal
+ID4642,Weapon System,85,32,64,235,Yes,Medium,43,1,Arctic,114,55,No,compromised
+ID4630,Drone,20,35,57,326,No,High,6,3,Urban,51,12,No,compromised
+ID9366,Weapon System,62,0,42,183,No,High,87,3,Forest,48,97,Yes,compromised
+ID2132,Unmanned Ground Vehicle,44,6,57,332,Yes,Low,42,3,Arctic,32,100,Yes,normal
+ID8159,Unmanned Ground Vehicle,51,12,77,381,Yes,High,32,4,Urban,101,6,Yes,normal
+ID1554,Unmanned Ground Vehicle,76,59,50,437,Yes,High,72,3,Arctic,107,132,No,compromised
+ID2638,Radar System,99,13,50,196,Yes,High,32,3,Urban,121,145,No,compromised
+ID6632,Surveillance Camera,98,16,69,203,Yes,Low,39,0,Desert,101,61,Yes,normal
+ID7702,Body Armor Sensor,11,18,48,485,No,High,52,5,Forest,170,67,Yes,compromised
+ID4943,Drone,27,22,88,119,Yes,Low,36,4,Desert,62,99,No,compromised
+ID8000,Surveillance Camera,71,45,74,103,Yes,High,31,5,Forest,179,118,No,compromised
+ID6133,Unmanned Ground Vehicle,89,8,21,373,Yes,Medium,5,3,Forest,73,11,No,compromised
+ID1326,Unmanned Ground Vehicle,94,21,41,361,Yes,High,41,1,Arctic,95,21,Yes,normal
+ID1256,Surveillance Camera,52,23,88,240,Yes,Low,34,2,Arctic,85,79,Yes,normal
+ID5851,Unmanned Ground Vehicle,15,25,27,349,Yes,High,38,5,Forest,119,51,No,compromised
+ID7292,Body Armor Sensor,46,27,92,431,Yes,High,21,4,Urban,73,36,Yes,normal
+ID9145,Body Armor Sensor,47,21,60,121,Yes,High,15,5,Arctic,122,45,Yes,normal
+ID3021,Body Armor Sensor,16,41,61,378,No,High,60,0,Desert,33,196,No,compromised
+ID6447,Radar System,24,-6,93,393,Yes,High,26,4,Arctic,138,19,Yes,normal
+ID2102,Surveillance Camera,73,36,79,302,No,Low,49,2,Desert,135,172,No,compromised
+ID4114,Body Armor Sensor,79,-5,56,450,Yes,Low,30,1,Urban,92,186,Yes,compromised
+ID9453,Drone,96,-9,39,229,Yes,High,34,1,Desert,52,38,Yes,normal
+ID7289,Drone,54,-4,50,318,Yes,Low,44,4,Forest,49,17,Yes,normal
+ID1981,Radar System,75,36,42,496,Yes,Low,33,0,Arctic,57,6,Yes,normal
+ID7645,Surveillance Camera,31,19,69,174,Yes,Low,47,0,Arctic,162,116,Yes,compromised
+ID9421,Radar System,67,35,85,183,No,Medium,10,0,Arctic,125,70,No,compromised
+ID6689,Weapon System,18,51,36,386,Yes,High,56,5,Arctic,149,59,No,compromised
+ID1900,Communication Equipment,89,6,75,250,No,Medium,53,4,Arctic,139,92,No,compromised
+ID1638,Weapon System,95,15,96,247,Yes,Low,75,1,Arctic,76,169,No,compromised
+ID2638,Surveillance Camera,87,37,80,289,No,Low,31,4,Urban,110,86,Yes,compromised
+ID8095,Drone,74,25,57,131,Yes,High,16,1,Arctic,60,73,Yes,normal
+ID7699,Body Armor Sensor,81,44,97,111,Yes,Low,29,5,Arctic,152,48,No,compromised
+ID1948,Drone,65,2,49,278,No,Medium,36,2,Arctic,37,24,Yes,compromised
+ID8275,Surveillance Camera,28,-8,90,111,Yes,High,53,1,Forest,113,171,Yes,compromised
+ID5741,Surveillance Camera,50,40,98,448,Yes,Low,42,4,Urban,153,98,Yes,normal
+ID4174,Communication Equipment,74,40,47,361,Yes,Low,28,2,Forest,168,88,Yes,normal
+ID3784,Communication Equipment,42,48,50,498,Yes,Low,17,3,Desert,145,181,Yes,compromised
+ID4252,Unmanned Ground Vehicle,29,15,89,214,Yes,Medium,4,5,Forest,98,80,Yes,normal
+ID7742,Communication Equipment,52,27,34,135,Yes,Low,46,4,Desert,46,9,Yes,normal
+ID2876,Radar System,33,56,73,166,Yes,Low,64,4,Desert,137,114,Yes,compromised
+ID5086,Surveillance Camera,98,30,75,340,Yes,Medium,40,4,Desert,96,2,Yes,normal
+ID5774,Radar System,83,42,70,188,Yes,Low,31,4,Arctic,97,14,Yes,normal
+ID8502,Unmanned Ground Vehicle,80,37,99,226,Yes,High,33,3,Desert,141,148,No,compromised
+ID8731,Unmanned Ground Vehicle,76,38,33,283,Yes,Low,36,1,Urban,129,86,Yes,normal
+ID6912,Unmanned Ground Vehicle,34,42,30,475,Yes,Low,14,1,Forest,177,73,Yes,normal
+ID8840,Surveillance Camera,88,39,59,367,Yes,Medium,5,5,Forest,53,39,Yes,normal
+ID1675,Body Armor Sensor,94,17,38,465,Yes,Medium,55,1,Urban,111,71,Yes,compromised
+ID5167,Drone,39,-1,98,391,Yes,High,0,1,Forest,53,62,Yes,normal
+ID3625,Weapon System,37,41,89,373,Yes,Low,44,3,Desert,73,188,No,compromised
+ID6100,Communication Equipment,21,11,51,353,Yes,High,40,3,Urban,125,17,Yes,normal
+ID5942,Unmanned Ground Vehicle,69,-1,56,481,Yes,Medium,28,2,Forest,106,84,Yes,normal
+ID9828,Body Armor Sensor,46,18,82,122,Yes,High,6,0,Desert,158,47,Yes,normal
+ID4392,Communication Equipment,72,43,43,284,Yes,Medium,36,2,Forest,50,169,No,compromised
+ID4790,Weapon System,19,58,71,403,Yes,Low,49,3,Urban,51,41,Yes,compromised
+ID7111,Radar System,14,-9,51,331,Yes,Low,6,2,Arctic,58,154,Yes,compromised
+ID8189,Communication Equipment,21,31,49,485,No,Medium,22,3,Urban,148,102,No,compromised
+ID4702,Weapon System,48,20,66,294,No,Medium,64,4,Arctic,108,146,No,compromised
+ID5449,Surveillance Camera,36,0,86,258,Yes,High,13,2,Arctic,141,79,Yes,normal
+ID4253,Radar System,40,9,45,251,Yes,Low,11,2,Arctic,42,37,Yes,normal
+ID6250,Weapon System,85,48,24,221,No,High,34,2,Arctic,76,93,No,compromised
+ID3620,Body Armor Sensor,32,22,100,342,Yes,High,30,3,Arctic,128,75,Yes,normal
+ID1110,Radar System,91,31,34,133,No,Medium,77,1,Desert,169,132,Yes,compromised
+ID3908,Surveillance Camera,28,-1,94,359,Yes,Medium,95,3,Forest,58,105,No,compromised
+ID3631,Unmanned Ground Vehicle,52,-9,67,219,Yes,Medium,24,2,Arctic,97,71,Yes,normal
+ID3380,Body Armor Sensor,54,9,74,107,No,Medium,71,5,Desert,91,69,Yes,compromised
+ID2263,Communication Equipment,54,19,50,430,Yes,High,42,4,Forest,133,23,Yes,normal
+ID1974,Weapon System,59,-7,25,196,Yes,High,78,1,Desert,170,14,Yes,compromised
+ID7062,Surveillance Camera,92,-2,69,432,Yes,Medium,77,1,Urban,69,102,No,compromised
+ID8799,Surveillance Camera,45,40,42,431,Yes,High,71,3,Urban,158,140,No,compromised
+ID4358,Radar System,32,-5,74,290,Yes,Low,29,4,Urban,38,46,Yes,normal
+ID2435,Drone,67,16,84,348,Yes,High,9,1,Forest,135,63,Yes,normal
+ID5267,Surveillance Camera,56,29,93,416,Yes,Medium,73,1,Desert,83,118,No,compromised
+ID8395,Unmanned Ground Vehicle,37,31,39,257,Yes,Low,82,4,Forest,74,143,No,compromised
+ID8123,Surveillance Camera,55,-7,67,299,Yes,Medium,24,2,Urban,179,70,Yes,normal
+ID4323,Weapon System,70,26,91,382,Yes,High,9,1,Urban,179,8,Yes,normal
+ID2909,Unmanned Ground Vehicle,99,5,74,132,Yes,Low,60,1,Urban,34,54,No,compromised
+ID7138,Weapon System,27,57,35,429,No,High,61,4,Forest,112,84,No,compromised
+ID8445,Body Armor Sensor,89,6,74,458,No,High,75,2,Arctic,168,148,Yes,compromised
+ID3901,Communication Equipment,46,13,47,236,No,Medium,30,1,Urban,133,78,No,compromised
+ID1903,Drone,55,14,77,159,Yes,Medium,39,5,Arctic,139,59,Yes,normal
+ID6724,Surveillance Camera,98,20,54,404,Yes,High,35,3,Urban,32,37,Yes,normal
+ID4450,Drone,43,19,63,239,Yes,Medium,19,5,Forest,85,69,Yes,normal
+ID4603,Drone,63,18,48,497,Yes,Low,4,1,Urban,90,29,Yes,normal
+ID2271,Surveillance Camera,83,44,75,414,Yes,Medium,48,0,Arctic,38,5,Yes,normal
+ID2227,Weapon System,69,42,51,196,Yes,Medium,1,3,Desert,158,9,Yes,normal
+ID6782,Body Armor Sensor,91,14,22,498,No,Low,28,0,Forest,162,9,Yes,compromised
+ID1955,Unmanned Ground Vehicle,73,-1,44,356,No,Medium,10,0,Urban,138,146,No,compromised
+ID7500,Surveillance Camera,26,30,82,218,Yes,Medium,43,5,Desert,141,2,Yes,normal
+ID5495,Drone,95,0,67,147,Yes,Medium,19,4,Arctic,97,79,Yes,normal
+ID5719,Weapon System,22,-6,93,277,No,High,24,5,Forest,172,132,No,compromised
+ID5501,Surveillance Camera,21,19,57,250,Yes,Medium,25,2,Arctic,133,87,Yes,normal
+ID1332,Body Armor Sensor,24,36,31,415,Yes,Low,48,0,Forest,73,86,Yes,normal
+ID8620,Surveillance Camera,37,34,42,115,Yes,High,24,0,Desert,136,23,Yes,normal
+ID3776,Drone,63,27,43,176,Yes,High,40,0,Desert,110,13,Yes,normal
+ID3325,Radar System,47,33,37,392,Yes,Low,17,1,Urban,128,45,Yes,normal
+ID9129,Weapon System,44,18,98,179,Yes,Low,7,4,Arctic,39,134,No,compromised
+ID8367,Surveillance Camera,63,57,29,391,Yes,High,3,2,Desert,177,74,No,compromised
+ID9227,Weapon System,57,41,33,193,No,Low,31,5,Arctic,168,126,No,compromised
+ID4923,Unmanned Ground Vehicle,35,-10,33,475,Yes,Low,42,0,Forest,140,28,Yes,normal
+ID3658,Drone,72,12,67,316,No,Low,36,2,Forest,126,149,Yes,compromised
+ID5677,Surveillance Camera,78,0,50,397,Yes,Medium,21,5,Forest,125,1,Yes,normal
+ID2588,Radar System,69,43,64,124,Yes,High,25,1,Desert,175,73,Yes,normal
+ID2550,Communication Equipment,81,37,71,243,Yes,Medium,37,0,Desert,45,74,Yes,normal
+ID2231,Body Armor Sensor,93,25,31,389,Yes,Low,19,1,Desert,75,4,Yes,normal
+ID3091,Surveillance Camera,26,33,20,201,Yes,Medium,62,4,Urban,151,196,Yes,compromised
+ID1786,Weapon System,70,-10,56,489,Yes,Medium,65,2,Arctic,96,72,No,compromised
+ID9519,Communication Equipment,70,47,31,288,Yes,Medium,2,4,Forest,125,11,Yes,normal
+ID7688,Body Armor Sensor,75,4,87,487,Yes,Low,14,1,Forest,89,83,Yes,normal
+ID9756,Radar System,63,35,68,488,No,Medium,59,0,Forest,158,140,Yes,compromised
+ID2030,Communication Equipment,62,20,49,194,Yes,Medium,49,2,Forest,158,28,Yes,normal
+ID2165,Weapon System,47,44,72,323,Yes,Low,37,1,Forest,139,99,Yes,normal
+ID1844,Weapon System,51,40,64,336,Yes,Low,14,1,Urban,117,33,Yes,normal
+ID1439,Weapon System,46,-7,68,226,Yes,Medium,100,0,Forest,154,180,No,compromised
+ID1961,Drone,57,30,33,121,No,High,20,4,Arctic,96,161,No,compromised
+ID2845,Weapon System,12,49,53,270,No,Low,0,0,Desert,143,44,Yes,compromised
+ID1141,Communication Equipment,80,-9,59,364,Yes,Medium,15,4,Urban,91,57,Yes,normal
+ID4564,Surveillance Camera,31,48,82,168,Yes,High,36,1,Arctic,122,50,Yes,normal
+ID2165,Surveillance Camera,51,14,54,377,Yes,Low,56,0,Arctic,44,86,Yes,compromised
+ID6700,Communication Equipment,29,25,30,226,Yes,High,17,5,Arctic,166,33,Yes,normal
+ID7756,Radar System,39,-9,28,113,Yes,High,39,1,Urban,76,135,Yes,compromised
+ID2560,Drone,23,22,59,153,Yes,High,16,2,Desert,76,53,Yes,normal
+ID5769,Unmanned Ground Vehicle,66,26,63,459,No,Medium,53,2,Desert,48,129,Yes,compromised
+ID1007,Body Armor Sensor,10,25,36,492,Yes,High,10,5,Desert,62,158,No,compromised
+ID2347,Drone,63,0,83,180,No,High,83,2,Arctic,156,107,No,compromised
+ID5649,Unmanned Ground Vehicle,65,49,78,481,Yes,Low,7,2,Desert,39,81,Yes,normal
+ID4357,Communication Equipment,68,45,79,232,Yes,Medium,23,3,Urban,150,41,Yes,normal
+ID9952,Unmanned Ground Vehicle,95,7,59,192,Yes,Medium,19,4,Arctic,177,67,Yes,normal
+ID2744,Unmanned Ground Vehicle,42,59,86,315,No,Medium,50,4,Urban,137,125,No,compromised
+ID9500,Body Armor Sensor,44,20,77,376,Yes,Medium,12,1,Forest,42,59,Yes,normal
+ID3216,Surveillance Camera,87,4,47,211,Yes,High,29,0,Desert,53,83,Yes,normal
+ID2733,Radar System,40,30,93,464,No,High,14,5,Arctic,125,87,No,compromised
+ID3846,Radar System,53,15,30,379,Yes,Low,30,0,Desert,168,78,Yes,normal
+ID9162,Radar System,64,11,33,211,Yes,High,48,2,Urban,70,19,Yes,normal
+ID1710,Body Armor Sensor,65,9,93,115,Yes,High,24,3,Forest,107,110,Yes,compromised
+ID6879,Body Armor Sensor,27,0,38,486,Yes,Low,29,0,Forest,34,44,Yes,normal
+ID5395,Communication Equipment,31,10,41,155,Yes,High,80,0,Forest,66,8,Yes,compromised
+ID4632,Radar System,36,17,91,236,Yes,Low,71,5,Forest,40,60,No,compromised
+ID7129,Body Armor Sensor,94,-8,92,136,Yes,Medium,29,5,Forest,44,29,Yes,normal
+ID4150,Surveillance Camera,69,3,65,458,Yes,High,71,2,Forest,140,97,Yes,compromised
+ID4418,Communication Equipment,27,28,100,444,Yes,Medium,65,4,Urban,81,131,No,compromised
+ID4738,Unmanned Ground Vehicle,42,31,95,398,Yes,High,22,1,Arctic,76,81,Yes,normal
+ID7058,Radar System,48,58,53,309,Yes,Medium,61,1,Desert,117,106,No,compromised
+ID1769,Surveillance Camera,26,10,79,213,Yes,High,39,5,Desert,93,69,Yes,normal
+ID5481,Unmanned Ground Vehicle,84,5,79,304,No,High,21,5,Arctic,64,100,Yes,compromised
+ID9377,Communication Equipment,41,41,76,487,Yes,Low,20,2,Urban,79,142,Yes,compromised
+ID8409,Weapon System,52,40,66,345,Yes,Medium,41,5,Desert,33,94,Yes,normal
+ID2282,Radar System,90,9,83,285,Yes,Medium,37,2,Arctic,167,58,Yes,normal
+ID5608,Drone,63,20,63,273,No,High,96,2,Arctic,130,79,Yes,compromised
+ID5052,Weapon System,52,19,78,359,No,Medium,64,2,Urban,110,30,No,compromised
+ID2030,Drone,35,14,91,264,Yes,High,25,2,Arctic,44,53,Yes,normal
+ID6841,Body Armor Sensor,59,9,26,385,Yes,High,69,1,Desert,173,76,No,compromised
+ID4288,Surveillance Camera,42,0,96,254,Yes,High,23,0,Desert,64,14,Yes,normal
+ID2661,Unmanned Ground Vehicle,85,-1,73,321,No,Low,92,3,Urban,99,49,Yes,compromised
+ID1627,Drone,47,29,79,286,No,Low,52,0,Arctic,58,102,Yes,compromised
+ID4028,Weapon System,14,10,48,127,No,Low,6,0,Desert,67,117,Yes,compromised
+ID2733,Unmanned Ground Vehicle,31,35,40,352,Yes,Medium,12,3,Urban,159,27,Yes,normal
+ID7913,Weapon System,77,30,61,297,Yes,Low,39,5,Arctic,89,86,Yes,normal
+ID4137,Drone,25,19,48,334,Yes,High,29,0,Forest,106,42,Yes,normal
+ID2683,Weapon System,79,12,63,337,Yes,Medium,16,3,Desert,100,120,Yes,compromised
+ID9533,Weapon System,10,28,80,220,No,Medium,90,4,Desert,65,43,No,compromised
+ID4690,Weapon System,67,24,20,197,Yes,Low,52,3,Desert,89,40,Yes,compromised
+ID9579,Surveillance Camera,76,4,47,225,Yes,Low,25,0,Urban,80,40,Yes,normal
+ID3613,Communication Equipment,57,19,36,302,No,High,74,4,Desert,45,158,Yes,compromised
+ID8345,Radar System,54,-3,32,114,Yes,High,87,5,Desert,158,78,Yes,compromised
+ID4498,Weapon System,28,17,94,191,Yes,Low,45,0,Arctic,38,49,Yes,normal
+ID1982,Unmanned Ground Vehicle,76,39,86,382,Yes,Low,0,0,Arctic,165,80,Yes,normal
+ID5160,Weapon System,73,34,85,298,Yes,Medium,31,1,Desert,160,36,Yes,normal
+ID3312,Drone,64,46,24,159,No,Medium,15,4,Desert,89,134,No,compromised
+ID6869,Communication Equipment,48,16,60,209,Yes,High,29,1,Urban,35,12,Yes,normal
+ID1357,Communication Equipment,29,0,53,353,Yes,Low,73,2,Arctic,43,132,Yes,compromised
+ID3721,Weapon System,25,7,58,117,Yes,Low,6,0,Arctic,153,43,Yes,normal
+ID1158,Unmanned Ground Vehicle,73,21,64,486,Yes,Low,20,0,Forest,73,15,Yes,normal
+ID7043,Communication Equipment,52,47,46,306,Yes,Low,31,0,Desert,34,78,No,compromised
+ID8704,Surveillance Camera,57,33,62,175,No,Medium,61,5,Arctic,145,22,Yes,compromised
+ID9522,Communication Equipment,61,6,53,440,Yes,Low,24,5,Urban,58,7,Yes,normal
+ID5779,Unmanned Ground Vehicle,55,-10,51,343,Yes,High,26,1,Desert,49,90,Yes,normal
+ID4033,Communication Equipment,51,21,22,408,No,Medium,98,1,Forest,109,154,Yes,compromised
+ID3514,Communication Equipment,44,14,58,326,Yes,Medium,12,4,Urban,172,46,Yes,normal
+ID3946,Weapon System,82,4,60,219,Yes,Low,30,2,Urban,136,61,Yes,normal
+ID2855,Drone,33,49,84,218,Yes,Medium,18,0,Arctic,124,35,No,compromised
+ID5434,Surveillance Camera,15,39,95,374,Yes,High,79,2,Arctic,68,53,Yes,compromised
+ID4773,Unmanned Ground Vehicle,88,-8,48,399,Yes,Medium,25,3,Urban,180,128,No,compromised
+ID9681,Radar System,53,32,53,371,Yes,Low,27,3,Forest,160,41,No,compromised
+ID8772,Radar System,53,3,55,105,Yes,High,13,0,Forest,48,12,Yes,normal
+ID7236,Surveillance Camera,23,-7,79,321,Yes,High,37,3,Urban,169,51,Yes,normal
+ID8895,Communication Equipment,39,25,59,431,Yes,High,39,4,Desert,116,81,Yes,normal
+ID5980,Unmanned Ground Vehicle,11,35,52,105,Yes,High,65,3,Forest,106,17,No,compromised
+ID9219,Surveillance Camera,89,-1,71,197,Yes,Medium,90,3,Arctic,150,79,Yes,compromised
+ID3604,Unmanned Ground Vehicle,52,2,42,247,Yes,Low,7,5,Forest,110,65,Yes,normal
+ID7180,Weapon System,43,3,35,310,Yes,Medium,14,1,Urban,95,2,Yes,normal
+ID4523,Radar System,91,26,34,496,Yes,High,49,5,Desert,147,52,Yes,normal
+ID6538,Radar System,47,13,61,116,Yes,Medium,77,3,Desert,154,86,No,compromised
+ID3238,Body Armor Sensor,60,8,59,123,Yes,Medium,96,2,Desert,162,97,No,compromised
+ID1818,Drone,87,42,45,134,Yes,Medium,45,1,Forest,175,78,Yes,normal
+ID4907,Communication Equipment,39,15,80,294,No,High,44,3,Arctic,39,79,No,compromised
+ID1170,Unmanned Ground Vehicle,45,21,29,167,Yes,High,75,2,Forest,159,185,Yes,compromised
+ID2025,Radar System,83,37,46,382,No,Low,31,0,Forest,89,100,No,compromised
+ID2203,Weapon System,30,-1,41,328,Yes,Medium,67,0,Forest,142,156,Yes,compromised
+ID5571,Body Armor Sensor,25,35,33,315,Yes,Medium,34,5,Desert,63,35,Yes,normal
+ID6007,Drone,94,0,90,285,No,Low,63,3,Arctic,117,8,No,compromised
+ID8745,Drone,78,-6,53,148,Yes,Medium,99,2,Urban,62,113,No,compromised
+ID4714,Unmanned Ground Vehicle,24,8,65,147,Yes,High,85,4,Desert,60,16,Yes,compromised
+ID2596,Surveillance Camera,68,56,73,489,Yes,Low,42,0,Forest,59,46,Yes,compromised
+ID1143,Communication Equipment,66,-5,53,415,Yes,High,34,5,Urban,120,1,Yes,normal
+ID8891,Communication Equipment,90,23,76,456,Yes,Low,45,3,Urban,77,49,Yes,normal
+ID5401,Body Armor Sensor,69,2,75,272,Yes,Low,83,1,Arctic,35,151,No,compromised
+ID6078,Body Armor Sensor,23,43,22,423,Yes,High,3,1,Arctic,41,59,Yes,compromised
+ID7694,Weapon System,16,15,42,252,No,Medium,68,5,Arctic,86,55,No,compromised
+ID6744,Body Armor Sensor,75,6,36,277,No,Low,34,2,Forest,147,134,Yes,compromised
+ID3996,Weapon System,59,11,64,419,Yes,Low,29,1,Urban,42,10,Yes,normal
+ID8253,Communication Equipment,92,35,49,130,Yes,Low,16,5,Desert,70,29,Yes,normal
+ID3256,Communication Equipment,99,12,35,129,Yes,High,48,3,Arctic,117,63,Yes,normal
+ID2801,Drone,33,-3,74,210,Yes,Low,30,3,Urban,180,7,Yes,normal
+ID3956,Unmanned Ground Vehicle,37,58,68,166,Yes,Low,37,5,Desert,143,174,No,compromised
+ID4245,Weapon System,46,28,66,216,Yes,Medium,23,4,Desert,136,41,Yes,normal
+ID8978,Drone,94,34,60,216,Yes,High,54,2,Forest,140,15,No,compromised
+ID2778,Body Armor Sensor,67,42,34,126,Yes,Low,15,2,Forest,141,77,Yes,normal
+ID8954,Surveillance Camera,18,28,76,230,No,High,24,4,Desert,82,137,Yes,compromised
+ID9998,Radar System,46,12,50,339,Yes,Low,4,3,Arctic,115,87,Yes,normal
+ID2074,Weapon System,51,-6,82,334,Yes,Low,35,2,Arctic,176,81,Yes,normal
+ID4181,Surveillance Camera,99,40,54,211,Yes,Low,14,2,Desert,35,15,Yes,normal
+ID4421,Weapon System,52,23,79,142,Yes,Low,25,2,Arctic,154,113,No,compromised
+ID4583,Drone,80,19,53,226,Yes,Low,41,4,Desert,57,30,Yes,normal
+ID8396,Communication Equipment,44,17,31,493,Yes,Low,26,3,Forest,122,68,Yes,normal
+ID2377,Body Armor Sensor,63,56,97,278,No,Low,34,1,Urban,175,69,No,compromised
+ID1091,Body Armor Sensor,71,20,71,352,Yes,Low,35,0,Desert,66,55,Yes,normal
+ID3319,Weapon System,46,7,71,264,Yes,Medium,24,0,Desert,121,83,Yes,normal
+ID5116,Drone,66,42,60,165,No,High,53,0,Desert,154,61,Yes,compromised
+ID1985,Drone,66,35,40,150,Yes,High,67,0,Desert,89,31,Yes,compromised
+ID2391,Body Armor Sensor,93,29,34,434,No,Low,0,0,Forest,98,86,Yes,compromised
+ID2488,Communication Equipment,63,-7,95,375,Yes,Low,16,1,Urban,31,60,Yes,normal
+ID2713,Communication Equipment,44,46,83,368,Yes,High,43,2,Forest,87,171,Yes,compromised
+ID4312,Body Armor Sensor,99,23,83,123,Yes,Medium,38,5,Desert,137,81,Yes,normal
+ID6110,Body Armor Sensor,85,46,73,370,Yes,Medium,41,2,Urban,140,49,Yes,normal
+ID4231,Surveillance Camera,74,46,98,365,No,Low,29,3,Urban,138,93,Yes,compromised
+ID1996,Weapon System,84,14,33,309,Yes,Low,21,5,Forest,84,63,Yes,normal
+ID7055,Radar System,72,19,94,313,Yes,High,56,0,Urban,141,19,No,compromised
+ID7351,Radar System,10,35,58,360,No,High,21,3,Desert,42,98,Yes,compromised
+ID6591,Communication Equipment,58,-3,63,112,Yes,Medium,40,2,Desert,102,51,Yes,normal
+ID8369,Unmanned Ground Vehicle,53,32,91,414,Yes,High,26,3,Forest,180,90,Yes,normal
+ID9766,Drone,60,24,40,212,Yes,Low,23,5,Arctic,40,40,Yes,normal
+ID2206,Drone,18,9,44,389,No,Low,79,2,Forest,54,48,Yes,compromised
+ID9086,Radar System,82,47,48,116,Yes,High,90,5,Urban,37,104,Yes,compromised
+ID9937,Weapon System,90,39,88,458,Yes,Low,14,3,Desert,79,21,Yes,normal
+ID7304,Communication Equipment,42,42,83,488,Yes,Low,27,5,Arctic,158,16,Yes,normal
+ID7826,Communication Equipment,57,16,84,327,Yes,Low,84,1,Urban,144,3,Yes,compromised
+ID3049,Weapon System,64,35,31,406,Yes,High,100,3,Desert,77,7,No,compromised
+ID2488,Unmanned Ground Vehicle,74,12,55,369,No,Medium,73,2,Arctic,62,118,Yes,compromised
+ID5696,Surveillance Camera,95,53,86,348,Yes,Low,50,1,Urban,157,160,Yes,compromised
+ID6956,Drone,29,49,98,185,Yes,Low,48,0,Arctic,105,14,Yes,normal
+ID5338,Drone,36,26,96,216,Yes,Medium,18,3,Arctic,103,37,Yes,normal
+ID4961,Unmanned Ground Vehicle,62,41,35,408,Yes,High,16,3,Desert,125,98,Yes,normal
+ID9673,Unmanned Ground Vehicle,82,22,95,114,Yes,Medium,12,5,Urban,95,10,Yes,normal
+ID9741,Communication Equipment,21,-1,88,139,Yes,Low,37,1,Arctic,54,1,Yes,normal
+ID2620,Surveillance Camera,68,4,89,262,Yes,Medium,12,2,Urban,165,2,Yes,normal
+ID9775,Drone,83,26,71,356,Yes,High,21,3,Urban,166,41,No,compromised
+ID1865,Communication Equipment,80,25,62,268,Yes,Medium,46,1,Forest,82,40,Yes,normal
+ID2307,Communication Equipment,33,32,64,222,No,Low,92,5,Desert,137,77,Yes,compromised
+ID3490,Radar System,68,8,41,117,Yes,Low,22,3,Arctic,68,95,Yes,normal
+ID5270,Body Armor Sensor,57,-9,35,108,Yes,High,43,2,Arctic,92,99,Yes,normal
+ID9811,Communication Equipment,73,37,82,226,No,Low,40,0,Desert,89,50,Yes,compromised
+ID2164,Drone,43,45,51,173,Yes,Low,48,0,Arctic,51,23,Yes,normal
+ID2366,Communication Equipment,61,25,33,475,Yes,Low,7,0,Arctic,154,79,Yes,normal
+ID8859,Body Armor Sensor,55,41,45,134,No,Low,77,4,Urban,97,126,Yes,compromised
+ID6357,Surveillance Camera,95,22,77,294,Yes,High,79,4,Desert,136,2,Yes,compromised
+ID2619,Radar System,99,-9,77,196,Yes,Low,43,3,Urban,153,64,Yes,normal
+ID3529,Body Armor Sensor,27,24,97,233,Yes,High,1,5,Forest,99,129,Yes,compromised
+ID2147,Body Armor Sensor,31,-7,66,400,Yes,High,14,0,Urban,173,107,No,compromised
+ID8372,Unmanned Ground Vehicle,30,45,45,163,No,Low,66,3,Forest,89,66,No,compromised
+ID6997,Body Armor Sensor,19,-9,93,447,Yes,Medium,78,4,Arctic,70,46,Yes,compromised
+ID1858,Surveillance Camera,32,8,86,146,Yes,Low,14,5,Arctic,128,81,Yes,normal
+ID6784,Surveillance Camera,26,10,91,139,Yes,Low,48,5,Urban,120,49,Yes,normal
+ID7098,Weapon System,48,33,34,242,No,High,59,3,Desert,89,11,No,compromised
+ID4653,Surveillance Camera,55,-4,51,145,No,Medium,76,1,Arctic,117,135,No,compromised
+ID1094,Drone,99,5,64,423,Yes,High,20,0,Arctic,158,20,Yes,normal
+ID4534,Unmanned Ground Vehicle,86,29,50,245,Yes,Medium,23,4,Desert,178,9,Yes,normal
+ID7084,Drone,95,-5,49,102,No,High,44,1,Urban,86,82,Yes,compromised
+ID3588,Unmanned Ground Vehicle,25,-10,75,201,Yes,Low,23,2,Arctic,156,46,Yes,normal
+ID5170,Weapon System,24,41,58,407,No,Medium,72,0,Desert,35,184,Yes,compromised
+ID1165,Radar System,52,54,31,422,Yes,High,80,5,Desert,131,44,No,compromised
+ID8583,Surveillance Camera,81,25,47,418,Yes,High,41,3,Forest,41,183,No,compromised
+ID5841,Body Armor Sensor,72,27,77,250,Yes,High,43,2,Forest,96,49,Yes,normal
+ID7713,Radar System,25,-8,38,192,Yes,High,10,1,Urban,74,92,Yes,normal
+ID6002,Unmanned Ground Vehicle,20,41,40,461,Yes,High,12,0,Urban,164,80,Yes,normal
+ID9090,Drone,97,1,87,169,Yes,High,20,3,Desert,60,13,Yes,normal
+ID8266,Body Armor Sensor,79,55,29,318,No,Low,68,5,Forest,158,57,No,compromised
+ID2102,Body Armor Sensor,44,-6,74,488,Yes,Low,36,2,Desert,176,80,Yes,normal
+ID7541,Unmanned Ground Vehicle,98,-3,97,195,Yes,High,43,4,Arctic,153,16,Yes,normal
+ID5326,Communication Equipment,38,6,97,400,Yes,Low,34,3,Desert,124,93,Yes,normal
+ID6027,Weapon System,74,-5,82,168,Yes,High,33,2,Forest,169,154,Yes,compromised
+ID8151,Weapon System,55,24,78,292,Yes,Medium,11,4,Arctic,56,26,Yes,normal
+ID8338,Radar System,15,54,24,403,No,High,57,5,Forest,83,129,Yes,compromised
+ID3767,Unmanned Ground Vehicle,62,36,93,449,Yes,High,29,4,Desert,34,7,Yes,normal
+ID9952,Communication Equipment,67,46,42,175,Yes,Low,38,0,Arctic,50,42,Yes,normal
+ID4785,Radar System,50,54,44,136,Yes,Medium,81,5,Arctic,84,48,No,compromised
+ID5638,Body Armor Sensor,61,-6,66,271,Yes,Medium,11,4,Arctic,78,31,Yes,normal
+ID7594,Radar System,99,-1,44,276,Yes,High,6,4,Arctic,158,35,Yes,normal
+ID1377,Radar System,79,57,51,102,No,Low,58,3,Urban,175,83,No,compromised
+ID8093,Communication Equipment,25,36,67,433,No,High,80,1,Desert,85,131,Yes,compromised
+ID7315,Weapon System,32,30,51,108,Yes,High,11,3,Desert,33,25,Yes,normal
+ID7303,Communication Equipment,86,46,96,395,Yes,Medium,18,3,Forest,96,57,Yes,normal
+ID3789,Unmanned Ground Vehicle,52,2,80,129,Yes,High,75,5,Desert,121,176,No,compromised
+ID6709,Drone,47,24,36,455,Yes,High,3,3,Desert,89,61,Yes,normal
+ID2425,Communication Equipment,23,0,71,160,Yes,High,27,0,Desert,43,53,Yes,normal
+ID7948,Radar System,67,-9,54,271,Yes,High,100,0,Urban,31,68,Yes,compromised
+ID3402,Communication Equipment,90,2,80,120,Yes,High,33,4,Arctic,117,28,Yes,normal
+ID6529,Radar System,32,-6,66,243,Yes,High,21,3,Arctic,62,76,Yes,normal
+ID2373,Unmanned Ground Vehicle,57,37,95,375,Yes,Medium,36,2,Forest,143,37,Yes,normal
+ID7812,Drone,28,47,36,354,Yes,High,78,5,Forest,103,59,No,compromised
+ID5839,Communication Equipment,26,47,67,166,Yes,Low,25,1,Urban,75,68,Yes,normal
+ID5284,Communication Equipment,26,5,45,307,Yes,Medium,40,0,Forest,126,3,Yes,normal
+ID8432,Communication Equipment,79,39,23,495,No,Low,32,1,Desert,31,148,Yes,compromised
+ID4198,Body Armor Sensor,81,48,36,290,Yes,Medium,40,2,Arctic,130,76,Yes,normal
+ID1765,Weapon System,73,37,43,183,Yes,Medium,44,3,Urban,112,131,No,compromised
+ID5924,Weapon System,96,37,90,313,No,Low,96,1,Urban,66,16,Yes,compromised
+ID5188,Radar System,62,43,63,118,Yes,High,46,3,Forest,37,11,No,compromised
+ID3657,Weapon System,31,13,49,216,Yes,Low,9,1,Arctic,67,11,Yes,normal
+ID2610,Drone,46,39,67,112,Yes,High,17,3,Desert,100,33,Yes,normal
+ID9177,Surveillance Camera,82,9,50,494,Yes,High,49,1,Urban,51,189,Yes,compromised
+ID9129,Body Armor Sensor,72,-3,67,418,Yes,Low,1,1,Urban,111,96,Yes,normal
+ID5184,Body Armor Sensor,38,23,40,499,Yes,Medium,21,2,Forest,80,106,Yes,compromised
+ID7528,Unmanned Ground Vehicle,16,40,83,237,No,Low,47,2,Arctic,141,133,No,compromised
+ID9832,Communication Equipment,84,8,62,319,Yes,Medium,3,5,Forest,136,57,Yes,normal
+ID5759,Radar System,20,31,84,300,Yes,High,14,0,Forest,111,43,Yes,normal
+ID3850,Radar System,68,11,91,379,Yes,Low,57,4,Desert,107,18,Yes,compromised
+ID6835,Weapon System,12,-9,67,276,No,High,17,1,Urban,105,114,No,compromised
+ID1139,Unmanned Ground Vehicle,70,36,73,117,Yes,Medium,22,0,Arctic,154,54,Yes,normal
+ID1027,Weapon System,77,17,72,461,Yes,High,23,3,Desert,107,44,Yes,normal
+ID1940,Drone,71,3,87,332,No,Medium,4,5,Urban,165,31,Yes,compromised
+ID6458,Unmanned Ground Vehicle,31,15,86,324,Yes,Low,4,0,Desert,75,58,Yes,normal
+ID9744,Unmanned Ground Vehicle,76,15,56,154,Yes,Low,24,2,Arctic,165,0,Yes,normal
+ID5675,Body Armor Sensor,47,47,35,248,Yes,Low,10,0,Urban,89,81,No,compromised
+ID8149,Drone,60,36,55,237,Yes,High,48,4,Forest,85,85,Yes,normal
+ID4629,Body Armor Sensor,69,52,21,137,Yes,Low,20,5,Urban,74,88,No,compromised
+ID8203,Drone,69,39,38,398,Yes,High,41,4,Urban,135,65,Yes,normal
+ID4244,Drone,30,47,71,331,Yes,Low,36,2,Arctic,169,79,Yes,normal
+ID4834,Drone,100,32,98,462,Yes,Medium,13,0,Desert,37,72,Yes,normal
+ID2559,Surveillance Camera,74,29,61,474,Yes,Low,42,3,Urban,133,88,Yes,normal
+ID2303,Unmanned Ground Vehicle,84,16,40,402,Yes,Medium,40,2,Desert,94,52,Yes,normal
+ID3603,Body Armor Sensor,80,-5,99,324,Yes,Medium,21,3,Forest,68,58,Yes,normal
+ID6616,Unmanned Ground Vehicle,38,-7,99,255,Yes,Low,29,0,Desert,176,132,Yes,compromised
+ID6843,Surveillance Camera,81,23,51,488,Yes,Medium,27,2,Arctic,54,89,Yes,normal
+ID9708,Radar System,18,4,31,330,No,Low,13,5,Urban,56,174,No,compromised
+ID3138,Surveillance Camera,16,26,86,383,No,High,57,4,Forest,172,32,No,compromised
+ID1126,Communication Equipment,84,50,28,338,Yes,Low,11,0,Arctic,99,37,Yes,compromised
+ID1441,Radar System,21,26,30,327,Yes,High,15,2,Arctic,88,48,Yes,normal
+ID1793,Surveillance Camera,83,18,59,405,No,High,49,3,Urban,167,23,Yes,compromised
+ID8977,Radar System,53,-2,83,442,Yes,Low,93,2,Arctic,135,126,Yes,compromised
+ID3087,Body Armor Sensor,52,24,56,210,Yes,Medium,46,4,Urban,113,83,Yes,normal
+ID9377,Unmanned Ground Vehicle,79,48,59,496,Yes,Medium,39,0,Desert,134,18,Yes,normal
+ID4536,Unmanned Ground Vehicle,34,11,71,440,Yes,Medium,27,4,Forest,85,54,Yes,normal
+ID3104,Body Armor Sensor,21,50,49,479,Yes,Medium,50,0,Forest,115,7,Yes,normal
+ID5153,Drone,53,34,21,458,Yes,Low,46,1,Urban,93,144,Yes,compromised
+ID2568,Radar System,67,40,56,151,Yes,High,10,2,Forest,148,31,Yes,normal
+ID3123,Communication Equipment,32,1,89,442,Yes,Medium,45,5,Urban,160,79,Yes,normal
+ID7982,Weapon System,73,-9,50,393,Yes,Medium,43,3,Forest,62,31,Yes,normal
+ID2676,Communication Equipment,76,8,79,433,Yes,Low,30,4,Urban,155,64,Yes,normal
+ID3410,Unmanned Ground Vehicle,42,46,50,490,Yes,High,15,4,Desert,94,83,Yes,normal
+ID8342,Body Armor Sensor,80,1,73,368,Yes,Low,4,3,Forest,54,12,Yes,normal
+ID6751,Radar System,94,-7,83,118,Yes,Low,3,1,Arctic,152,85,Yes,normal
+ID2623,Communication Equipment,24,16,62,359,Yes,High,0,5,Urban,108,89,Yes,normal
+ID5284,Body Armor Sensor,91,28,46,321,Yes,High,20,3,Desert,117,7,Yes,normal
+ID7125,Surveillance Camera,92,49,35,189,No,Low,58,2,Urban,94,17,Yes,compromised
+ID4433,Surveillance Camera,76,3,42,351,No,Medium,43,2,Urban,124,9,Yes,compromised
+ID2937,Body Armor Sensor,99,15,94,240,Yes,Low,4,1,Urban,47,60,Yes,normal
+ID8539,Body Armor Sensor,31,39,66,474,Yes,High,36,5,Arctic,148,46,Yes,normal
+ID9808,Unmanned Ground Vehicle,62,39,50,364,Yes,Low,35,4,Urban,33,29,Yes,normal
+ID4670,Body Armor Sensor,57,-9,91,263,Yes,High,8,4,Arctic,97,10,Yes,normal
+ID4614,Communication Equipment,79,47,100,431,No,Medium,6,5,Urban,163,38,Yes,compromised
+ID1992,Drone,76,2,87,216,Yes,Medium,99,1,Arctic,120,141,Yes,compromised
+ID4267,Drone,82,37,91,332,Yes,High,57,4,Forest,39,43,No,compromised
+ID5860,Radar System,38,31,83,234,Yes,Low,42,1,Desert,122,25,Yes,normal
+ID2837,Communication Equipment,57,30,57,280,Yes,Medium,21,4,Arctic,32,33,Yes,normal
+ID7226,Drone,89,55,54,220,No,Medium,44,4,Forest,163,4,Yes,compromised
+ID5603,Drone,86,8,69,123,Yes,High,90,1,Desert,114,181,No,compromised
+ID7953,Weapon System,45,43,83,408,Yes,High,3,1,Desert,112,88,Yes,normal
+ID5437,Communication Equipment,90,17,53,476,Yes,High,40,2,Desert,96,84,Yes,normal
+ID5713,Surveillance Camera,79,28,23,252,No,Low,4,0,Urban,56,38,No,compromised
+ID2915,Radar System,25,33,54,443,Yes,Low,25,0,Forest,76,56,Yes,normal
+ID3091,Drone,45,6,97,234,Yes,High,67,1,Arctic,151,197,Yes,compromised
+ID3012,Weapon System,80,17,73,167,Yes,Low,22,1,Desert,179,24,Yes,normal
+ID6180,Radar System,35,59,76,233,No,Low,29,1,Arctic,99,170,Yes,compromised
+ID8291,Communication Equipment,93,0,69,259,Yes,Low,13,2,Arctic,33,41,Yes,normal
+ID3237,Body Armor Sensor,95,5,85,178,Yes,Medium,42,2,Desert,33,77,Yes,normal
+ID2674,Weapon System,51,-9,83,396,Yes,Medium,46,2,Urban,178,47,Yes,normal
+ID6672,Communication Equipment,77,58,56,493,No,Low,94,5,Forest,76,175,No,compromised
+ID4449,Drone,93,-6,73,411,Yes,Medium,2,4,Urban,88,56,Yes,normal
+ID1121,Body Armor Sensor,42,21,85,235,No,High,62,1,Forest,108,141,Yes,compromised
+ID7168,Radar System,63,24,67,432,Yes,Medium,34,0,Arctic,96,10,Yes,normal
+ID2841,Radar System,47,14,31,174,No,Medium,89,0,Desert,171,187,Yes,compromised
+ID4074,Body Armor Sensor,77,31,69,129,Yes,Low,47,2,Urban,147,27,Yes,normal
+ID3892,Drone,48,5,94,323,Yes,Low,5,1,Arctic,109,60,Yes,normal
+ID5512,Body Armor Sensor,98,-10,81,473,Yes,High,40,5,Urban,46,71,Yes,normal
+ID6986,Body Armor Sensor,51,-4,80,480,Yes,Low,20,2,Forest,104,30,No,compromised
+ID6144,Surveillance Camera,11,36,87,223,No,Low,10,5,Arctic,120,124,Yes,compromised
+ID2581,Unmanned Ground Vehicle,15,21,98,427,Yes,Medium,34,0,Desert,77,192,Yes,compromised
+ID5424,Drone,58,13,39,384,Yes,Low,8,2,Desert,73,65,Yes,normal
+ID6314,Communication Equipment,41,17,23,212,Yes,Medium,77,5,Urban,61,62,No,compromised
+ID5981,Communication Equipment,85,47,44,295,No,Low,9,2,Desert,140,71,Yes,compromised
+ID6711,Weapon System,94,2,70,356,Yes,High,24,0,Forest,104,5,Yes,normal
+ID5444,Communication Equipment,21,-7,98,356,Yes,Medium,34,5,Forest,180,7,Yes,normal
+ID5970,Radar System,92,-4,43,319,Yes,Medium,16,3,Forest,95,53,Yes,normal
+ID8143,Body Armor Sensor,92,-6,49,255,No,Medium,79,3,Forest,83,89,No,compromised
+ID7894,Weapon System,18,10,89,417,No,Medium,19,4,Desert,55,41,No,compromised
+ID8306,Weapon System,57,27,81,109,Yes,Medium,62,0,Urban,122,87,No,compromised
+ID7647,Drone,17,41,79,254,Yes,Medium,76,2,Urban,37,43,Yes,compromised
+ID9943,Surveillance Camera,33,-7,92,378,Yes,High,25,4,Arctic,70,25,Yes,normal
+ID2443,Communication Equipment,54,18,60,258,Yes,High,53,1,Urban,48,185,No,compromised
+ID4482,Radar System,22,57,97,468,Yes,High,52,2,Desert,179,191,Yes,compromised
+ID3844,Body Armor Sensor,70,27,33,227,Yes,Medium,13,3,Forest,117,95,Yes,normal
+ID7372,Weapon System,85,-2,75,200,Yes,Medium,23,3,Desert,100,20,Yes,normal
+ID1552,Surveillance Camera,47,21,38,262,Yes,Low,91,5,Arctic,108,6,No,compromised
+ID4834,Drone,97,15,84,472,Yes,Low,50,5,Forest,165,52,Yes,normal
+ID6736,Weapon System,32,-10,32,292,Yes,Medium,20,0,Urban,132,56,Yes,normal
+ID9995,Radar System,86,32,87,185,Yes,High,1,0,Desert,118,59,Yes,normal
+ID4379,Communication Equipment,70,47,76,402,Yes,High,41,3,Urban,54,50,Yes,normal
+ID5195,Unmanned Ground Vehicle,70,46,33,384,Yes,High,37,0,Forest,32,41,Yes,normal
+ID2138,Drone,41,49,81,341,Yes,Medium,42,0,Urban,163,54,Yes,normal
+ID7699,Surveillance Camera,39,21,81,356,No,High,4,5,Urban,30,24,Yes,compromised
+ID5267,Body Armor Sensor,74,53,56,336,Yes,High,30,0,Urban,73,42,Yes,compromised
+ID4414,Surveillance Camera,39,58,50,478,No,Low,38,0,Arctic,69,188,No,compromised
+ID4895,Radar System,67,19,82,127,Yes,Medium,26,5,Urban,97,36,Yes,normal
+ID3266,Communication Equipment,67,17,69,242,Yes,High,29,4,Desert,116,98,Yes,normal
+ID5869,Body Armor Sensor,42,40,58,443,No,High,79,0,Forest,90,85,Yes,compromised
+ID1431,Communication Equipment,11,30,36,180,No,Medium,78,4,Desert,93,172,No,compromised
+ID1892,Drone,68,-8,55,290,No,Medium,97,4,Arctic,88,196,No,compromised
+ID5858,Weapon System,68,33,97,118,Yes,High,0,1,Urban,177,77,Yes,normal
+ID1077,Communication Equipment,45,35,60,463,Yes,Medium,21,0,Urban,79,26,Yes,normal
+ID1404,Radar System,33,19,94,253,No,High,66,1,Urban,94,102,No,compromised
+ID1381,Communication Equipment,68,27,62,432,Yes,Low,35,2,Desert,61,97,Yes,normal
+ID8819,Unmanned Ground Vehicle,59,27,35,121,Yes,High,0,0,Desert,101,138,Yes,compromised
+ID8709,Communication Equipment,37,37,26,105,Yes,High,95,5,Desert,135,56,Yes,compromised
+ID5702,Radar System,83,-9,21,231,No,Low,55,5,Arctic,75,147,No,compromised
+ID6501,Body Armor Sensor,91,30,25,405,No,Low,46,5,Arctic,52,60,No,compromised
+ID9290,Weapon System,43,20,34,326,No,High,25,4,Desert,102,31,No,compromised
+ID5645,Body Armor Sensor,21,24,51,218,Yes,Medium,46,2,Desert,107,9,Yes,normal
+ID7283,Surveillance Camera,29,45,98,343,Yes,Medium,80,5,Forest,34,83,No,compromised
+ID8222,Radar System,13,53,53,491,No,Medium,33,3,Arctic,61,168,No,compromised
+ID7150,Unmanned Ground Vehicle,17,32,86,117,Yes,Low,36,4,Forest,100,166,Yes,compromised
+ID4163,Weapon System,72,-1,35,315,Yes,Low,14,3,Desert,111,96,Yes,normal
+ID2736,Unmanned Ground Vehicle,84,17,80,127,Yes,High,30,5,Urban,57,31,Yes,normal
+ID8042,Weapon System,49,-6,65,380,Yes,Medium,13,1,Urban,94,51,Yes,normal
+ID7786,Body Armor Sensor,59,11,20,131,Yes,High,95,0,Urban,118,14,No,compromised
+ID1312,Body Armor Sensor,58,35,56,292,Yes,High,19,0,Arctic,158,6,Yes,normal
+ID8788,Communication Equipment,57,13,79,219,Yes,Medium,26,3,Urban,42,70,Yes,normal
+ID4299,Weapon System,27,31,20,472,Yes,Medium,49,1,Arctic,105,141,No,compromised
+ID9300,Weapon System,53,43,97,270,No,Low,69,2,Urban,101,195,No,compromised
+ID3841,Communication Equipment,38,27,59,402,Yes,Medium,39,0,Forest,116,32,Yes,normal
+ID1334,Weapon System,85,50,44,270,Yes,High,0,2,Forest,162,130,Yes,compromised
+ID5822,Weapon System,69,30,52,209,Yes,Medium,30,0,Arctic,98,36,Yes,normal
+ID9897,Surveillance Camera,55,27,47,359,No,Low,16,5,Forest,56,78,No,compromised
+ID5699,Unmanned Ground Vehicle,47,54,87,151,No,High,33,4,Forest,114,193,No,compromised
+ID1535,Radar System,95,44,49,479,Yes,Low,6,2,Forest,161,1,Yes,normal
+ID7952,Weapon System,21,17,47,435,Yes,High,8,2,Forest,131,33,Yes,normal
+ID9101,Body Armor Sensor,10,-4,68,152,No,High,10,0,Desert,75,73,Yes,compromised
+ID3035,Surveillance Camera,35,46,25,216,No,High,22,1,Forest,87,122,No,compromised
+ID7640,Drone,52,15,78,255,No,Medium,36,4,Urban,61,110,No,compromised
+ID8349,Unmanned Ground Vehicle,51,-10,44,329,No,Medium,55,1,Urban,114,23,Yes,compromised
+ID6772,Weapon System,30,49,77,175,Yes,Medium,8,0,Forest,128,77,Yes,normal
+ID7515,Communication Equipment,93,55,39,484,Yes,High,93,1,Desert,134,183,No,compromised
+ID2121,Radar System,94,5,72,155,Yes,Low,29,5,Urban,71,114,No,compromised
+ID3128,Communication Equipment,76,52,70,441,Yes,High,60,2,Urban,54,43,Yes,compromised
+ID3258,Communication Equipment,24,10,91,185,Yes,Low,58,1,Desert,102,105,Yes,compromised
+ID4961,Communication Equipment,40,43,40,491,Yes,Medium,7,0,Forest,173,4,Yes,normal
+ID6476,Body Armor Sensor,14,2,46,312,No,High,87,0,Desert,131,22,Yes,compromised
+ID4371,Communication Equipment,91,18,65,238,Yes,Low,38,4,Arctic,142,73,Yes,normal
+ID9877,Radar System,74,42,97,193,Yes,High,59,3,Forest,169,188,Yes,compromised
+ID4999,Weapon System,42,13,90,364,Yes,High,8,3,Desert,156,114,No,compromised
+ID4995,Radar System,46,18,47,336,Yes,Medium,71,0,Desert,164,73,No,compromised
+ID4883,Unmanned Ground Vehicle,37,50,76,110,No,Medium,73,4,Arctic,141,197,No,compromised
+ID6292,Weapon System,68,3,24,109,Yes,Low,2,5,Forest,115,66,Yes,compromised
+ID4965,Unmanned Ground Vehicle,56,10,63,377,Yes,High,2,2,Arctic,117,78,Yes,normal
+ID9216,Communication Equipment,37,3,39,368,Yes,Medium,48,1,Urban,62,55,Yes,normal
+ID1695,Drone,55,34,86,480,No,High,59,0,Forest,100,65,No,compromised
+ID7116,Weapon System,53,46,44,178,Yes,Medium,28,1,Arctic,169,50,Yes,normal
+ID2459,Body Armor Sensor,33,50,50,137,No,High,48,1,Arctic,59,135,Yes,compromised
+ID1164,Drone,74,26,23,489,Yes,High,37,3,Desert,171,55,Yes,compromised
+ID9872,Communication Equipment,67,42,86,184,Yes,High,42,2,Forest,155,95,Yes,normal
+ID4847,Surveillance Camera,31,45,71,336,Yes,Low,15,5,Urban,31,50,Yes,normal
+ID2935,Body Armor Sensor,40,24,67,235,Yes,Low,15,3,Desert,69,89,No,compromised
+ID7172,Surveillance Camera,84,23,39,492,Yes,High,37,2,Arctic,163,27,Yes,normal
+ID8902,Drone,27,59,45,186,Yes,High,68,0,Forest,84,184,No,compromised
+ID9651,Drone,30,26,48,431,Yes,Low,66,5,Arctic,169,27,No,compromised
+ID8541,Body Armor Sensor,98,30,78,420,No,High,49,2,Urban,129,113,No,compromised
+ID7044,Weapon System,94,43,67,243,Yes,High,16,0,Urban,119,12,Yes,normal
+ID1965,Body Armor Sensor,95,39,33,318,No,Low,8,4,Forest,162,154,Yes,compromised
+ID5385,Radar System,70,3,37,170,Yes,Low,3,0,Forest,167,0,Yes,normal
+ID3780,Body Armor Sensor,46,5,73,300,Yes,High,15,1,Desert,33,29,Yes,normal
+ID4060,Weapon System,82,-7,100,166,Yes,Medium,19,2,Arctic,103,0,Yes,normal
+ID4440,Surveillance Camera,65,-3,79,343,No,High,17,2,Arctic,112,2,Yes,compromised
+ID1585,Surveillance Camera,82,34,44,178,Yes,Medium,27,0,Urban,81,83,Yes,normal
+ID3389,Drone,65,35,48,371,Yes,Medium,42,4,Arctic,148,5,Yes,normal
+ID3916,Radar System,21,-7,65,426,Yes,High,93,1,Desert,97,184,No,compromised
+ID8727,Radar System,23,13,21,386,Yes,Medium,93,5,Desert,92,97,Yes,compromised
+ID5495,Weapon System,69,-7,58,118,No,Low,26,5,Forest,135,42,Yes,compromised
+ID9679,Radar System,61,50,94,211,No,Low,70,0,Desert,33,132,No,compromised
+ID2781,Unmanned Ground Vehicle,15,43,42,190,Yes,Medium,93,0,Desert,126,33,Yes,compromised
+ID6926,Surveillance Camera,91,12,67,141,Yes,Low,5,2,Desert,132,16,Yes,normal
+ID2990,Weapon System,42,52,39,182,Yes,High,79,0,Urban,60,136,No,compromised
+ID4014,Weapon System,64,28,27,335,No,Low,12,3,Forest,133,170,Yes,compromised
+ID7976,Body Armor Sensor,22,11,80,465,Yes,High,34,3,Arctic,104,37,Yes,normal
+ID2868,Communication Equipment,84,42,22,318,No,Low,36,1,Arctic,126,105,No,compromised
+ID9954,Unmanned Ground Vehicle,84,-9,50,304,No,High,93,1,Arctic,175,71,Yes,compromised
+ID3873,Drone,65,5,70,417,No,Medium,27,2,Arctic,48,127,Yes,compromised
+ID8512,Drone,48,56,74,299,No,High,98,5,Arctic,105,137,No,compromised
+ID1510,Radar System,73,53,55,419,No,Medium,53,1,Urban,146,64,No,compromised
+ID6119,Radar System,93,45,50,328,No,High,15,0,Forest,177,54,No,compromised
+ID2784,Communication Equipment,80,10,76,282,Yes,Medium,9,4,Desert,158,12,Yes,normal
+ID2921,Unmanned Ground Vehicle,33,34,33,307,Yes,Medium,30,2,Urban,72,54,Yes,normal
+ID7795,Body Armor Sensor,86,49,67,359,Yes,High,24,0,Desert,49,26,No,compromised
+ID8163,Unmanned Ground Vehicle,13,-1,49,378,Yes,High,64,5,Desert,42,86,No,compromised
+ID4008,Radar System,65,1,61,441,Yes,Low,48,2,Forest,102,89,Yes,normal
+ID3148,Drone,41,21,69,135,Yes,Low,48,4,Arctic,145,63,Yes,normal
+ID8143,Weapon System,90,21,43,317,No,Medium,100,0,Forest,103,152,Yes,compromised
+ID2176,Body Armor Sensor,86,33,54,449,Yes,High,27,4,Urban,130,18,Yes,normal
+ID4393,Unmanned Ground Vehicle,37,47,53,132,No,High,16,2,Urban,98,47,Yes,compromised
+ID3653,Radar System,53,4,92,101,No,Medium,6,3,Desert,90,131,No,compromised
+ID5890,Radar System,37,-3,40,417,Yes,High,32,2,Desert,107,88,Yes,normal
+ID2356,Drone,70,48,33,152,No,Low,93,2,Forest,126,87,No,compromised
+ID4709,Radar System,77,49,96,443,Yes,High,36,2,Arctic,81,53,Yes,normal
+ID3876,Weapon System,95,12,46,347,Yes,Medium,59,5,Forest,53,107,No,compromised
+ID6407,Surveillance Camera,30,24,98,492,Yes,High,26,3,Desert,67,14,Yes,normal
+ID5633,Weapon System,49,21,71,196,Yes,Low,70,0,Arctic,63,61,No,compromised
+ID7217,Unmanned Ground Vehicle,81,40,55,121,Yes,Low,38,2,Arctic,146,53,Yes,normal
+ID5681,Weapon System,71,24,88,244,Yes,Medium,32,2,Arctic,100,64,Yes,normal
+ID6432,Weapon System,31,9,100,467,Yes,Low,54,4,Desert,161,156,No,compromised
+ID1046,Surveillance Camera,71,9,40,364,No,Low,65,1,Forest,168,45,Yes,compromised
+ID7794,Body Armor Sensor,76,0,48,201,Yes,Medium,16,2,Desert,103,47,Yes,normal
+ID4957,Body Armor Sensor,44,39,83,346,Yes,Low,11,5,Arctic,169,88,No,compromised
+ID7093,Surveillance Camera,86,16,49,469,Yes,Medium,24,2,Forest,168,136,No,compromised
+ID5396,Body Armor Sensor,42,33,95,291,Yes,High,24,4,Urban,126,77,Yes,normal
+ID1356,Body Armor Sensor,94,33,37,489,Yes,High,36,0,Desert,150,32,Yes,normal
+ID2516,Body Armor Sensor,15,16,69,270,No,Medium,8,4,Desert,64,87,No,compromised
+ID2390,Radar System,56,36,29,216,No,Medium,45,5,Arctic,86,148,Yes,compromised
+ID8314,Surveillance Camera,95,-10,53,242,No,Medium,0,1,Urban,173,90,No,compromised
+ID9964,Radar System,38,32,75,441,Yes,Low,5,2,Desert,179,25,Yes,normal
+ID1389,Body Armor Sensor,98,6,49,199,Yes,High,41,1,Desert,103,90,Yes,normal
+ID2156,Communication Equipment,38,9,22,342,Yes,Low,12,3,Forest,118,21,No,compromised
+ID3455,Body Armor Sensor,73,53,63,269,No,High,4,4,Arctic,170,54,Yes,compromised
+ID5549,Surveillance Camera,68,40,31,253,No,Low,27,4,Forest,159,72,Yes,compromised
+ID7370,Weapon System,50,49,52,339,Yes,Low,38,3,Forest,140,105,Yes,compromised
+ID8623,Unmanned Ground Vehicle,38,18,77,228,Yes,Low,15,0,Urban,141,30,No,compromised
+ID7973,Radar System,22,49,79,310,Yes,Low,36,3,Urban,56,55,Yes,normal
+ID7550,Drone,81,35,76,208,Yes,Low,26,2,Forest,47,71,Yes,normal
+ID9762,Surveillance Camera,70,42,60,255,Yes,High,48,2,Arctic,167,15,Yes,normal
+ID6675,Weapon System,20,51,67,450,No,Low,47,5,Arctic,119,167,No,compromised
+ID5310,Body Armor Sensor,54,53,88,349,Yes,Low,74,3,Urban,65,123,Yes,compromised
+ID2120,Unmanned Ground Vehicle,98,-3,99,240,Yes,High,27,0,Urban,168,58,Yes,normal
+ID3705,Drone,91,6,57,307,Yes,Medium,18,0,Arctic,144,9,Yes,normal
+ID9884,Communication Equipment,77,-7,80,368,Yes,Medium,14,4,Arctic,162,91,Yes,normal
+ID8607,Unmanned Ground Vehicle,79,20,73,133,Yes,Low,27,3,Arctic,108,25,Yes,normal
+ID9692,Drone,31,30,81,339,No,High,0,3,Forest,99,152,Yes,compromised
+ID1662,Weapon System,38,12,79,134,Yes,High,32,3,Forest,101,61,Yes,normal
+ID2967,Communication Equipment,13,42,53,459,Yes,Medium,52,1,Arctic,167,62,No,compromised
+ID5099,Radar System,87,48,75,321,Yes,Medium,84,4,Desert,46,181,Yes,compromised
+ID6966,Drone,35,33,70,293,Yes,High,43,1,Forest,62,89,Yes,normal
+ID3303,Surveillance Camera,64,55,37,466,Yes,High,70,3,Arctic,137,8,Yes,compromised
+ID1249,Radar System,74,8,31,401,Yes,High,39,1,Desert,55,15,Yes,normal
+ID3610,Drone,57,-3,86,243,Yes,Low,39,0,Forest,34,81,Yes,normal
+ID5573,Unmanned Ground Vehicle,38,-3,93,146,Yes,Low,42,5,Desert,155,85,Yes,normal
+ID3466,Weapon System,81,14,93,210,Yes,Low,78,2,Urban,89,106,No,compromised
+ID7071,Weapon System,86,39,37,425,Yes,Low,20,0,Forest,59,22,Yes,normal
+ID6799,Body Armor Sensor,23,47,78,320,Yes,High,0,1,Urban,117,94,Yes,normal
+ID6010,Surveillance Camera,44,-6,45,166,Yes,Low,40,4,Arctic,89,98,Yes,normal
+ID1432,Surveillance Camera,75,3,58,381,Yes,High,36,1,Urban,75,75,Yes,normal
+ID2667,Body Armor Sensor,17,54,69,107,Yes,Medium,57,0,Arctic,88,140,No,compromised
+ID3724,Surveillance Camera,40,50,56,203,Yes,Low,36,4,Forest,158,26,Yes,normal
+ID8290,Drone,22,59,67,331,Yes,Medium,21,5,Urban,77,43,No,compromised
+ID9817,Weapon System,55,29,97,299,No,High,50,2,Desert,38,123,No,compromised
+ID3256,Unmanned Ground Vehicle,64,-4,40,146,No,High,7,3,Forest,158,162,Yes,compromised
+ID2231,Body Armor Sensor,59,46,72,323,No,High,58,2,Forest,124,56,No,compromised
+ID9868,Body Armor Sensor,26,2,83,309,Yes,Low,49,5,Urban,98,58,Yes,normal
+ID8665,Weapon System,11,57,59,305,No,Medium,32,3,Urban,178,156,Yes,compromised
+ID5657,Body Armor Sensor,38,29,48,295,Yes,Medium,80,0,Desert,172,97,Yes,compromised
+ID1514,Body Armor Sensor,41,17,46,480,No,Low,38,3,Urban,142,6,No,compromised
+ID5171,Radar System,33,21,76,226,Yes,Low,21,0,Urban,130,98,Yes,normal
+ID5496,Communication Equipment,29,26,96,241,Yes,High,3,2,Urban,128,17,Yes,normal
+ID6821,Surveillance Camera,100,-8,30,487,No,Medium,28,4,Forest,84,51,No,compromised
+ID6077,Surveillance Camera,80,-9,36,414,No,Medium,82,4,Arctic,62,113,Yes,compromised
+ID4734,Communication Equipment,89,24,64,230,Yes,High,13,2,Forest,176,60,Yes,normal
+ID9050,Radar System,84,35,83,334,Yes,Medium,43,5,Desert,108,74,Yes,normal
+ID5947,Communication Equipment,80,48,85,351,Yes,Medium,29,3,Arctic,142,89,Yes,normal
+ID8063,Surveillance Camera,80,39,89,458,No,Medium,67,2,Urban,144,21,No,compromised
+ID8414,Unmanned Ground Vehicle,93,46,98,143,Yes,Medium,23,0,Desert,100,81,Yes,normal
+ID5939,Communication Equipment,37,56,71,228,Yes,Medium,69,5,Forest,44,1,No,compromised
+ID9153,Communication Equipment,33,21,41,375,Yes,High,15,3,Desert,144,97,Yes,normal
+ID2957,Drone,42,44,71,288,No,High,86,4,Urban,56,6,No,compromised
+ID2080,Weapon System,21,5,54,204,Yes,Low,48,4,Urban,76,16,Yes,normal
+ID2518,Body Armor Sensor,29,17,61,487,Yes,Medium,20,5,Desert,58,60,Yes,normal
+ID1108,Drone,79,14,55,426,Yes,Medium,35,4,Forest,113,186,No,compromised
+ID5612,Drone,64,24,34,372,No,High,3,0,Urban,144,33,No,compromised
+ID6218,Unmanned Ground Vehicle,62,44,91,194,Yes,Medium,6,4,Urban,159,85,Yes,normal
+ID8267,Communication Equipment,48,29,34,422,No,Medium,96,0,Urban,61,97,No,compromised
+ID2160,Drone,25,33,38,379,Yes,High,33,5,Forest,157,38,Yes,normal
+ID2808,Communication Equipment,33,44,26,137,Yes,High,86,1,Urban,45,147,Yes,compromised
+ID3293,Unmanned Ground Vehicle,80,-6,42,119,Yes,Low,33,1,Desert,54,64,Yes,normal
+ID6770,Body Armor Sensor,49,41,90,181,Yes,Medium,15,1,Desert,49,73,Yes,normal
+ID2289,Weapon System,71,29,57,391,Yes,Low,17,1,Arctic,106,34,Yes,normal
+ID6201,Body Armor Sensor,62,16,90,270,Yes,Low,29,1,Desert,142,63,Yes,normal
+ID9920,Surveillance Camera,66,7,26,466,No,Low,15,0,Desert,90,153,No,compromised
+ID8879,Drone,69,25,33,374,Yes,Medium,27,1,Forest,101,1,No,compromised
+ID3750,Communication Equipment,77,-6,68,361,Yes,Low,9,2,Desert,51,83,Yes,normal
+ID6553,Weapon System,100,7,51,106,Yes,Low,9,0,Arctic,40,18,Yes,normal
+ID2531,Drone,49,2,32,457,Yes,Medium,3,3,Urban,73,4,Yes,normal
+ID6541,Communication Equipment,96,18,97,241,Yes,High,14,2,Arctic,141,67,Yes,normal
+ID3592,Radar System,43,-5,26,420,No,Low,48,3,Forest,113,92,No,compromised
+ID7512,Body Armor Sensor,73,-8,45,442,Yes,Medium,7,0,Arctic,75,18,Yes,normal
+ID9305,Weapon System,74,41,83,490,Yes,High,3,0,Arctic,121,29,Yes,normal
+ID3536,Unmanned Ground Vehicle,58,-2,36,399,No,High,48,3,Arctic,159,29,Yes,compromised
+ID8749,Drone,78,36,96,465,Yes,Medium,13,5,Desert,126,3,Yes,normal
+ID1556,Radar System,77,53,70,239,Yes,Low,78,4,Forest,33,198,No,compromised
+ID6615,Communication Equipment,67,24,41,356,Yes,Medium,9,3,Forest,161,25,Yes,normal
+ID2329,Weapon System,86,-2,43,145,No,Medium,99,4,Arctic,123,86,Yes,compromised
+ID4937,Surveillance Camera,96,-8,56,327,No,Medium,71,2,Desert,159,111,Yes,compromised
+ID1612,Communication Equipment,65,26,40,322,Yes,Low,33,0,Urban,48,99,Yes,normal
+ID2351,Radar System,74,46,31,496,Yes,High,0,3,Urban,76,84,Yes,normal
+ID7174,Drone,93,6,64,380,Yes,Low,32,1,Urban,79,90,Yes,normal
+ID3492,Unmanned Ground Vehicle,23,-6,84,198,Yes,Medium,14,1,Urban,71,96,Yes,normal
+ID6663,Drone,29,33,22,103,No,High,84,5,Desert,67,26,No,compromised
+ID8049,Radar System,40,10,76,475,Yes,Low,5,5,Forest,144,18,Yes,normal
+ID1927,Body Armor Sensor,34,25,95,370,No,High,83,0,Urban,140,100,Yes,compromised
+ID2455,Drone,23,50,57,178,Yes,Low,10,3,Urban,168,56,Yes,normal
+ID1222,Surveillance Camera,21,23,57,256,Yes,High,39,0,Urban,64,21,Yes,normal
+ID3292,Weapon System,20,2,32,333,Yes,High,95,4,Arctic,76,196,Yes,compromised
+ID3710,Surveillance Camera,22,24,37,455,Yes,High,3,5,Desert,143,5,Yes,normal
+ID2339,Unmanned Ground Vehicle,99,24,82,458,No,Low,10,1,Arctic,89,146,No,compromised
+ID4980,Radar System,80,34,97,449,Yes,Medium,61,2,Arctic,179,113,No,compromised
+ID5804,Radar System,69,-6,60,139,Yes,Medium,37,4,Arctic,32,10,Yes,normal
+ID4520,Body Armor Sensor,77,35,33,212,Yes,Medium,31,1,Forest,114,42,Yes,normal
+ID2047,Radar System,40,19,50,173,Yes,Medium,7,0,Arctic,64,10,Yes,normal
+ID3869,Communication Equipment,91,30,68,233,Yes,High,50,0,Desert,150,185,Yes,compromised
+ID4397,Unmanned Ground Vehicle,81,29,42,349,Yes,Low,12,3,Desert,67,44,Yes,normal
+ID9944,Drone,71,0,47,199,Yes,High,34,4,Urban,118,59,Yes,normal
+ID2488,Radar System,60,27,79,306,Yes,High,33,2,Desert,139,97,Yes,normal
+ID5348,Radar System,81,17,34,109,Yes,High,16,0,Desert,90,18,Yes,normal
+ID4473,Body Armor Sensor,31,12,62,461,Yes,Medium,28,4,Desert,58,63,Yes,normal
+ID7527,Weapon System,89,-6,62,428,Yes,Medium,30,2,Urban,125,80,Yes,normal
+ID7104,Drone,71,38,33,114,No,High,79,3,Desert,37,46,No,compromised
+ID3094,Drone,29,33,37,112,No,Low,41,2,Urban,102,124,No,compromised
+ID9096,Radar System,77,58,54,437,Yes,Medium,0,3,Desert,109,31,No,compromised
+ID7141,Drone,55,15,84,420,No,Medium,35,1,Arctic,53,165,Yes,compromised
+ID2550,Surveillance Camera,47,4,40,276,No,Low,51,5,Desert,177,74,No,compromised
+ID8691,Radar System,75,13,87,152,Yes,High,1,4,Urban,47,76,Yes,normal
+ID5823,Weapon System,72,37,92,440,No,Medium,37,5,Forest,49,102,No,compromised
+ID2752,Radar System,60,20,79,164,Yes,Medium,2,0,Urban,87,68,Yes,normal
+ID8908,Radar System,49,54,26,384,No,Low,62,0,Arctic,152,134,Yes,compromised
+ID9201,Drone,100,37,81,488,Yes,Medium,28,0,Urban,31,153,No,compromised
+ID5073,Body Armor Sensor,49,-3,61,367,No,Low,77,4,Forest,37,197,Yes,compromised
+ID6062,Unmanned Ground Vehicle,45,23,27,367,No,High,86,4,Arctic,128,100,No,compromised
+ID1749,Unmanned Ground Vehicle,85,54,83,225,Yes,Medium,21,3,Forest,136,103,Yes,compromised
+ID6520,Communication Equipment,43,39,98,150,Yes,Low,22,5,Desert,107,97,Yes,normal
+ID5261,Body Armor Sensor,69,26,36,193,Yes,Medium,2,1,Arctic,107,82,Yes,normal
+ID5705,Unmanned Ground Vehicle,55,39,95,275,No,Low,87,2,Desert,67,152,Yes,compromised
+ID7850,Body Armor Sensor,37,41,49,301,Yes,Medium,71,3,Arctic,103,193,No,compromised
+ID9378,Unmanned Ground Vehicle,84,5,84,439,Yes,Medium,28,1,Desert,112,100,Yes,normal
+ID6028,Unmanned Ground Vehicle,80,42,55,492,Yes,Low,81,2,Arctic,57,88,Yes,compromised
+ID2674,Drone,49,6,20,127,Yes,High,91,3,Desert,128,26,No,compromised
+ID7019,Surveillance Camera,72,-5,56,410,Yes,Medium,5,4,Forest,99,1,Yes,normal
+ID3468,Radar System,11,4,57,118,Yes,Low,32,0,Forest,170,30,Yes,compromised
+ID1920,Body Armor Sensor,73,-6,84,380,Yes,Medium,50,3,Urban,149,10,Yes,normal
+ID8091,Radar System,22,43,74,310,No,Low,62,5,Urban,84,85,Yes,compromised
+ID1641,Body Armor Sensor,63,47,47,256,No,High,9,4,Forest,154,195,Yes,compromised
+ID1457,Drone,59,50,78,373,No,Medium,61,4,Urban,103,97,No,compromised
+ID1273,Drone,32,-6,65,485,Yes,High,24,2,Forest,140,21,Yes,normal
+ID9649,Unmanned Ground Vehicle,20,18,67,230,Yes,Medium,21,0,Forest,34,63,Yes,normal
+ID2849,Radar System,20,28,30,142,No,High,8,4,Desert,150,129,Yes,compromised
+ID7685,Unmanned Ground Vehicle,51,56,77,282,No,Low,9,3,Urban,162,5,Yes,compromised
+ID2117,Radar System,21,-3,65,221,Yes,Medium,27,2,Arctic,73,91,Yes,normal
+ID4288,Body Armor Sensor,72,20,36,193,Yes,High,17,5,Urban,134,27,Yes,normal
+ID1186,Drone,40,20,100,121,Yes,Medium,39,1,Urban,115,30,Yes,normal
+ID3771,Unmanned Ground Vehicle,44,45,85,218,Yes,Low,8,5,Urban,64,5,Yes,normal
+ID7713,Weapon System,33,4,94,233,Yes,Low,30,2,Forest,86,1,Yes,normal
+ID6406,Body Armor Sensor,29,-6,78,435,No,Low,62,5,Desert,101,74,No,compromised
+ID3977,Unmanned Ground Vehicle,74,24,97,283,Yes,Low,39,1,Urban,95,66,Yes,normal
+ID7971,Unmanned Ground Vehicle,23,60,25,316,Yes,Low,25,3,Arctic,95,117,Yes,compromised
+ID4703,Drone,83,20,89,489,Yes,High,50,4,Arctic,44,49,Yes,normal
+ID3960,Unmanned Ground Vehicle,47,45,88,321,Yes,Medium,50,2,Forest,132,62,Yes,normal
+ID9712,Communication Equipment,59,-7,62,297,No,Medium,90,3,Desert,58,106,No,compromised
+ID8268,Surveillance Camera,49,36,36,486,No,Low,6,1,Forest,58,146,Yes,compromised
+ID5058,Body Armor Sensor,62,47,66,261,No,Low,28,5,Arctic,143,25,No,compromised
+ID2288,Drone,90,44,75,452,No,Medium,38,1,Forest,135,94,Yes,compromised
+ID9281,Weapon System,77,-4,63,232,Yes,Low,41,2,Forest,132,95,Yes,normal
+ID6948,Weapon System,94,37,37,126,Yes,High,46,1,Desert,137,139,No,compromised
+ID9443,Weapon System,48,21,55,262,Yes,Low,22,3,Urban,145,78,Yes,normal
+ID2590,Weapon System,89,28,76,256,No,Medium,80,3,Desert,108,36,Yes,compromised
+ID1957,Drone,34,21,47,152,Yes,Low,15,1,Urban,83,7,Yes,normal
+ID9549,Drone,30,18,25,491,No,Low,51,3,Arctic,109,71,Yes,compromised
+ID6050,Body Armor Sensor,24,49,37,242,No,High,2,1,Arctic,129,140,Yes,compromised
+ID5077,Drone,70,13,41,181,Yes,High,21,1,Arctic,106,52,Yes,normal
+ID9667,Drone,33,35,91,140,Yes,High,39,2,Urban,52,94,Yes,normal
+ID3462,Radar System,41,41,95,350,No,Medium,70,5,Arctic,174,104,No,compromised
+ID8527,Radar System,50,-7,40,326,Yes,Low,29,1,Urban,165,29,Yes,normal
+ID4643,Weapon System,57,14,81,146,Yes,Low,40,3,Urban,99,30,Yes,normal
+ID4924,Surveillance Camera,68,25,81,461,Yes,High,73,5,Forest,67,61,No,compromised
+ID9963,Drone,21,55,88,405,No,Low,80,3,Arctic,76,32,No,compromised
+ID8833,Drone,58,-10,88,394,Yes,Low,0,1,Forest,160,66,No,compromised
+ID3630,Body Armor Sensor,84,-4,43,381,Yes,Low,29,5,Desert,130,16,Yes,normal
+ID6674,Body Armor Sensor,49,20,90,127,Yes,High,78,3,Desert,92,71,No,compromised
+ID2025,Communication Equipment,29,49,43,430,Yes,Low,6,2,Arctic,151,37,Yes,normal
+ID2483,Weapon System,95,19,41,415,Yes,High,9,0,Desert,47,43,Yes,normal
+ID3925,Body Armor Sensor,46,45,60,466,Yes,Low,33,2,Desert,139,3,Yes,normal
+ID8936,Body Armor Sensor,32,46,31,244,Yes,High,20,5,Urban,73,18,Yes,normal
+ID2379,Communication Equipment,20,-1,86,222,Yes,Medium,9,3,Arctic,134,63,Yes,normal
+ID1456,Radar System,62,44,92,425,Yes,High,11,5,Forest,169,76,Yes,normal
+ID9963,Surveillance Camera,95,19,80,383,No,High,5,1,Urban,37,56,No,compromised
+ID3996,Drone,31,10,87,441,No,Medium,51,4,Desert,156,189,Yes,compromised
+ID7033,Communication Equipment,10,19,79,294,No,Low,62,1,Desert,42,161,Yes,compromised
+ID5552,Communication Equipment,43,16,45,254,Yes,Medium,25,0,Urban,87,111,Yes,compromised
+ID1890,Communication Equipment,39,18,22,333,Yes,High,58,0,Urban,75,111,No,compromised
+ID4484,Weapon System,67,42,46,338,Yes,High,25,1,Arctic,110,31,Yes,normal
+ID6105,Drone,40,-5,91,178,Yes,Medium,35,3,Urban,113,45,Yes,normal
+ID3990,Radar System,94,20,83,267,Yes,Low,20,0,Urban,100,17,Yes,normal
+ID4327,Body Armor Sensor,28,22,59,389,Yes,Low,21,2,Urban,57,96,No,compromised
+ID9148,Weapon System,92,10,55,470,Yes,Low,46,1,Urban,85,74,Yes,normal
+ID3897,Weapon System,53,11,23,303,No,Medium,26,5,Urban,130,39,No,compromised
+ID8324,Surveillance Camera,42,11,96,455,Yes,Low,47,1,Forest,57,84,Yes,normal
+ID1123,Surveillance Camera,43,18,68,456,No,Medium,86,0,Desert,127,104,Yes,compromised
+ID4805,Drone,72,-3,20,494,No,Low,14,3,Forest,32,139,No,compromised
+ID5423,Surveillance Camera,62,1,99,377,Yes,Medium,35,3,Arctic,53,19,Yes,normal
+ID4088,Communication Equipment,60,20,84,205,Yes,Medium,24,2,Desert,142,38,Yes,normal
+ID8604,Unmanned Ground Vehicle,91,5,66,451,Yes,Low,56,0,Urban,169,143,No,compromised
+ID5349,Communication Equipment,23,9,72,274,Yes,Medium,46,5,Desert,87,81,Yes,normal
+ID8159,Body Armor Sensor,21,-9,88,270,Yes,Low,37,4,Arctic,61,25,Yes,normal
+ID4870,Weapon System,62,6,98,449,Yes,Medium,38,4,Desert,128,29,Yes,normal
+ID8812,Weapon System,29,47,100,229,Yes,Low,27,5,Desert,62,70,Yes,normal
+ID2488,Weapon System,40,-2,37,472,Yes,Medium,39,5,Urban,56,27,Yes,normal
+ID3507,Unmanned Ground Vehicle,27,33,33,287,Yes,Medium,30,0,Urban,156,24,Yes,normal
+ID1012,Weapon System,55,2,54,329,No,Medium,53,1,Desert,127,116,No,compromised
+ID9194,Weapon System,82,34,61,250,Yes,High,44,5,Urban,52,29,Yes,normal
+ID8450,Body Armor Sensor,62,23,59,302,No,High,79,2,Forest,151,133,Yes,compromised
+ID9142,Radar System,70,21,54,484,No,Low,78,5,Forest,38,63,Yes,compromised
+ID9272,Body Armor Sensor,20,-3,66,130,Yes,Medium,35,5,Forest,44,4,Yes,normal
+ID7621,Radar System,84,58,28,432,Yes,Medium,64,3,Urban,52,152,Yes,compromised
+ID2096,Weapon System,28,16,24,472,Yes,Low,17,0,Desert,40,31,Yes,compromised
+ID5687,Communication Equipment,74,-9,58,203,Yes,High,23,5,Urban,175,98,Yes,normal
+ID9409,Communication Equipment,32,16,47,411,Yes,Low,14,2,Desert,93,49,Yes,normal
+ID6073,Body Armor Sensor,89,39,69,298,Yes,High,15,2,Desert,175,50,Yes,normal
+ID8576,Radar System,38,11,98,315,Yes,Low,46,3,Desert,44,170,Yes,compromised
+ID3828,Surveillance Camera,14,52,36,382,Yes,Medium,98,4,Arctic,113,26,Yes,compromised
+ID6558,Drone,35,-4,99,288,Yes,Medium,38,4,Desert,177,32,Yes,normal
+ID6926,Weapon System,35,-10,87,201,No,Low,76,0,Urban,64,26,Yes,compromised
+ID5057,Unmanned Ground Vehicle,94,14,68,340,Yes,Medium,12,2,Arctic,65,129,No,compromised
+ID5087,Unmanned Ground Vehicle,69,-8,84,143,Yes,Medium,9,1,Forest,165,54,Yes,normal
+ID5035,Unmanned Ground Vehicle,36,48,30,168,Yes,High,25,5,Urban,44,97,Yes,normal
+ID8285,Surveillance Camera,73,8,98,130,Yes,Low,36,5,Arctic,35,15,Yes,normal
+ID4243,Radar System,80,39,46,488,No,High,34,5,Desert,152,50,Yes,compromised
+ID1469,Surveillance Camera,18,56,32,279,No,High,96,3,Urban,133,95,No,compromised
+ID5181,Radar System,89,24,95,118,Yes,Medium,45,2,Forest,173,3,Yes,normal
+ID8194,Body Armor Sensor,29,-2,37,178,Yes,Medium,32,5,Forest,180,10,Yes,normal
+ID9617,Body Armor Sensor,11,20,77,166,No,Medium,88,1,Arctic,54,148,Yes,compromised
+ID5152,Communication Equipment,41,28,56,360,No,High,25,4,Forest,139,149,Yes,compromised
+ID6499,Unmanned Ground Vehicle,23,23,98,245,Yes,Medium,43,4,Urban,159,89,Yes,normal
+ID5545,Body Armor Sensor,54,6,47,138,Yes,High,0,3,Urban,126,46,Yes,normal
+ID9039,Radar System,45,-7,65,159,Yes,Medium,61,5,Desert,119,199,No,compromised
+ID6069,Unmanned Ground Vehicle,66,35,48,386,No,Low,40,4,Desert,56,183,Yes,compromised
+ID4094,Unmanned Ground Vehicle,34,-6,91,277,Yes,Medium,27,1,Urban,85,26,Yes,normal
+ID4227,Surveillance Camera,64,8,78,181,Yes,High,32,3,Desert,75,91,Yes,normal
+ID2758,Communication Equipment,16,46,50,253,No,High,49,3,Forest,172,149,No,compromised
+ID8998,Unmanned Ground Vehicle,80,44,64,406,Yes,High,38,2,Desert,73,94,Yes,normal
+ID9120,Weapon System,67,-10,32,235,No,Low,10,2,Arctic,44,167,Yes,compromised
+ID7481,Unmanned Ground Vehicle,81,49,57,418,Yes,Medium,15,2,Desert,175,49,Yes,normal
+ID6921,Unmanned Ground Vehicle,46,-1,83,274,No,High,51,4,Arctic,142,47,No,compromised
+ID2952,Weapon System,20,13,61,255,Yes,Low,91,5,Forest,173,137,Yes,compromised
+ID1199,Drone,82,38,82,499,No,High,25,1,Forest,93,120,Yes,compromised
+ID8395,Unmanned Ground Vehicle,31,29,83,303,Yes,Low,9,2,Desert,66,25,Yes,normal
+ID4892,Weapon System,49,40,38,368,Yes,Low,24,5,Forest,45,90,Yes,normal
+ID6875,Body Armor Sensor,85,-4,73,107,Yes,Medium,42,2,Arctic,123,63,Yes,normal
+ID5537,Body Armor Sensor,45,15,75,492,Yes,Medium,10,5,Urban,51,4,Yes,normal
+ID9561,Communication Equipment,43,36,52,396,Yes,Low,18,4,Arctic,44,56,Yes,normal
+ID8298,Unmanned Ground Vehicle,65,54,85,352,Yes,Low,17,0,Urban,168,127,No,compromised
+ID7099,Communication Equipment,99,31,64,104,No,High,39,0,Arctic,137,191,No,compromised
+ID1000,Radar System,25,56,42,156,No,High,97,2,Urban,77,86,Yes,compromised
+ID7347,Surveillance Camera,94,-8,89,489,No,Low,88,4,Forest,123,143,No,compromised
+ID3869,Drone,30,50,48,259,Yes,Low,14,5,Forest,133,21,No,compromised
+ID6988,Communication Equipment,63,-7,57,397,Yes,Medium,33,1,Arctic,53,55,Yes,normal
+ID3118,Unmanned Ground Vehicle,69,29,79,183,Yes,High,66,1,Desert,80,4,No,compromised
+ID3543,Radar System,57,12,49,220,Yes,Medium,47,0,Forest,128,100,Yes,normal
+ID5321,Unmanned Ground Vehicle,93,38,79,152,No,Low,37,0,Arctic,34,54,Yes,compromised
+ID9511,Unmanned Ground Vehicle,59,15,54,227,Yes,Medium,35,1,Urban,118,2,Yes,normal
+ID1993,Communication Equipment,99,26,53,370,Yes,Medium,4,1,Desert,61,8,Yes,normal
+ID7372,Weapon System,15,4,31,322,No,High,79,3,Forest,92,148,Yes,compromised
+ID1761,Drone,21,57,89,369,Yes,Low,72,0,Urban,98,141,No,compromised
+ID7124,Weapon System,76,1,39,318,Yes,High,22,1,Forest,118,75,Yes,normal
+ID1408,Unmanned Ground Vehicle,84,-3,54,160,Yes,High,46,5,Forest,72,67,Yes,normal
+ID1164,Communication Equipment,46,23,63,237,Yes,Low,3,1,Urban,72,98,Yes,normal
+ID3825,Body Armor Sensor,77,60,28,264,Yes,Low,45,1,Arctic,140,43,Yes,compromised
+ID5101,Drone,24,21,34,224,Yes,High,12,5,Arctic,51,97,Yes,normal
+ID3691,Drone,66,26,22,442,Yes,High,54,1,Forest,116,102,No,compromised
+ID2951,Body Armor Sensor,33,-4,34,320,Yes,Low,0,2,Arctic,152,53,Yes,normal
+ID9472,Communication Equipment,80,23,30,267,Yes,Medium,20,5,Urban,163,3,Yes,normal
+ID6165,Body Armor Sensor,40,42,35,119,Yes,High,59,2,Arctic,164,175,Yes,compromised
+ID4613,Radar System,60,8,76,498,Yes,Low,35,2,Arctic,162,67,Yes,normal
+ID2526,Surveillance Camera,30,53,67,463,No,High,7,1,Desert,63,152,Yes,compromised
+ID4893,Weapon System,66,14,89,392,Yes,High,29,5,Desert,125,95,Yes,normal
+ID4131,Drone,39,8,47,256,Yes,Medium,4,2,Arctic,141,95,Yes,normal
+ID5853,Body Armor Sensor,46,-1,45,434,Yes,Medium,6,1,Urban,46,153,Yes,compromised
+ID1763,Drone,96,51,35,198,Yes,Low,82,5,Urban,138,32,Yes,compromised
+ID3664,Weapon System,79,-7,100,142,Yes,Medium,31,1,Urban,38,75,Yes,normal
+ID6509,Body Armor Sensor,18,12,25,281,Yes,Low,6,5,Forest,92,85,Yes,compromised
+ID3761,Weapon System,76,1,30,127,Yes,High,45,4,Forest,113,89,Yes,normal
+ID2169,Body Armor Sensor,65,46,86,136,No,Medium,45,4,Urban,59,72,Yes,compromised
+ID5640,Communication Equipment,31,15,79,267,No,Medium,16,0,Desert,108,184,Yes,compromised
+ID7391,Radar System,64,39,52,368,No,High,69,2,Forest,83,126,No,compromised
+ID3836,Unmanned Ground Vehicle,58,56,89,188,Yes,Medium,43,3,Urban,110,191,Yes,compromised
+ID7647,Unmanned Ground Vehicle,92,37,82,113,Yes,Medium,43,4,Arctic,119,52,Yes,normal
+ID4380,Radar System,86,-2,98,302,Yes,High,42,5,Arctic,128,65,Yes,normal
+ID9229,Drone,79,37,41,377,Yes,High,49,0,Urban,32,52,Yes,normal
+ID6725,Unmanned Ground Vehicle,76,13,50,323,No,Medium,52,2,Arctic,179,29,No,compromised
+ID6735,Drone,53,0,71,313,No,High,49,5,Desert,65,101,No,compromised
+ID2304,Weapon System,64,21,47,351,No,Medium,74,2,Arctic,95,23,Yes,compromised
+ID7182,Communication Equipment,53,50,79,224,No,Medium,81,5,Desert,62,158,No,compromised
+ID1942,Communication Equipment,62,9,93,373,No,Medium,34,5,Urban,149,172,Yes,compromised
+ID3693,Drone,74,31,76,132,Yes,Medium,7,1,Desert,41,27,Yes,normal
+ID6028,Body Armor Sensor,72,6,98,298,Yes,High,11,2,Arctic,85,37,Yes,normal
+ID8048,Radar System,43,38,47,122,Yes,Medium,4,3,Arctic,42,15,Yes,normal
+ID8422,Radar System,73,51,39,187,No,Medium,88,2,Forest,58,200,Yes,compromised
+ID6336,Weapon System,44,-10,30,490,Yes,Low,5,2,Forest,164,57,Yes,normal
+ID4917,Weapon System,79,48,62,358,Yes,Medium,33,5,Urban,115,39,Yes,normal
+ID5992,Radar System,87,57,58,236,Yes,Medium,78,2,Arctic,147,142,No,compromised
+ID6141,Drone,72,46,55,308,Yes,High,72,4,Arctic,107,119,No,compromised
+ID3912,Surveillance Camera,20,48,39,332,No,Low,54,2,Urban,150,161,Yes,compromised
+ID3685,Surveillance Camera,15,37,25,249,No,High,45,3,Desert,85,110,No,compromised
+ID4408,Radar System,49,35,79,208,No,Low,18,2,Urban,131,176,Yes,compromised
+ID2383,Surveillance Camera,17,12,93,486,No,Medium,15,2,Desert,100,186,No,compromised
+ID4198,Communication Equipment,68,19,39,152,Yes,Medium,26,2,Forest,158,69,Yes,normal
+ID2439,Communication Equipment,45,41,92,462,Yes,Medium,39,4,Desert,98,13,Yes,normal
+ID6559,Radar System,82,4,45,281,Yes,Low,10,1,Urban,98,34,Yes,normal
+ID5035,Body Armor Sensor,73,-9,69,194,No,Medium,52,1,Forest,166,83,No,compromised
+ID7591,Body Armor Sensor,67,27,30,295,Yes,Medium,19,3,Urban,175,90,Yes,normal
+ID8721,Communication Equipment,95,34,27,308,Yes,High,76,0,Desert,42,166,Yes,compromised
+ID9425,Radar System,10,48,45,484,No,Low,42,2,Forest,154,162,No,compromised
+ID8563,Body Armor Sensor,76,8,48,358,No,Low,90,5,Arctic,89,96,Yes,compromised
+ID1573,Communication Equipment,38,-4,35,118,Yes,Low,49,2,Arctic,93,22,Yes,normal
+ID6022,Surveillance Camera,82,0,28,208,No,Low,70,4,Urban,39,20,Yes,compromised
+ID9980,Surveillance Camera,17,26,51,169,Yes,High,98,1,Desert,81,128,Yes,compromised
+ID9257,Unmanned Ground Vehicle,94,53,68,402,No,High,24,5,Desert,49,25,No,compromised
+ID1501,Weapon System,40,9,51,274,Yes,High,43,5,Urban,46,7,Yes,normal
+ID3840,Drone,96,-1,93,468,Yes,High,100,5,Arctic,152,125,Yes,compromised
+ID9599,Surveillance Camera,63,36,81,355,Yes,Low,29,2,Urban,152,4,Yes,normal
+ID1325,Drone,17,-1,86,195,No,Low,3,3,Forest,43,6,Yes,compromised
+ID3390,Drone,18,19,89,236,No,Medium,54,5,Desert,39,6,No,compromised
+ID7064,Weapon System,77,-8,73,459,Yes,Low,15,4,Urban,158,54,Yes,normal
+ID5311,Communication Equipment,25,43,78,207,Yes,Low,18,3,Arctic,116,91,No,compromised
+ID4475,Body Armor Sensor,42,12,81,455,Yes,Low,11,4,Urban,62,11,Yes,normal
+ID9222,Drone,96,48,33,421,No,High,0,3,Desert,116,75,Yes,compromised
+ID4152,Radar System,24,21,30,198,No,Medium,15,3,Forest,62,136,Yes,compromised
+ID8485,Radar System,96,20,43,321,Yes,Low,42,2,Urban,54,190,No,compromised
+ID9318,Surveillance Camera,68,26,81,293,Yes,Medium,41,4,Forest,159,67,Yes,normal
+ID5070,Radar System,70,-4,67,348,Yes,Medium,32,2,Urban,169,32,Yes,normal
+ID7505,Surveillance Camera,46,19,26,254,Yes,High,46,4,Desert,169,106,Yes,compromised
+ID8105,Radar System,93,30,75,402,Yes,High,49,5,Forest,76,49,Yes,normal
+ID8975,Communication Equipment,54,30,53,255,Yes,Low,17,3,Desert,67,31,Yes,normal
+ID4674,Drone,16,42,24,191,No,High,66,4,Arctic,63,163,Yes,compromised
+ID5562,Body Armor Sensor,53,8,67,269,Yes,Low,18,1,Desert,94,22,Yes,normal
+ID9091,Communication Equipment,71,57,79,474,Yes,Medium,18,2,Desert,169,151,Yes,compromised
+ID7958,Radar System,99,5,27,277,No,Medium,2,3,Urban,166,22,Yes,compromised
+ID5265,Body Armor Sensor,20,45,46,115,Yes,Low,30,4,Arctic,155,93,Yes,normal
+ID8013,Communication Equipment,24,-2,93,405,Yes,High,17,2,Urban,98,96,Yes,normal
+ID8516,Communication Equipment,75,35,87,217,Yes,Low,36,1,Arctic,129,56,Yes,normal
+ID8349,Body Armor Sensor,76,46,49,354,Yes,Medium,26,1,Desert,31,53,Yes,normal
+ID8661,Drone,25,16,63,376,Yes,Medium,40,2,Urban,46,51,Yes,normal
+ID3587,Communication Equipment,24,-2,80,441,Yes,Medium,45,5,Urban,74,136,Yes,compromised
+ID6290,Surveillance Camera,91,26,56,228,Yes,Low,11,1,Arctic,60,30,Yes,normal
+ID1530,Body Armor Sensor,88,31,88,260,Yes,High,7,3,Forest,74,67,Yes,normal
+ID9894,Weapon System,61,42,94,459,No,High,31,5,Urban,146,151,No,compromised
+ID2125,Surveillance Camera,47,16,88,441,Yes,Low,4,1,Urban,113,71,Yes,normal
+ID2172,Body Armor Sensor,86,34,49,137,Yes,Medium,37,5,Desert,95,18,Yes,normal
+ID2284,Unmanned Ground Vehicle,52,32,37,423,No,Low,71,3,Forest,164,124,Yes,compromised
+ID4582,Unmanned Ground Vehicle,31,30,33,410,Yes,Medium,48,2,Desert,111,135,No,compromised
+ID7531,Communication Equipment,34,24,57,294,No,Low,52,3,Desert,93,8,No,compromised
+ID5187,Surveillance Camera,20,16,42,150,Yes,High,30,1,Arctic,135,12,Yes,normal
+ID4073,Unmanned Ground Vehicle,71,-1,55,191,Yes,Medium,43,5,Desert,119,56,Yes,normal
+ID6130,Weapon System,48,2,64,258,No,Low,27,4,Urban,135,69,Yes,compromised
+ID8544,Radar System,96,44,90,206,Yes,Medium,50,2,Forest,132,25,Yes,normal
+ID5047,Body Armor Sensor,46,10,86,176,Yes,High,48,0,Urban,88,64,Yes,normal
+ID1225,Surveillance Camera,53,48,94,436,Yes,Low,38,4,Arctic,107,49,Yes,normal
+ID7726,Communication Equipment,71,46,85,232,Yes,Medium,48,5,Arctic,132,52,Yes,normal
+ID5006,Weapon System,97,27,94,369,Yes,High,83,0,Forest,89,193,Yes,compromised
+ID8236,Communication Equipment,10,22,49,369,No,High,69,0,Forest,46,11,Yes,compromised
+ID2976,Drone,23,-6,49,368,Yes,Low,37,5,Arctic,135,28,Yes,normal
+ID7194,Body Armor Sensor,30,-8,71,464,Yes,High,20,5,Urban,73,65,Yes,normal
+ID3157,Unmanned Ground Vehicle,63,51,43,313,Yes,High,10,4,Forest,178,44,No,compromised
+ID3957,Communication Equipment,92,5,50,226,Yes,High,8,3,Forest,80,6,Yes,normal
+ID9819,Body Armor Sensor,65,46,97,218,No,Medium,81,3,Urban,153,33,Yes,compromised
+ID5231,Radar System,29,25,32,107,No,Low,59,2,Desert,93,26,No,compromised
+ID3808,Drone,95,7,79,322,Yes,Medium,24,1,Urban,177,6,Yes,normal
+ID1640,Weapon System,22,37,44,122,No,Medium,76,2,Urban,177,24,No,compromised
+ID9122,Unmanned Ground Vehicle,21,11,80,425,Yes,High,20,5,Desert,144,95,Yes,normal
+ID4378,Unmanned Ground Vehicle,53,54,38,281,Yes,High,86,0,Forest,67,4,Yes,compromised
+ID1526,Radar System,29,-5,33,318,Yes,Low,10,3,Forest,119,36,Yes,normal
+ID1718,Unmanned Ground Vehicle,50,25,40,403,Yes,Medium,11,5,Desert,41,82,Yes,normal
+ID9449,Weapon System,85,41,75,441,Yes,Low,27,5,Forest,130,95,Yes,normal
+ID6302,Unmanned Ground Vehicle,22,27,45,234,Yes,Low,17,2,Desert,45,62,Yes,normal
+ID5982,Drone,67,15,86,426,Yes,Low,40,0,Arctic,170,2,Yes,normal
+ID5083,Weapon System,39,37,86,318,Yes,High,31,0,Desert,144,62,Yes,normal
+ID3938,Surveillance Camera,30,8,32,162,Yes,Low,14,3,Desert,111,52,Yes,normal
+ID5474,Unmanned Ground Vehicle,21,58,100,168,No,Low,37,5,Arctic,57,50,No,compromised
+ID6894,Unmanned Ground Vehicle,44,51,24,448,No,Medium,23,2,Desert,117,32,Yes,compromised
+ID5817,Drone,15,45,45,385,Yes,High,10,3,Forest,104,93,Yes,compromised
+ID9170,Unmanned Ground Vehicle,100,18,34,307,Yes,High,10,2,Urban,107,16,Yes,normal
+ID5940,Radar System,92,23,77,298,Yes,Low,42,4,Desert,137,4,Yes,normal
+ID2003,Surveillance Camera,26,-8,77,267,Yes,Medium,59,5,Arctic,67,179,No,compromised
+ID7570,Body Armor Sensor,82,41,21,408,Yes,Low,100,0,Desert,65,90,No,compromised
+ID2466,Weapon System,98,0,39,231,Yes,Low,37,5,Forest,89,77,Yes,normal
+ID6703,Weapon System,91,48,53,433,Yes,High,12,2,Forest,50,39,Yes,normal
+ID9042,Surveillance Camera,45,6,54,405,Yes,Low,11,2,Desert,41,75,Yes,normal
+ID3289,Surveillance Camera,25,23,81,470,Yes,Medium,5,1,Desert,52,93,Yes,normal
+ID9481,Surveillance Camera,84,5,23,227,Yes,High,93,2,Forest,102,197,Yes,compromised
+ID3393,Communication Equipment,32,7,34,262,Yes,Low,6,5,Urban,58,8,Yes,normal
+ID6458,Communication Equipment,60,11,33,426,Yes,Medium,49,0,Desert,81,24,Yes,normal
+ID5069,Surveillance Camera,79,24,36,175,Yes,High,36,3,Arctic,89,42,Yes,normal
+ID9978,Weapon System,72,22,92,459,Yes,Medium,8,4,Forest,160,33,Yes,normal
+ID3232,Weapon System,38,32,54,390,Yes,Medium,34,3,Arctic,101,2,Yes,normal
+ID9577,Surveillance Camera,87,1,57,311,Yes,High,46,2,Arctic,161,14,Yes,normal
+ID2592,Radar System,90,-3,46,387,Yes,Low,53,3,Arctic,123,44,No,compromised
+ID3458,Drone,86,-9,59,254,No,Low,20,4,Forest,79,14,Yes,compromised
+ID2030,Weapon System,26,5,52,377,Yes,Medium,81,2,Desert,102,143,Yes,compromised
+ID3375,Radar System,80,-10,70,162,Yes,Medium,0,1,Arctic,105,3,Yes,normal
+ID1588,Unmanned Ground Vehicle,67,56,68,240,No,Medium,65,4,Arctic,56,37,Yes,compromised
+ID7783,Drone,43,33,76,187,No,Low,44,5,Urban,35,81,No,compromised
+ID1934,Surveillance Camera,67,52,41,255,Yes,Medium,68,4,Urban,129,170,No,compromised
+ID8417,Unmanned Ground Vehicle,77,-3,43,411,Yes,Low,48,4,Forest,145,10,Yes,normal
+ID9346,Unmanned Ground Vehicle,17,47,37,236,No,Medium,18,3,Urban,59,50,Yes,compromised
+ID4172,Communication Equipment,21,7,72,281,Yes,Medium,32,5,Urban,172,52,Yes,normal
+ID7506,Drone,21,7,70,411,Yes,High,25,3,Arctic,132,92,Yes,normal
+ID5865,Body Armor Sensor,96,48,100,476,Yes,High,27,0,Desert,124,59,No,compromised
+ID9665,Unmanned Ground Vehicle,53,46,58,472,Yes,Medium,35,5,Desert,155,65,Yes,normal
+ID7130,Surveillance Camera,37,-10,57,303,Yes,Low,38,3,Forest,66,80,Yes,normal
+ID6048,Radar System,45,31,63,379,Yes,Low,28,5,Desert,42,95,No,compromised
+ID8469,Unmanned Ground Vehicle,49,25,74,239,Yes,Medium,34,3,Arctic,72,87,Yes,normal
+ID8891,Radar System,37,46,47,180,Yes,Low,7,4,Arctic,40,161,Yes,compromised
+ID5152,Unmanned Ground Vehicle,76,51,72,478,No,Medium,68,4,Urban,112,48,No,compromised
+ID1824,Radar System,90,-1,96,263,Yes,Low,32,1,Forest,138,56,Yes,normal
+ID4534,Body Armor Sensor,15,-7,61,397,Yes,High,45,5,Arctic,102,23,Yes,compromised
+ID9623,Unmanned Ground Vehicle,23,47,95,168,Yes,Medium,77,5,Urban,57,64,Yes,compromised
+ID9540,Radar System,29,26,81,107,Yes,Medium,67,2,Urban,101,147,Yes,compromised
+ID3337,Surveillance Camera,92,50,34,350,Yes,Low,30,5,Forest,71,82,Yes,normal
+ID9741,Weapon System,62,44,93,276,Yes,Low,12,2,Arctic,79,15,Yes,normal
+ID3246,Body Armor Sensor,33,43,82,180,Yes,Medium,23,5,Forest,41,15,Yes,normal
+ID5414,Surveillance Camera,66,20,30,368,Yes,Low,39,0,Desert,93,40,Yes,normal
+ID5545,Communication Equipment,74,32,45,152,Yes,High,47,2,Forest,115,99,Yes,normal
+ID1571,Weapon System,27,-2,47,230,Yes,High,65,4,Forest,94,104,Yes,compromised
+ID1163,Radar System,66,42,54,120,Yes,Medium,13,4,Desert,98,5,Yes,normal
+ID6157,Unmanned Ground Vehicle,67,59,73,499,Yes,High,58,2,Desert,172,39,Yes,compromised
+ID8243,Radar System,35,18,67,313,No,Low,82,0,Arctic,153,56,Yes,compromised
+ID8333,Communication Equipment,21,45,55,197,No,Medium,100,4,Desert,68,31,No,compromised
+ID4742,Drone,55,26,86,110,No,Medium,31,1,Urban,161,1,No,compromised
+ID3848,Unmanned Ground Vehicle,95,4,40,212,Yes,Medium,70,2,Arctic,38,161,No,compromised
+ID3052,Communication Equipment,52,5,85,474,No,High,39,2,Desert,126,90,No,compromised
+ID7492,Weapon System,37,19,34,372,Yes,Low,18,1,Forest,64,62,Yes,normal
+ID5677,Radar System,69,59,34,480,No,Medium,92,2,Desert,146,161,Yes,compromised
+ID8571,Body Armor Sensor,25,15,76,343,No,Medium,18,4,Urban,114,188,No,compromised
+ID5134,Surveillance Camera,82,0,97,235,Yes,Low,34,5,Forest,31,175,No,compromised
+ID2788,Weapon System,52,3,56,437,No,Low,59,3,Forest,83,50,Yes,compromised
+ID6167,Body Armor Sensor,24,33,33,227,No,Low,24,4,Urban,113,118,No,compromised
+ID3747,Drone,34,31,27,231,No,Medium,65,3,Arctic,168,75,No,compromised
+ID5267,Radar System,17,4,49,295,Yes,High,9,0,Arctic,75,83,Yes,compromised
+ID7514,Radar System,39,15,95,183,Yes,Medium,37,1,Forest,96,31,Yes,normal
+ID1004,Surveillance Camera,50,46,61,454,Yes,High,14,3,Desert,149,72,Yes,normal
+ID1310,Unmanned Ground Vehicle,68,23,49,488,Yes,Medium,4,1,Desert,128,5,Yes,normal
+ID4338,Unmanned Ground Vehicle,51,27,58,376,Yes,Medium,29,1,Desert,81,44,Yes,normal
+ID1628,Communication Equipment,23,57,35,132,No,Low,7,2,Arctic,142,112,No,compromised
+ID5553,Body Armor Sensor,72,12,72,297,Yes,Low,10,1,Desert,142,64,Yes,normal
+ID8942,Radar System,42,2,56,216,No,Medium,69,2,Desert,140,28,No,compromised
+ID9996,Unmanned Ground Vehicle,52,29,39,276,Yes,Low,8,2,Desert,39,44,Yes,normal
+ID7328,Radar System,72,8,81,408,Yes,Low,10,1,Desert,34,63,Yes,normal
+ID4709,Body Armor Sensor,40,-4,88,389,Yes,Low,36,3,Desert,170,74,Yes,normal
+ID8285,Drone,35,32,72,410,Yes,Low,23,1,Forest,66,49,Yes,normal
+ID3102,Communication Equipment,61,33,91,231,Yes,Low,41,1,Forest,82,41,Yes,normal
+ID8381,Weapon System,86,-8,76,350,Yes,Low,0,2,Forest,114,79,Yes,normal
+ID8363,Radar System,20,31,60,426,Yes,Medium,26,2,Urban,100,18,Yes,normal
+ID4039,Body Armor Sensor,43,0,53,447,Yes,Low,48,0,Urban,143,67,No,compromised
+ID4110,Communication Equipment,58,21,83,198,Yes,Low,33,3,Desert,166,97,Yes,normal
+ID6608,Unmanned Ground Vehicle,82,-10,50,128,Yes,Low,15,0,Forest,179,92,Yes,normal
+ID5874,Unmanned Ground Vehicle,67,-7,42,354,No,Medium,77,1,Urban,157,95,Yes,compromised
+ID6822,Body Armor Sensor,76,5,30,189,Yes,Low,30,3,Desert,89,56,Yes,normal
+ID6509,Radar System,86,20,37,227,Yes,Low,21,0,Forest,165,57,Yes,normal
+ID6002,Surveillance Camera,40,33,80,225,No,Medium,13,5,Arctic,130,21,No,compromised
+ID6730,Radar System,50,29,52,450,Yes,High,3,4,Urban,140,65,Yes,normal
+ID1232,Surveillance Camera,23,45,40,288,Yes,Low,6,1,Desert,94,55,Yes,normal
+ID2854,Unmanned Ground Vehicle,18,22,74,237,Yes,Medium,4,0,Desert,55,13,Yes,compromised
+ID4609,Drone,77,-10,73,286,Yes,Low,0,4,Desert,122,160,No,compromised
+ID3367,Body Armor Sensor,39,-6,40,329,Yes,Medium,19,5,Urban,146,71,Yes,normal
+ID3211,Surveillance Camera,40,40,33,347,Yes,Medium,70,5,Arctic,113,142,No,compromised
+ID4987,Surveillance Camera,27,7,55,487,No,High,45,1,Desert,33,130,Yes,compromised
+ID1866,Unmanned Ground Vehicle,47,56,47,359,No,High,40,2,Forest,63,20,Yes,compromised
+ID3744,Drone,78,41,92,170,Yes,Medium,3,4,Forest,84,81,Yes,normal
+ID6494,Body Armor Sensor,36,27,62,345,Yes,High,14,2,Arctic,90,21,Yes,normal
+ID3516,Surveillance Camera,66,11,56,447,Yes,Low,12,0,Forest,60,82,Yes,normal
+ID9107,Body Armor Sensor,85,-10,60,271,Yes,High,75,5,Arctic,131,113,No,compromised
+ID6223,Drone,61,37,80,144,Yes,Medium,25,4,Forest,114,13,Yes,normal
+ID8348,Radar System,53,4,79,438,No,High,84,1,Urban,167,25,Yes,compromised
+ID9192,Unmanned Ground Vehicle,29,23,47,186,Yes,Medium,24,2,Arctic,148,86,Yes,normal
+ID8472,Unmanned Ground Vehicle,60,24,95,447,No,High,15,5,Urban,52,120,No,compromised
+ID8687,Radar System,20,40,100,105,No,Low,30,4,Urban,90,8,Yes,compromised
+ID4324,Surveillance Camera,60,45,47,237,No,Low,18,3,Urban,173,129,No,compromised
+ID1894,Drone,86,4,35,126,Yes,High,22,4,Arctic,157,9,Yes,normal
+ID7679,Weapon System,47,59,34,351,No,Medium,100,3,Desert,97,49,No,compromised
+ID5779,Weapon System,54,0,96,191,Yes,High,10,1,Forest,154,76,Yes,normal
+ID9130,Radar System,61,42,58,120,Yes,High,30,3,Urban,52,44,Yes,normal
+ID1592,Weapon System,68,21,66,444,Yes,Medium,14,3,Forest,30,55,Yes,normal
+ID6043,Communication Equipment,74,19,23,172,No,Low,45,5,Desert,75,126,Yes,compromised
+ID1489,Radar System,70,6,77,299,Yes,Low,19,2,Desert,34,100,Yes,normal
+ID6349,Communication Equipment,42,1,32,212,No,Low,88,1,Urban,117,197,Yes,compromised
+ID4983,Weapon System,91,45,44,443,No,High,32,4,Forest,63,86,Yes,compromised
+ID6761,Communication Equipment,35,-8,56,227,Yes,Low,25,0,Arctic,127,37,Yes,normal
+ID2425,Surveillance Camera,64,55,86,312,No,Medium,23,5,Urban,87,20,No,compromised
+ID4983,Communication Equipment,22,21,31,330,Yes,Medium,44,2,Forest,134,42,Yes,normal
+ID2622,Weapon System,39,33,54,260,Yes,High,15,5,Urban,87,46,Yes,normal
+ID1110,Weapon System,51,45,59,348,Yes,Medium,30,5,Urban,95,100,Yes,normal
+ID4733,Communication Equipment,58,47,57,392,Yes,Low,11,5,Urban,65,44,Yes,normal
+ID7754,Surveillance Camera,77,5,78,335,Yes,Medium,26,5,Urban,112,69,Yes,normal
+ID1946,Unmanned Ground Vehicle,77,38,95,179,Yes,Medium,7,4,Urban,136,75,Yes,normal
+ID6019,Surveillance Camera,42,3,68,434,Yes,Medium,44,5,Desert,165,68,Yes,normal
+ID6005,Body Armor Sensor,73,5,42,450,No,Medium,57,0,Arctic,103,62,No,compromised
+ID8250,Communication Equipment,72,23,67,430,No,Medium,25,0,Urban,70,4,Yes,compromised
+ID9049,Surveillance Camera,59,25,59,193,Yes,Medium,26,5,Arctic,179,97,Yes,normal
+ID1455,Body Armor Sensor,55,0,70,185,Yes,Low,11,2,Urban,179,74,Yes,normal
+ID2199,Weapon System,85,32,77,217,Yes,Low,19,2,Desert,163,48,Yes,normal
+ID3612,Surveillance Camera,29,17,36,329,Yes,High,24,3,Forest,124,28,Yes,normal
+ID8997,Drone,57,48,66,126,Yes,High,21,1,Arctic,83,12,Yes,normal
+ID8885,Unmanned Ground Vehicle,92,31,55,468,Yes,High,47,5,Forest,149,63,Yes,normal
+ID7046,Communication Equipment,11,38,66,288,Yes,Medium,88,1,Desert,165,132,Yes,compromised
+ID2665,Communication Equipment,62,57,48,265,No,Low,20,5,Arctic,135,149,No,compromised
+ID5477,Radar System,23,27,51,294,Yes,High,36,4,Forest,133,66,Yes,normal
+ID8774,Communication Equipment,22,31,97,311,Yes,Medium,10,0,Arctic,174,192,Yes,compromised
+ID9548,Weapon System,21,19,78,500,Yes,High,42,4,Arctic,61,92,Yes,normal
+ID9238,Weapon System,22,16,30,212,Yes,Medium,48,2,Urban,170,53,Yes,normal
+ID8138,Body Armor Sensor,84,36,99,301,Yes,Low,18,2,Desert,85,27,Yes,normal
+ID6205,Drone,95,13,41,364,Yes,Low,10,2,Arctic,140,30,Yes,normal
+ID9115,Body Armor Sensor,39,8,37,177,No,Low,57,3,Urban,70,64,Yes,compromised
+ID1513,Surveillance Camera,79,14,70,415,Yes,Medium,0,0,Arctic,125,85,Yes,normal
+ID5999,Weapon System,65,24,64,176,No,Low,3,0,Urban,72,97,No,compromised
+ID6054,Radar System,54,11,75,148,Yes,Low,11,3,Forest,49,70,Yes,normal
+ID2647,Radar System,39,14,77,411,No,Low,27,0,Arctic,100,113,Yes,compromised
+ID6324,Unmanned Ground Vehicle,94,32,39,110,Yes,Medium,11,1,Desert,66,55,Yes,normal
+ID2761,Body Armor Sensor,15,40,97,346,No,High,7,5,Arctic,46,160,No,compromised
+ID2180,Unmanned Ground Vehicle,33,-3,40,110,Yes,Medium,10,3,Forest,67,19,Yes,normal
+ID6228,Drone,43,-7,43,370,Yes,Medium,37,3,Forest,137,92,Yes,normal
+ID9459,Unmanned Ground Vehicle,75,-9,89,391,Yes,Medium,20,1,Forest,88,43,Yes,normal
+ID9606,Unmanned Ground Vehicle,64,-9,90,349,No,Low,31,2,Arctic,75,116,No,compromised
+ID8475,Radar System,15,10,82,428,No,Medium,23,3,Urban,91,48,No,compromised
+ID3361,Unmanned Ground Vehicle,32,1,58,147,Yes,High,40,5,Arctic,71,28,Yes,normal
+ID9449,Body Armor Sensor,22,-8,79,108,No,High,61,1,Forest,72,154,No,compromised
+ID5560,Drone,95,38,57,343,Yes,High,59,0,Forest,154,93,No,compromised
+ID5450,Communication Equipment,25,34,23,208,Yes,Medium,13,4,Desert,165,102,Yes,compromised
+ID8857,Unmanned Ground Vehicle,62,21,59,365,Yes,High,30,0,Urban,43,38,Yes,normal
+ID2588,Communication Equipment,62,26,75,245,Yes,Low,0,4,Desert,166,36,Yes,normal
+ID3414,Drone,39,1,60,281,Yes,Low,8,5,Desert,152,22,Yes,normal
+ID7843,Unmanned Ground Vehicle,22,21,82,187,Yes,Medium,0,4,Forest,64,31,Yes,normal
+ID5160,Unmanned Ground Vehicle,23,4,96,267,No,Medium,69,3,Urban,89,21,Yes,compromised
+ID2974,Unmanned Ground Vehicle,46,-4,58,416,Yes,Low,12,5,Desert,153,98,Yes,normal
+ID6053,Radar System,86,52,73,455,Yes,High,23,3,Urban,95,21,No,compromised
+ID5716,Drone,36,-9,99,250,Yes,Low,32,0,Arctic,129,84,Yes,normal
+ID9704,Drone,47,24,61,356,No,High,89,5,Urban,141,14,Yes,compromised
+ID5746,Drone,96,-3,33,105,Yes,Low,30,4,Arctic,172,26,Yes,normal
+ID4984,Unmanned Ground Vehicle,91,40,66,314,Yes,Low,29,5,Forest,99,74,Yes,normal
+ID9629,Drone,51,16,51,210,Yes,High,60,2,Arctic,175,52,No,compromised
+ID7439,Radar System,29,37,60,249,Yes,Low,73,2,Forest,44,166,Yes,compromised
+ID8928,Radar System,46,11,68,114,Yes,Low,5,4,Arctic,102,97,Yes,normal
+ID9292,Unmanned Ground Vehicle,99,28,99,262,Yes,Low,48,3,Urban,33,77,Yes,normal
+ID3778,Radar System,37,27,53,155,Yes,Medium,45,1,Urban,166,195,No,compromised
+ID7483,Drone,23,13,83,289,No,Medium,91,1,Arctic,170,79,Yes,compromised
+ID4219,Communication Equipment,81,15,53,487,Yes,Medium,26,1,Urban,101,76,Yes,normal
+ID3835,Radar System,83,46,64,163,Yes,Low,33,4,Urban,41,49,Yes,normal
+ID1969,Unmanned Ground Vehicle,62,60,32,344,Yes,High,35,0,Urban,68,110,Yes,compromised
+ID3950,Unmanned Ground Vehicle,36,23,24,474,Yes,High,91,0,Forest,52,157,Yes,compromised
+ID7360,Surveillance Camera,70,17,90,479,Yes,High,4,4,Urban,87,77,Yes,normal
+ID2489,Radar System,27,23,57,241,No,Low,2,0,Desert,73,58,Yes,compromised
+ID5445,Weapon System,27,44,51,360,Yes,Medium,82,0,Forest,108,191,Yes,compromised
+ID7797,Unmanned Ground Vehicle,10,13,97,404,No,Low,5,1,Urban,57,175,No,compromised
+ID6768,Surveillance Camera,18,52,69,225,No,Medium,58,2,Urban,68,108,Yes,compromised
+ID8574,Weapon System,97,46,62,412,Yes,High,29,5,Desert,128,70,Yes,normal
+ID2398,Radar System,13,13,22,190,Yes,Low,38,4,Forest,174,44,Yes,compromised
+ID9907,Weapon System,83,32,85,203,Yes,High,24,0,Forest,173,74,Yes,normal
+ID4583,Body Armor Sensor,41,26,32,429,No,Medium,43,2,Arctic,59,161,No,compromised
+ID6354,Body Armor Sensor,72,52,42,446,No,Medium,67,4,Urban,80,134,Yes,compromised
+ID1051,Radar System,64,-7,96,229,Yes,High,2,0,Desert,109,98,Yes,normal
+ID3823,Radar System,80,22,94,271,Yes,Medium,100,0,Desert,115,124,Yes,compromised
+ID5024,Drone,23,15,81,295,No,High,57,1,Forest,107,120,Yes,compromised
+ID6633,Body Armor Sensor,32,22,53,271,Yes,Low,49,5,Forest,158,131,Yes,compromised
+ID9607,Surveillance Camera,32,32,78,214,No,Medium,58,5,Desert,156,157,Yes,compromised
+ID6222,Unmanned Ground Vehicle,98,41,68,397,Yes,Medium,33,2,Arctic,152,81,Yes,normal
+ID4656,Body Armor Sensor,24,-5,78,147,No,Medium,70,3,Forest,172,15,No,compromised
+ID9252,Surveillance Camera,54,32,85,177,No,Low,2,5,Desert,153,160,Yes,compromised
+ID3220,Weapon System,35,36,72,467,Yes,High,7,0,Urban,178,110,Yes,compromised
+ID7044,Communication Equipment,26,7,95,439,Yes,Medium,5,1,Urban,129,30,Yes,normal
+ID5262,Weapon System,23,46,88,439,Yes,Low,23,0,Forest,59,91,Yes,normal
+ID8035,Radar System,77,36,63,238,No,High,65,2,Forest,34,22,Yes,compromised
+ID5796,Communication Equipment,25,38,80,159,Yes,Low,16,3,Urban,126,54,Yes,normal
+ID7709,Radar System,73,17,50,173,Yes,High,32,1,Arctic,92,94,Yes,normal
+ID6985,Drone,100,9,55,330,Yes,High,7,1,Urban,164,85,Yes,normal
+ID3748,Weapon System,66,35,44,472,No,Medium,34,3,Forest,61,128,Yes,compromised
+ID9845,Body Armor Sensor,56,40,99,282,Yes,Medium,3,1,Urban,111,41,Yes,normal
+ID1079,Radar System,50,6,43,155,Yes,Low,14,1,Arctic,156,19,Yes,normal
+ID6188,Surveillance Camera,33,36,47,307,Yes,High,50,3,Arctic,105,192,Yes,compromised
+ID6445,Unmanned Ground Vehicle,66,12,38,244,Yes,High,20,1,Arctic,32,20,Yes,normal
+ID6498,Drone,41,57,41,443,No,High,24,1,Forest,98,85,No,compromised
+ID4293,Body Armor Sensor,56,38,80,476,Yes,Medium,63,0,Forest,165,78,Yes,compromised
+ID6671,Weapon System,11,16,77,306,Yes,Low,2,0,Forest,32,48,No,compromised
+ID6391,Surveillance Camera,38,27,28,180,No,Medium,46,2,Urban,90,3,No,compromised
+ID6331,Communication Equipment,12,11,78,219,Yes,High,67,1,Arctic,55,187,Yes,compromised
+ID2309,Weapon System,16,28,80,380,Yes,Low,41,0,Arctic,148,17,Yes,compromised
+ID5498,Weapon System,65,48,84,158,Yes,Medium,30,2,Urban,86,90,Yes,normal
+ID8504,Unmanned Ground Vehicle,90,23,81,182,Yes,High,2,4,Desert,110,13,Yes,normal
+ID2975,Surveillance Camera,77,8,73,231,Yes,Low,28,2,Desert,47,33,Yes,normal
+ID5519,Radar System,69,24,68,385,Yes,High,16,3,Arctic,33,58,Yes,normal
+ID1987,Weapon System,60,27,70,190,Yes,Medium,36,3,Urban,162,73,Yes,normal
+ID2314,Communication Equipment,65,35,59,213,Yes,Low,27,0,Desert,108,84,Yes,normal
+ID4942,Surveillance Camera,52,33,67,477,Yes,Low,38,5,Urban,40,62,Yes,normal
+ID1856,Weapon System,63,18,53,301,Yes,High,19,4,Arctic,132,69,Yes,normal
+ID5866,Weapon System,10,16,97,422,Yes,Medium,54,5,Desert,116,48,Yes,compromised
+ID8926,Drone,49,15,45,163,No,Low,78,4,Urban,175,53,No,compromised
+ID2349,Surveillance Camera,25,10,73,203,Yes,Medium,35,0,Urban,133,50,Yes,normal
+ID4412,Weapon System,77,14,60,178,Yes,High,45,4,Arctic,150,165,No,compromised
+ID9062,Radar System,53,43,97,438,Yes,High,26,5,Arctic,140,136,Yes,compromised
+ID8131,Communication Equipment,37,24,39,344,No,High,52,4,Forest,160,110,Yes,compromised
+ID1897,Weapon System,29,38,70,455,Yes,Medium,48,4,Urban,103,90,Yes,normal
+ID5478,Surveillance Camera,53,1,90,347,Yes,Low,6,3,Arctic,137,22,Yes,normal
+ID3190,Radar System,96,-3,77,228,Yes,Low,42,2,Urban,46,30,Yes,normal
+ID8250,Radar System,57,49,28,312,Yes,Low,64,0,Arctic,48,155,No,compromised
+ID9679,Communication Equipment,97,38,31,257,Yes,Medium,18,5,Urban,90,59,Yes,normal
+ID6185,Drone,22,23,37,285,Yes,Low,12,3,Arctic,45,36,Yes,normal
+ID8185,Drone,46,42,38,213,Yes,Medium,25,0,Urban,69,70,Yes,normal
+ID2307,Communication Equipment,28,35,55,304,Yes,High,87,3,Arctic,109,82,No,compromised
+ID2452,Weapon System,56,34,37,382,Yes,Medium,24,2,Urban,113,89,Yes,normal
+ID1334,Drone,67,47,39,379,No,Medium,85,5,Urban,144,31,Yes,compromised
+ID6619,Drone,22,56,100,413,No,Low,83,0,Urban,142,155,Yes,compromised
+ID4697,Drone,58,51,31,129,Yes,Medium,9,0,Desert,163,84,Yes,compromised
+ID5474,Radar System,74,21,69,389,No,Medium,17,1,Urban,66,42,No,compromised
+ID9348,Communication Equipment,52,49,72,269,Yes,Low,23,5,Urban,172,41,Yes,normal
+ID4896,Drone,60,5,89,235,Yes,Medium,45,5,Forest,111,21,Yes,normal
+ID9495,Drone,34,47,80,391,Yes,High,88,1,Desert,178,150,No,compromised
+ID8252,Drone,91,41,68,380,Yes,Low,50,2,Urban,127,82,Yes,normal
+ID2278,Radar System,36,23,98,199,Yes,Medium,1,0,Forest,100,100,Yes,normal
+ID1014,Unmanned Ground Vehicle,28,42,46,481,Yes,High,20,3,Desert,180,58,Yes,normal
+ID2928,Drone,95,9,32,212,Yes,Medium,32,2,Urban,129,48,Yes,normal
+ID4894,Communication Equipment,26,21,55,436,No,Medium,69,5,Arctic,179,175,No,compromised
+ID8616,Unmanned Ground Vehicle,83,0,91,143,Yes,Medium,17,4,Forest,115,43,Yes,normal
+ID8664,Communication Equipment,38,2,65,394,Yes,Low,72,0,Arctic,164,58,No,compromised
+ID4820,Communication Equipment,40,33,63,264,Yes,Medium,99,1,Desert,167,40,Yes,compromised
+ID3066,Body Armor Sensor,74,37,22,351,No,Low,81,2,Arctic,122,125,Yes,compromised
+ID5419,Weapon System,79,11,29,122,No,Medium,54,0,Desert,164,18,Yes,compromised
+ID6760,Surveillance Camera,37,51,21,465,Yes,Low,4,3,Urban,168,72,Yes,compromised
+ID4886,Radar System,89,28,60,181,Yes,Medium,29,2,Forest,175,101,Yes,compromised
+ID3409,Body Armor Sensor,28,40,24,392,Yes,Medium,61,5,Forest,94,149,No,compromised
+ID4294,Unmanned Ground Vehicle,55,54,39,252,No,High,96,0,Desert,142,149,Yes,compromised
+ID9928,Communication Equipment,32,57,77,205,No,Medium,58,2,Urban,37,36,No,compromised
+ID5950,Unmanned Ground Vehicle,45,28,31,147,Yes,Medium,31,2,Urban,108,72,Yes,normal
+ID5830,Body Armor Sensor,77,37,70,486,Yes,Medium,7,5,Desert,120,52,Yes,normal
+ID3694,Unmanned Ground Vehicle,86,44,73,191,No,Medium,79,5,Urban,66,177,No,compromised
+ID5901,Drone,99,46,90,201,Yes,High,25,1,Desert,44,28,Yes,normal
+ID9343,Surveillance Camera,68,19,66,363,No,Medium,94,1,Arctic,108,126,No,compromised
+ID1498,Weapon System,37,9,48,274,Yes,High,48,0,Urban,134,88,Yes,normal
+ID1307,Radar System,17,35,32,318,No,Low,18,3,Forest,49,50,No,compromised
+ID5380,Drone,34,-1,45,208,Yes,Medium,49,3,Forest,153,36,Yes,normal
+ID2005,Drone,35,48,49,349,Yes,Medium,21,5,Desert,69,100,Yes,normal
+ID9624,Weapon System,83,6,76,158,No,High,82,1,Desert,154,112,Yes,compromised
+ID9386,Surveillance Camera,96,17,55,122,Yes,High,4,5,Urban,33,25,Yes,normal
+ID7325,Radar System,87,15,84,260,Yes,Low,33,0,Arctic,46,134,Yes,compromised
+ID3363,Drone,44,-5,96,489,Yes,Medium,49,3,Urban,180,12,Yes,normal
+ID6817,Drone,86,25,27,378,Yes,Medium,71,1,Urban,124,144,Yes,compromised
+ID6956,Communication Equipment,96,44,94,467,Yes,Low,13,1,Arctic,136,50,Yes,normal
+ID2155,Surveillance Camera,69,0,49,350,No,Low,58,5,Urban,50,91,No,compromised
+ID1437,Body Armor Sensor,51,46,54,173,Yes,High,11,1,Forest,175,75,Yes,normal
+ID7840,Radar System,83,-4,72,140,Yes,High,18,1,Urban,77,36,Yes,normal
+ID7196,Communication Equipment,10,18,60,453,Yes,High,29,2,Desert,148,84,No,compromised
+ID1420,Drone,50,41,36,411,Yes,Low,11,2,Forest,109,79,Yes,normal
+ID1647,Unmanned Ground Vehicle,24,31,92,276,Yes,High,15,0,Urban,156,95,Yes,normal
+ID4350,Weapon System,46,23,20,329,Yes,High,29,1,Arctic,32,121,Yes,compromised
+ID5713,Drone,83,30,97,291,Yes,Medium,34,3,Urban,118,17,Yes,normal
+ID2912,Radar System,67,35,51,266,No,Medium,28,0,Forest,116,166,No,compromised
+ID3065,Surveillance Camera,59,51,83,183,No,High,12,1,Desert,81,95,No,compromised
+ID1664,Weapon System,74,41,32,483,Yes,Medium,97,2,Desert,153,165,No,compromised
+ID4627,Communication Equipment,81,21,67,240,Yes,High,26,1,Desert,48,52,Yes,normal
+ID9170,Surveillance Camera,99,2,75,251,Yes,Low,33,0,Desert,35,93,Yes,normal
+ID8188,Communication Equipment,76,22,85,245,Yes,Low,35,5,Arctic,164,187,No,compromised
+ID1284,Body Armor Sensor,39,47,73,118,Yes,High,32,2,Arctic,41,42,Yes,normal
+ID4712,Radar System,31,16,45,392,Yes,Medium,31,2,Arctic,97,8,Yes,normal
+ID9095,Communication Equipment,50,-2,99,148,Yes,High,29,5,Forest,75,52,Yes,normal
+ID6383,Communication Equipment,30,20,65,114,No,Low,36,1,Arctic,139,57,No,compromised
+ID6101,Drone,72,52,49,247,Yes,Low,15,4,Arctic,75,199,Yes,compromised
+ID3623,Surveillance Camera,37,23,68,411,Yes,Medium,39,5,Urban,101,39,Yes,normal
+ID6846,Communication Equipment,93,52,41,306,No,Medium,98,0,Arctic,96,162,Yes,compromised
+ID9068,Weapon System,88,32,95,104,Yes,High,10,2,Forest,49,140,Yes,compromised
+ID8905,Weapon System,53,-7,62,158,No,High,46,2,Urban,120,79,No,compromised
+ID3295,Communication Equipment,28,9,96,322,No,Low,32,3,Desert,108,20,No,compromised
+ID9433,Radar System,64,3,23,364,Yes,Medium,1,5,Urban,127,34,No,compromised
+ID4785,Communication Equipment,79,44,30,315,Yes,Low,29,2,Forest,107,84,No,compromised
+ID3945,Radar System,88,32,64,345,Yes,High,47,3,Urban,120,63,Yes,normal
+ID4751,Communication Equipment,65,6,42,220,Yes,Low,17,0,Arctic,143,53,Yes,normal
+ID5933,Unmanned Ground Vehicle,67,-4,97,107,No,Low,27,0,Desert,118,63,No,compromised
+ID8597,Surveillance Camera,34,38,41,200,Yes,Low,5,5,Desert,66,95,Yes,normal
+ID4643,Surveillance Camera,17,49,35,114,No,Low,42,3,Desert,160,75,Yes,compromised
+ID3817,Radar System,37,44,51,139,No,Low,24,4,Arctic,67,155,Yes,compromised
+ID5431,Unmanned Ground Vehicle,37,42,46,377,Yes,Medium,8,0,Arctic,66,136,No,compromised
+ID6804,Communication Equipment,73,50,71,197,Yes,Medium,30,4,Forest,58,79,Yes,normal
+ID6591,Communication Equipment,79,5,44,175,Yes,Low,2,0,Arctic,112,5,Yes,normal
+ID4154,Communication Equipment,55,5,55,266,No,High,33,5,Arctic,124,99,Yes,compromised
+ID3724,Surveillance Camera,20,48,65,313,Yes,Medium,62,3,Urban,120,106,Yes,compromised
+ID7743,Weapon System,70,-10,100,149,Yes,Low,79,0,Arctic,43,170,No,compromised
+ID2634,Surveillance Camera,77,16,57,251,Yes,Medium,18,3,Arctic,41,176,Yes,compromised
+ID8203,Surveillance Camera,62,-6,93,349,Yes,Low,24,4,Urban,128,10,Yes,normal
+ID5446,Communication Equipment,27,-2,79,398,Yes,Low,4,2,Arctic,111,8,Yes,normal
+ID6799,Communication Equipment,39,31,46,281,Yes,Medium,17,5,Desert,125,59,Yes,normal
+ID8351,Communication Equipment,61,46,39,214,Yes,Low,98,5,Desert,176,17,Yes,compromised
+ID8574,Surveillance Camera,33,-7,83,399,No,Low,90,0,Arctic,117,176,Yes,compromised
+ID6181,Drone,40,29,50,489,Yes,Low,29,0,Urban,157,40,Yes,normal
+ID5843,Body Armor Sensor,79,10,38,297,Yes,Low,37,1,Forest,44,88,Yes,normal
+ID1014,Surveillance Camera,96,23,89,251,Yes,High,1,1,Forest,52,26,Yes,normal
+ID2214,Radar System,61,-8,75,144,Yes,High,2,0,Desert,56,4,Yes,normal
+ID8460,Unmanned Ground Vehicle,68,37,36,233,Yes,High,44,2,Urban,55,20,Yes,normal
+ID2141,Radar System,26,19,39,260,No,Low,68,0,Arctic,33,61,Yes,compromised
+ID2690,Drone,49,23,27,253,No,Low,20,5,Urban,162,60,No,compromised
+ID8079,Unmanned Ground Vehicle,29,6,43,152,Yes,Low,79,4,Arctic,39,11,Yes,compromised
+ID1491,Drone,88,32,44,146,Yes,High,44,0,Arctic,171,118,No,compromised
+ID7777,Surveillance Camera,92,1,61,253,No,Low,39,4,Urban,172,86,Yes,compromised
+ID6814,Weapon System,85,3,40,212,Yes,High,85,4,Desert,162,46,Yes,compromised
+ID9030,Weapon System,78,38,86,448,Yes,Low,47,0,Arctic,44,68,Yes,normal
+ID4835,Communication Equipment,33,49,91,131,No,Medium,80,2,Forest,52,129,No,compromised
+ID4442,Weapon System,10,57,34,202,No,Low,11,2,Desert,67,55,No,compromised
+ID2559,Body Armor Sensor,59,15,41,281,Yes,Medium,21,0,Desert,133,17,Yes,normal
+ID8204,Weapon System,73,52,45,329,Yes,Medium,84,3,Forest,48,69,Yes,compromised
+ID1540,Drone,57,33,51,211,Yes,Medium,12,0,Urban,37,36,Yes,normal
+ID1783,Radar System,89,20,92,384,Yes,Low,51,1,Arctic,177,9,No,compromised
+ID2714,Body Armor Sensor,11,30,95,197,No,Low,91,3,Desert,36,148,Yes,compromised
+ID5002,Body Armor Sensor,59,16,52,199,Yes,High,18,5,Forest,56,39,Yes,normal
+ID7463,Body Armor Sensor,74,25,86,132,Yes,Medium,31,2,Forest,116,99,Yes,normal
+ID5313,Weapon System,54,-8,74,180,Yes,High,45,3,Arctic,104,192,No,compromised
+ID1089,Body Armor Sensor,78,60,99,217,No,Medium,77,5,Arctic,168,26,Yes,compromised
+ID5202,Surveillance Camera,96,16,90,339,No,High,60,2,Arctic,127,45,Yes,compromised
+ID4459,Surveillance Camera,94,42,45,121,Yes,High,64,2,Desert,43,70,Yes,compromised
+ID7860,Drone,66,41,74,228,Yes,Medium,40,4,Urban,73,68,Yes,normal
+ID2516,Drone,66,49,61,432,Yes,High,16,4,Urban,91,119,Yes,compromised
+ID5438,Weapon System,36,32,33,245,Yes,High,24,4,Forest,152,6,Yes,normal
+ID1664,Weapon System,97,-1,85,261,Yes,Low,7,3,Desert,163,3,Yes,normal
+ID2493,Body Armor Sensor,92,0,90,158,Yes,Medium,0,2,Arctic,84,6,Yes,normal
+ID1287,Unmanned Ground Vehicle,78,32,95,138,Yes,High,45,1,Arctic,83,93,Yes,normal
+ID3759,Surveillance Camera,83,-2,52,277,Yes,Low,29,0,Forest,88,64,Yes,normal
+ID6649,Unmanned Ground Vehicle,82,-3,48,364,Yes,Low,4,0,Arctic,175,93,Yes,normal
+ID5105,Radar System,29,-4,24,301,No,Medium,59,2,Desert,95,11,No,compromised
+ID5876,Body Armor Sensor,74,36,46,436,Yes,High,30,1,Urban,141,38,Yes,normal
+ID9865,Body Armor Sensor,45,-4,97,181,Yes,High,28,3,Urban,98,78,Yes,normal
+ID1092,Body Armor Sensor,61,-5,61,489,Yes,Medium,27,1,Desert,138,25,Yes,normal
+ID4601,Communication Equipment,90,59,74,260,No,High,91,5,Forest,64,120,No,compromised
+ID6399,Surveillance Camera,53,2,50,467,No,High,38,3,Arctic,88,184,Yes,compromised
+ID3730,Radar System,25,-2,37,213,No,High,33,3,Urban,91,75,No,compromised
+ID7738,Radar System,72,49,42,484,Yes,Medium,65,1,Forest,136,49,No,compromised
+ID6012,Body Armor Sensor,46,-3,62,421,Yes,Medium,9,2,Forest,95,29,Yes,normal
+ID3920,Drone,46,4,40,424,Yes,High,5,3,Desert,79,1,Yes,normal
+ID8620,Radar System,66,42,32,101,Yes,High,54,4,Forest,68,13,No,compromised
+ID7242,Body Armor Sensor,74,9,84,256,Yes,Low,3,0,Arctic,152,60,Yes,normal
+ID6883,Communication Equipment,49,35,90,188,No,High,64,1,Urban,110,20,No,compromised
+ID3193,Unmanned Ground Vehicle,43,11,85,430,Yes,High,89,0,Urban,135,119,No,compromised
+ID1965,Radar System,71,11,55,338,Yes,Medium,48,4,Desert,61,33,Yes,normal
+ID5266,Drone,83,36,39,318,Yes,High,46,0,Arctic,151,67,Yes,normal
+ID7247,Weapon System,10,36,80,308,No,Medium,56,5,Arctic,116,148,Yes,compromised
+ID8780,Communication Equipment,96,-5,76,412,Yes,Low,28,2,Forest,54,44,Yes,normal
+ID2604,Unmanned Ground Vehicle,31,18,63,331,No,Low,73,2,Forest,157,10,Yes,compromised
+ID7010,Body Armor Sensor,16,-1,100,477,Yes,Low,66,3,Urban,146,86,Yes,compromised
+ID4891,Weapon System,34,0,48,431,Yes,High,32,0,Desert,112,22,Yes,normal
+ID2936,Radar System,71,38,73,343,No,High,42,1,Arctic,143,126,No,compromised
+ID8993,Weapon System,95,-7,45,241,Yes,Low,45,1,Arctic,122,42,Yes,normal
+ID2906,Radar System,49,27,75,420,Yes,High,8,0,Desert,35,60,Yes,normal
+ID6011,Radar System,21,15,61,257,Yes,Low,32,5,Desert,49,24,Yes,normal
+ID8006,Radar System,28,32,51,474,Yes,High,15,0,Urban,35,48,Yes,normal
+ID9002,Body Armor Sensor,72,2,41,154,Yes,Medium,20,0,Forest,108,67,Yes,normal
+ID3610,Communication Equipment,76,3,69,191,Yes,Low,20,0,Arctic,48,8,Yes,normal
+ID5674,Body Armor Sensor,82,29,77,442,Yes,Medium,48,4,Urban,71,167,Yes,compromised
+ID4326,Unmanned Ground Vehicle,92,-3,68,213,No,Medium,95,5,Urban,97,10,No,compromised
+ID2468,Drone,95,-4,33,492,Yes,Medium,13,5,Desert,50,95,Yes,normal
+ID1417,Surveillance Camera,95,36,92,353,Yes,Low,48,3,Urban,86,24,Yes,normal
+ID2983,Body Armor Sensor,38,40,33,289,Yes,High,100,5,Forest,67,100,No,compromised
+ID7254,Body Armor Sensor,29,4,85,418,Yes,Medium,34,2,Arctic,107,67,Yes,normal
+ID5846,Body Armor Sensor,85,8,23,117,Yes,High,56,3,Urban,51,19,Yes,compromised
+ID3364,Weapon System,27,25,85,296,Yes,High,11,3,Desert,174,49,Yes,normal
+ID2475,Communication Equipment,81,30,48,426,Yes,Medium,20,2,Urban,180,57,Yes,normal
+ID9520,Surveillance Camera,90,29,51,485,Yes,Medium,37,3,Arctic,77,40,Yes,normal
+ID8099,Drone,98,33,28,450,Yes,Low,46,4,Arctic,80,75,Yes,compromised
+ID6441,Drone,82,22,72,331,Yes,Medium,17,1,Forest,98,82,Yes,normal
+ID8121,Drone,24,20,77,463,Yes,Medium,36,2,Desert,109,66,Yes,normal
+ID6934,Radar System,64,18,31,223,No,Low,36,3,Urban,144,59,No,compromised
+ID7246,Communication Equipment,55,28,57,411,Yes,Low,1,0,Forest,153,38,Yes,normal
+ID6904,Drone,36,32,48,157,Yes,High,25,1,Desert,99,87,Yes,normal
+ID4544,Drone,63,12,66,308,Yes,High,57,2,Urban,103,172,Yes,compromised
+ID5159,Communication Equipment,58,40,83,279,No,Medium,97,1,Arctic,85,185,No,compromised
+ID9289,Body Armor Sensor,83,4,52,300,Yes,Medium,11,5,Urban,125,55,Yes,normal
+ID5911,Radar System,23,21,70,196,Yes,High,0,3,Desert,177,27,Yes,normal
+ID7080,Drone,60,-8,74,162,No,Medium,39,3,Desert,123,115,Yes,compromised
+ID2974,Communication Equipment,28,49,20,146,No,Medium,43,5,Urban,86,129,No,compromised
+ID7494,Communication Equipment,31,23,90,157,Yes,Low,12,2,Urban,143,98,Yes,normal
+ID9720,Surveillance Camera,46,-6,57,437,Yes,Low,48,1,Urban,115,3,Yes,normal
+ID3730,Surveillance Camera,20,41,58,321,Yes,Medium,17,5,Arctic,85,15,Yes,normal
+ID9593,Communication Equipment,82,6,23,117,No,High,15,5,Arctic,179,82,No,compromised
+ID3264,Surveillance Camera,77,17,25,106,No,Medium,3,5,Urban,43,52,No,compromised
+ID1281,Radar System,23,27,44,105,Yes,Medium,79,4,Urban,124,6,No,compromised
+ID5385,Communication Equipment,93,44,43,435,Yes,Low,10,4,Forest,74,75,Yes,normal
+ID9020,Body Armor Sensor,20,59,90,403,No,Medium,51,2,Arctic,149,148,Yes,compromised
+ID3368,Weapon System,85,-5,96,327,Yes,High,16,5,Arctic,92,119,Yes,compromised
+ID9777,Body Armor Sensor,40,8,35,481,Yes,Medium,10,5,Forest,34,46,Yes,normal
+ID2527,Drone,80,-3,62,235,Yes,High,34,3,Desert,87,75,Yes,normal
+ID3630,Body Armor Sensor,86,25,45,244,Yes,Medium,18,2,Arctic,53,52,Yes,normal
+ID1201,Weapon System,79,-1,64,346,Yes,Medium,30,4,Urban,154,28,Yes,normal
+ID2157,Unmanned Ground Vehicle,89,2,35,346,No,Low,2,3,Forest,33,25,Yes,compromised
+ID2261,Unmanned Ground Vehicle,21,-5,59,261,Yes,Low,32,4,Urban,105,65,Yes,normal
+ID2319,Unmanned Ground Vehicle,82,24,69,271,Yes,High,25,0,Arctic,103,74,Yes,normal
+ID4380,Unmanned Ground Vehicle,50,-4,61,206,Yes,High,95,3,Forest,143,5,Yes,compromised
+ID9888,Surveillance Camera,84,60,74,423,Yes,Low,73,4,Forest,30,193,No,compromised
+ID9714,Communication Equipment,97,18,56,489,Yes,Medium,18,1,Arctic,84,39,Yes,normal
+ID8593,Radar System,36,13,56,163,Yes,Medium,49,3,Desert,96,126,No,compromised
+ID1078,Body Armor Sensor,55,25,36,262,Yes,High,94,1,Arctic,152,165,Yes,compromised
+ID1868,Drone,93,7,57,446,Yes,High,19,4,Urban,144,88,Yes,normal
+ID5087,Body Armor Sensor,22,39,97,109,Yes,High,39,4,Desert,30,101,Yes,compromised
+ID3829,Drone,34,21,78,380,Yes,High,50,5,Arctic,132,83,Yes,normal
+ID3620,Unmanned Ground Vehicle,98,9,39,322,No,Medium,3,2,Forest,75,111,No,compromised
+ID9722,Radar System,11,54,84,448,Yes,High,24,3,Arctic,67,76,No,compromised
+ID3621,Radar System,62,59,85,274,Yes,Low,24,1,Forest,114,149,No,compromised
+ID6696,Surveillance Camera,33,20,37,458,No,Low,44,0,Arctic,94,139,Yes,compromised
+ID7600,Unmanned Ground Vehicle,97,31,76,177,Yes,High,20,3,Desert,86,37,Yes,normal
+ID9939,Weapon System,56,6,57,208,Yes,Medium,21,0,Forest,131,93,Yes,normal
+ID9985,Weapon System,74,16,72,293,Yes,Low,24,1,Urban,137,65,Yes,normal
+ID5364,Unmanned Ground Vehicle,60,30,81,396,Yes,High,93,5,Desert,79,128,No,compromised
+ID7605,Communication Equipment,59,29,95,278,No,High,86,0,Forest,92,72,Yes,compromised
+ID4753,Body Armor Sensor,49,23,55,239,Yes,Low,26,5,Urban,129,27,No,compromised
+ID4703,Drone,82,19,55,225,Yes,Low,2,2,Forest,120,53,Yes,normal
+ID6185,Body Armor Sensor,29,31,99,242,Yes,Low,12,4,Arctic,118,61,Yes,normal
+ID4090,Drone,60,25,31,481,Yes,Medium,45,2,Urban,178,23,Yes,normal
+ID5846,Unmanned Ground Vehicle,67,-5,53,471,Yes,Low,25,1,Arctic,136,2,Yes,normal
+ID7690,Radar System,69,-2,51,370,Yes,Medium,44,5,Arctic,109,28,Yes,normal
+ID2916,Weapon System,28,60,80,455,No,High,9,4,Arctic,171,23,Yes,compromised
+ID8419,Weapon System,12,45,20,416,No,Medium,63,3,Arctic,169,77,No,compromised
+ID8093,Unmanned Ground Vehicle,18,7,57,285,Yes,High,54,5,Arctic,83,161,No,compromised
+ID2340,Drone,54,7,44,408,Yes,High,46,0,Urban,87,189,No,compromised
+ID3827,Drone,26,11,66,427,Yes,Low,28,3,Desert,158,61,Yes,normal
+ID4633,Surveillance Camera,63,58,72,349,Yes,High,38,4,Urban,54,36,Yes,compromised
+ID3846,Unmanned Ground Vehicle,98,45,49,424,Yes,Medium,39,3,Arctic,161,124,No,compromised
+ID5563,Surveillance Camera,95,9,55,378,No,Low,56,1,Desert,50,101,Yes,compromised
+ID6035,Body Armor Sensor,66,-7,91,211,No,Low,79,0,Arctic,50,133,Yes,compromised
+ID4029,Drone,76,23,34,291,Yes,High,18,5,Forest,179,62,No,compromised
+ID9721,Radar System,26,43,40,356,Yes,Medium,9,4,Forest,152,86,Yes,normal
+ID6348,Body Armor Sensor,26,15,63,375,No,High,31,0,Desert,51,31,Yes,compromised
+ID3632,Radar System,32,27,73,172,Yes,Low,39,3,Arctic,85,85,Yes,normal
+ID3541,Radar System,46,43,33,449,Yes,Medium,15,3,Urban,141,79,Yes,normal
+ID4396,Unmanned Ground Vehicle,54,2,45,291,Yes,Medium,2,4,Urban,67,129,No,compromised
+ID6159,Surveillance Camera,16,-2,64,288,No,Low,89,5,Desert,34,174,Yes,compromised
+ID9847,Drone,92,22,43,283,No,High,72,2,Arctic,80,74,No,compromised
+ID3834,Surveillance Camera,33,28,31,289,Yes,Low,25,4,Forest,106,92,Yes,normal
+ID7895,Surveillance Camera,61,23,66,429,Yes,Low,14,3,Arctic,162,63,Yes,normal
+ID3698,Weapon System,32,24,34,466,Yes,Low,23,4,Arctic,82,85,Yes,normal
+ID9587,Body Armor Sensor,89,-3,22,465,Yes,High,100,2,Arctic,85,110,Yes,compromised
+ID4770,Communication Equipment,14,20,23,198,Yes,Low,47,0,Urban,78,77,Yes,compromised
+ID5246,Communication Equipment,41,28,88,111,No,Low,8,1,Urban,148,113,Yes,compromised
+ID1653,Unmanned Ground Vehicle,58,33,89,231,Yes,Medium,51,1,Arctic,59,127,Yes,compromised
+ID3466,Communication Equipment,95,2,86,257,Yes,High,40,2,Desert,64,85,Yes,normal
+ID6949,Surveillance Camera,26,17,69,267,Yes,Low,4,2,Urban,46,24,Yes,normal
+ID5927,Drone,63,-5,80,332,Yes,High,63,1,Forest,45,116,Yes,compromised
+ID1278,Communication Equipment,69,2,27,491,Yes,High,99,2,Forest,174,101,No,compromised
+ID8494,Surveillance Camera,82,33,88,246,Yes,Medium,42,3,Desert,98,90,Yes,normal
+ID4198,Radar System,31,19,33,330,Yes,High,9,1,Arctic,149,85,Yes,normal
+ID3710,Surveillance Camera,60,46,50,228,Yes,Medium,3,5,Arctic,111,94,Yes,normal
+ID4743,Radar System,26,55,76,252,No,Low,20,3,Urban,159,135,No,compromised
+ID1818,Body Armor Sensor,92,52,20,197,No,Medium,93,0,Forest,80,197,Yes,compromised
+ID9676,Body Armor Sensor,78,38,61,344,No,Low,43,0,Desert,180,52,Yes,compromised
+ID4723,Radar System,52,56,54,302,Yes,High,86,2,Arctic,42,147,Yes,compromised
+ID1858,Radar System,90,-10,62,214,Yes,Medium,45,0,Desert,39,6,Yes,normal
+ID2060,Body Armor Sensor,24,49,99,315,Yes,High,28,0,Forest,174,55,Yes,normal
+ID7010,Surveillance Camera,49,6,40,188,Yes,High,6,4,Desert,58,21,Yes,normal
+ID4035,Unmanned Ground Vehicle,87,0,44,186,No,Medium,61,5,Forest,68,65,No,compromised
+ID1290,Communication Equipment,91,15,94,206,Yes,Medium,83,1,Urban,161,46,No,compromised
+ID6836,Surveillance Camera,90,28,48,209,Yes,Low,24,0,Arctic,65,43,Yes,normal
+ID4455,Weapon System,80,43,48,334,Yes,Low,20,5,Arctic,108,17,Yes,normal
+ID6200,Radar System,47,44,71,264,Yes,High,12,5,Desert,58,34,Yes,normal
+ID1710,Surveillance Camera,100,21,97,189,No,Medium,52,4,Urban,151,79,No,compromised
+ID9327,Surveillance Camera,46,23,79,257,Yes,Medium,8,5,Forest,160,66,Yes,normal
+ID4422,Unmanned Ground Vehicle,36,12,48,102,Yes,High,45,1,Desert,111,65,Yes,normal
+ID9111,Unmanned Ground Vehicle,55,-6,30,188,Yes,Medium,29,3,Arctic,173,8,Yes,normal
+ID4878,Radar System,34,13,69,456,Yes,Medium,44,3,Forest,102,43,Yes,normal
+ID1820,Communication Equipment,52,50,78,284,Yes,Medium,17,3,Urban,125,93,Yes,normal
+ID6535,Drone,93,-5,76,386,Yes,Medium,44,5,Desert,147,69,Yes,normal
+ID1610,Radar System,61,-7,52,431,Yes,Low,21,1,Urban,55,11,Yes,normal
+ID3704,Surveillance Camera,87,25,100,265,Yes,High,19,3,Arctic,161,77,Yes,normal
+ID2344,Communication Equipment,68,49,83,455,No,High,87,0,Arctic,75,139,Yes,compromised
+ID1384,Communication Equipment,28,31,63,479,Yes,Medium,38,2,Forest,72,52,No,compromised
+ID5391,Unmanned Ground Vehicle,38,24,59,112,Yes,High,9,0,Desert,81,24,Yes,normal
+ID9984,Weapon System,81,7,31,427,Yes,Medium,34,4,Urban,79,35,Yes,normal
+ID8158,Drone,32,-6,67,462,Yes,Low,40,2,Arctic,165,94,Yes,normal
+ID5279,Weapon System,88,55,31,220,No,Low,66,5,Forest,145,17,No,compromised
+ID3169,Weapon System,69,34,89,293,No,High,90,4,Urban,174,48,Yes,compromised
+ID5782,Surveillance Camera,70,24,58,328,Yes,Medium,19,1,Urban,160,46,Yes,normal
+ID1363,Surveillance Camera,17,48,32,108,Yes,Medium,46,2,Desert,50,146,Yes,compromised
+ID1785,Body Armor Sensor,31,-10,78,485,No,Medium,41,0,Urban,97,67,Yes,compromised
+ID5628,Unmanned Ground Vehicle,67,20,60,436,Yes,Medium,17,4,Forest,178,28,Yes,normal
+ID5134,Radar System,37,37,77,305,Yes,Low,37,1,Urban,96,136,Yes,compromised
+ID5434,Drone,74,-9,23,169,No,High,99,3,Desert,148,40,Yes,compromised
+ID3529,Communication Equipment,78,40,91,249,Yes,Medium,46,3,Arctic,61,66,Yes,normal
+ID4760,Radar System,19,43,70,357,No,Medium,20,2,Desert,46,63,Yes,compromised
+ID2400,Radar System,35,-3,66,224,No,Low,69,2,Forest,103,197,No,compromised
+ID7907,Radar System,91,27,71,132,Yes,Low,13,3,Forest,176,58,Yes,normal
+ID7302,Drone,32,7,70,343,No,High,33,0,Desert,158,66,Yes,compromised
+ID8811,Radar System,80,43,76,264,Yes,Low,36,2,Arctic,52,38,Yes,normal
+ID4750,Weapon System,44,1,99,350,No,High,92,2,Arctic,118,168,No,compromised
+ID8347,Body Armor Sensor,50,36,61,164,No,High,58,0,Desert,50,166,No,compromised
+ID3569,Weapon System,31,9,59,207,Yes,Low,6,5,Arctic,56,68,Yes,normal
+ID2528,Drone,51,-5,79,131,Yes,Medium,1,5,Forest,91,33,Yes,normal
+ID8974,Body Armor Sensor,12,51,30,411,No,High,83,2,Urban,64,18,Yes,compromised
+ID7623,Weapon System,14,20,87,288,Yes,Low,63,2,Urban,46,54,No,compromised
+ID1177,Communication Equipment,42,35,66,222,Yes,Low,40,0,Desert,174,3,Yes,normal
+ID2588,Surveillance Camera,55,15,35,325,Yes,Low,2,1,Desert,64,7,Yes,normal
+ID8880,Surveillance Camera,60,-4,88,164,No,High,2,2,Arctic,122,126,No,compromised
+ID4960,Radar System,95,17,32,124,Yes,Low,49,5,Forest,159,18,Yes,normal
+ID5146,Weapon System,66,21,56,268,Yes,Low,43,2,Forest,70,53,Yes,normal
+ID3361,Unmanned Ground Vehicle,32,1,50,171,No,Low,69,5,Arctic,109,6,Yes,compromised
+ID6194,Body Armor Sensor,80,13,74,279,Yes,Low,71,1,Forest,86,107,Yes,compromised
+ID2070,Unmanned Ground Vehicle,70,4,33,495,No,Low,47,0,Arctic,167,179,Yes,compromised
+ID2912,Communication Equipment,38,39,58,298,Yes,Low,12,1,Arctic,165,32,Yes,normal
+ID3408,Communication Equipment,80,4,74,202,Yes,Low,22,3,Desert,38,60,Yes,normal
+ID4379,Communication Equipment,86,27,57,310,Yes,High,9,2,Urban,30,64,Yes,normal
+ID1546,Unmanned Ground Vehicle,53,-10,64,339,Yes,Low,42,4,Forest,84,72,Yes,normal
+ID5803,Drone,92,35,70,110,Yes,High,48,1,Forest,152,5,Yes,normal
+ID9804,Weapon System,33,11,62,496,Yes,High,27,3,Urban,51,39,Yes,normal
+ID6399,Radar System,51,8,43,197,Yes,Low,37,3,Forest,167,85,Yes,normal
+ID8789,Weapon System,73,25,73,105,Yes,Low,39,0,Urban,154,85,Yes,normal
+ID5377,Drone,38,28,86,227,Yes,Medium,9,0,Urban,150,18,Yes,normal
+ID6082,Drone,23,37,40,304,Yes,High,7,0,Arctic,148,4,Yes,normal
+ID9849,Communication Equipment,11,37,85,169,Yes,Medium,6,1,Forest,113,20,Yes,compromised
+ID8968,Surveillance Camera,38,-1,39,335,Yes,Low,38,2,Urban,91,68,Yes,normal
+ID6910,Body Armor Sensor,34,2,98,142,No,Low,47,4,Urban,166,119,No,compromised
+ID8266,Body Armor Sensor,47,-5,98,176,Yes,Medium,13,2,Arctic,119,71,Yes,normal
+ID1029,Drone,87,22,47,107,Yes,Medium,49,4,Forest,123,93,Yes,normal
+ID8927,Drone,35,23,71,173,Yes,Low,46,5,Arctic,121,90,Yes,normal
+ID6308,Surveillance Camera,86,-5,88,115,Yes,Medium,4,1,Urban,101,13,Yes,normal
+ID5855,Communication Equipment,80,58,54,316,No,Low,51,0,Urban,50,40,No,compromised
+ID3825,Unmanned Ground Vehicle,80,36,52,178,Yes,High,67,0,Forest,107,82,Yes,compromised
+ID2509,Communication Equipment,70,9,95,389,Yes,Low,25,4,Desert,84,148,Yes,compromised
+ID4146,Radar System,22,45,33,400,Yes,High,20,3,Forest,46,9,Yes,normal
+ID4291,Unmanned Ground Vehicle,84,6,75,169,No,High,69,1,Urban,65,189,Yes,compromised
+ID6757,Body Armor Sensor,29,19,91,488,No,Medium,95,2,Desert,41,175,Yes,compromised
+ID6134,Unmanned Ground Vehicle,73,0,68,481,Yes,Medium,24,1,Forest,40,57,Yes,normal
+ID2682,Surveillance Camera,81,10,70,362,No,Medium,100,1,Arctic,140,123,Yes,compromised
+ID8523,Weapon System,45,28,32,211,Yes,High,21,5,Desert,80,74,Yes,normal
+ID9674,Radar System,80,46,97,272,Yes,High,11,5,Desert,121,13,Yes,normal
+ID9153,Unmanned Ground Vehicle,69,39,50,437,Yes,Medium,24,4,Urban,37,51,Yes,normal
+ID1474,Radar System,44,38,78,415,Yes,Medium,20,2,Forest,176,59,Yes,normal
+ID2302,Drone,70,47,26,428,No,Low,48,0,Urban,94,87,No,compromised
+ID4470,Drone,57,33,41,424,Yes,Medium,31,0,Arctic,98,72,Yes,normal
+ID9685,Drone,56,37,79,264,Yes,High,46,1,Arctic,123,62,Yes,normal
+ID9730,Radar System,87,19,42,101,Yes,Medium,59,1,Desert,140,54,No,compromised
+ID5209,Weapon System,89,41,85,128,Yes,Low,31,4,Forest,142,49,Yes,normal
+ID6203,Radar System,34,22,59,219,No,Medium,16,5,Desert,141,165,No,compromised
+ID4649,Surveillance Camera,70,50,40,389,Yes,Medium,35,4,Urban,115,93,Yes,normal
+ID9558,Weapon System,66,40,54,468,Yes,Low,14,5,Arctic,103,32,Yes,normal
+ID5587,Communication Equipment,70,44,44,385,No,Medium,66,1,Desert,172,183,No,compromised
+ID4775,Communication Equipment,38,35,24,314,Yes,Low,78,1,Urban,143,104,No,compromised
+ID1117,Surveillance Camera,63,-7,24,491,Yes,Medium,87,2,Desert,136,199,Yes,compromised
+ID2315,Unmanned Ground Vehicle,94,20,38,211,Yes,Medium,13,1,Arctic,121,48,Yes,normal
+ID1453,Body Armor Sensor,64,-1,68,115,Yes,High,45,4,Desert,49,72,Yes,normal
+ID3851,Weapon System,96,56,26,454,Yes,High,7,3,Urban,143,151,No,compromised
+ID5942,Drone,25,-7,72,450,Yes,Low,37,0,Arctic,166,60,Yes,normal
+ID6842,Weapon System,28,-7,96,446,No,Low,98,2,Urban,161,32,Yes,compromised
+ID1263,Radar System,74,5,55,207,Yes,Medium,1,2,Forest,126,4,Yes,normal
+ID3287,Radar System,69,38,89,304,Yes,High,67,1,Forest,113,59,No,compromised
+ID1586,Weapon System,76,18,63,311,Yes,Medium,27,2,Desert,127,62,No,compromised
+ID9736,Communication Equipment,66,7,36,319,Yes,High,41,0,Arctic,148,62,Yes,normal
+ID3169,Surveillance Camera,24,39,61,454,Yes,Medium,4,2,Desert,180,14,Yes,normal
+ID6070,Radar System,63,39,89,151,Yes,Medium,49,3,Desert,171,74,Yes,normal
+ID5182,Drone,35,34,47,413,Yes,High,4,2,Forest,52,31,Yes,normal
+ID7050,Radar System,38,14,74,203,No,High,93,3,Arctic,99,86,Yes,compromised
+ID1553,Weapon System,74,18,72,347,No,High,16,0,Arctic,82,108,Yes,compromised
+ID6433,Communication Equipment,84,43,41,113,No,Medium,11,4,Urban,35,140,No,compromised
+ID6210,Unmanned Ground Vehicle,56,0,59,233,No,High,23,2,Arctic,158,23,No,compromised
+ID9642,Body Armor Sensor,87,19,94,192,Yes,Low,31,4,Forest,56,50,Yes,normal
+ID4231,Communication Equipment,49,54,88,431,No,Low,75,1,Arctic,177,154,Yes,compromised
+ID6564,Weapon System,57,3,20,291,No,Low,14,4,Forest,126,108,No,compromised
+ID1065,Communication Equipment,23,25,76,308,Yes,Low,42,2,Forest,51,39,Yes,normal
+ID1767,Unmanned Ground Vehicle,69,31,56,439,Yes,Low,39,1,Urban,164,51,Yes,normal
+ID9190,Drone,50,6,30,304,No,Low,33,4,Desert,91,112,No,compromised
+ID3664,Unmanned Ground Vehicle,77,41,35,301,Yes,Medium,6,4,Urban,135,33,No,compromised
+ID2895,Radar System,85,6,31,154,Yes,Low,39,4,Forest,88,10,Yes,normal
+ID3688,Communication Equipment,85,45,35,190,Yes,High,77,2,Forest,164,31,Yes,compromised
+ID4005,Drone,35,-10,72,250,Yes,High,31,2,Desert,51,158,No,compromised
+ID9623,Body Armor Sensor,19,18,30,433,Yes,High,79,2,Forest,58,106,No,compromised
+ID7273,Body Armor Sensor,32,20,82,457,Yes,High,36,0,Desert,46,77,Yes,normal
+ID3614,Radar System,73,38,21,196,No,Medium,61,4,Arctic,55,24,No,compromised
+ID1321,Unmanned Ground Vehicle,32,-2,56,192,Yes,Low,2,4,Arctic,151,36,Yes,normal
+ID9237,Radar System,49,-2,57,330,Yes,High,53,3,Forest,61,37,No,compromised
+ID1342,Unmanned Ground Vehicle,89,60,81,482,No,Medium,19,5,Desert,112,151,No,compromised
+ID5826,Unmanned Ground Vehicle,73,-10,64,223,No,Low,23,3,Forest,160,197,Yes,compromised
+ID2368,Drone,11,7,75,282,No,High,20,1,Urban,173,117,Yes,compromised
+ID5858,Radar System,31,44,32,305,Yes,High,43,2,Urban,86,23,Yes,normal
+ID6022,Drone,52,-3,60,155,Yes,High,75,4,Arctic,30,80,Yes,compromised
+ID4700,Unmanned Ground Vehicle,48,3,51,130,Yes,High,17,2,Desert,91,25,Yes,normal
+ID6159,Body Armor Sensor,35,12,88,476,Yes,Medium,10,4,Arctic,91,74,Yes,normal
+ID1664,Radar System,54,28,84,240,Yes,Medium,18,1,Forest,176,116,No,compromised
+ID9160,Drone,85,16,34,286,Yes,Low,3,1,Arctic,180,6,Yes,normal
+ID2078,Drone,72,32,91,295,Yes,High,33,1,Desert,89,35,Yes,normal
+ID5902,Body Armor Sensor,73,3,39,245,No,Low,20,4,Arctic,106,163,No,compromised
+ID5283,Radar System,83,39,49,497,Yes,Low,15,0,Arctic,98,29,Yes,normal
+ID1049,Communication Equipment,14,-10,59,287,Yes,Medium,56,3,Urban,74,126,Yes,compromised
+ID4068,Unmanned Ground Vehicle,27,20,100,288,Yes,High,99,0,Arctic,130,130,Yes,compromised
+ID7915,Body Armor Sensor,42,38,79,226,Yes,Low,16,5,Desert,176,24,Yes,normal
+ID1419,Radar System,20,3,59,299,Yes,Low,28,1,Arctic,179,64,Yes,normal
+ID7296,Weapon System,83,34,47,405,Yes,Medium,47,5,Forest,123,14,Yes,normal
+ID3054,Body Armor Sensor,18,49,41,447,Yes,Medium,20,3,Urban,122,76,No,compromised
+ID3785,Unmanned Ground Vehicle,19,8,54,180,Yes,Medium,31,2,Desert,75,21,No,compromised
+ID8408,Surveillance Camera,33,2,94,316,Yes,Low,47,2,Arctic,54,6,Yes,normal
+ID9640,Weapon System,19,-9,96,483,No,Medium,67,1,Urban,39,189,No,compromised
+ID5809,Surveillance Camera,27,59,55,217,Yes,High,69,2,Urban,129,63,Yes,compromised
+ID6542,Unmanned Ground Vehicle,81,14,69,411,Yes,Medium,26,3,Desert,86,44,Yes,normal
+ID5690,Body Armor Sensor,33,56,65,255,No,Low,20,3,Arctic,116,164,Yes,compromised
+ID3505,Drone,88,50,54,381,Yes,Medium,9,5,Urban,38,21,Yes,normal
+ID9986,Surveillance Camera,10,1,56,321,No,Low,1,3,Urban,75,177,Yes,compromised
+ID8564,Surveillance Camera,11,36,95,422,Yes,Low,57,1,Desert,83,179,No,compromised
+ID3103,Weapon System,91,51,42,231,Yes,Medium,50,0,Arctic,56,152,No,compromised
+ID6360,Drone,12,21,31,286,Yes,Medium,79,3,Desert,42,117,Yes,compromised
+ID7064,Weapon System,14,51,51,335,No,Medium,96,5,Arctic,75,152,No,compromised
+ID1284,Body Armor Sensor,54,40,83,496,Yes,High,53,0,Urban,82,195,Yes,compromised
+ID2153,Surveillance Camera,44,43,67,303,No,High,82,2,Urban,133,132,No,compromised
+ID7452,Communication Equipment,92,32,41,427,Yes,Medium,11,2,Urban,154,151,Yes,compromised
+ID8430,Surveillance Camera,50,32,85,457,Yes,Low,42,5,Forest,102,25,Yes,normal
+ID4571,Surveillance Camera,43,60,40,207,Yes,Medium,62,2,Urban,96,154,Yes,compromised
+ID9077,Body Armor Sensor,61,14,76,252,Yes,High,39,2,Forest,149,57,Yes,normal
+ID5731,Drone,41,29,87,328,Yes,Low,1,2,Arctic,136,2,Yes,normal
+ID3440,Weapon System,29,56,95,160,No,High,77,0,Forest,157,85,Yes,compromised
+ID6032,Weapon System,55,25,54,463,Yes,Medium,35,2,Desert,167,53,Yes,normal
+ID8401,Drone,31,26,55,479,No,High,88,1,Desert,36,42,Yes,compromised
+ID6374,Drone,81,5,35,147,Yes,Medium,0,5,Desert,120,33,Yes,normal
+ID1317,Unmanned Ground Vehicle,39,21,92,297,Yes,High,5,3,Urban,59,78,Yes,normal
+ID5277,Surveillance Camera,56,23,73,323,Yes,High,48,1,Desert,167,36,Yes,normal
+ID7813,Weapon System,88,-8,73,363,No,Medium,39,5,Urban,55,72,Yes,compromised
+ID2231,Weapon System,87,14,23,468,No,Low,8,0,Urban,104,123,Yes,compromised
+ID1314,Radar System,87,45,96,288,Yes,Low,30,2,Arctic,51,1,Yes,normal
+ID5448,Drone,52,21,95,142,No,Medium,32,2,Arctic,167,37,Yes,compromised
+ID7927,Body Armor Sensor,14,36,26,496,Yes,Low,45,4,Desert,86,13,No,compromised
+ID6473,Weapon System,21,39,90,155,No,Medium,37,1,Urban,126,183,No,compromised
+ID4787,Body Armor Sensor,57,-3,96,447,Yes,Low,18,3,Forest,34,7,Yes,normal
+ID3789,Drone,43,38,85,220,Yes,Medium,15,5,Arctic,67,127,No,compromised
+ID4255,Radar System,46,-2,25,314,Yes,High,44,3,Forest,171,129,No,compromised
+ID3223,Unmanned Ground Vehicle,94,7,45,238,Yes,High,8,3,Urban,36,9,Yes,normal
+ID3971,Unmanned Ground Vehicle,12,22,61,153,Yes,High,15,1,Arctic,67,87,No,compromised
+ID5303,Body Armor Sensor,17,20,89,349,No,High,29,1,Arctic,176,193,Yes,compromised
+ID8842,Surveillance Camera,36,9,54,412,Yes,High,11,3,Urban,140,89,Yes,normal
+ID5224,Weapon System,85,50,37,381,Yes,High,4,2,Forest,46,90,Yes,normal
+ID6620,Weapon System,95,16,42,500,Yes,Low,31,4,Forest,117,83,Yes,normal
+ID3108,Surveillance Camera,98,35,48,450,Yes,Low,56,4,Arctic,84,50,No,compromised
+ID7426,Communication Equipment,65,18,30,185,Yes,Medium,49,0,Arctic,86,66,Yes,normal
+ID9929,Body Armor Sensor,95,1,46,336,No,Medium,2,1,Arctic,41,91,Yes,compromised
+ID5253,Radar System,100,56,88,273,No,Low,0,2,Desert,30,175,No,compromised
+ID9317,Radar System,33,43,64,369,No,Medium,51,1,Arctic,127,26,No,compromised
+ID2341,Communication Equipment,41,45,36,376,Yes,High,41,1,Urban,155,49,Yes,normal
+ID3844,Body Armor Sensor,50,38,24,267,No,Medium,42,0,Forest,131,162,Yes,compromised
+ID9757,Communication Equipment,48,2,71,301,No,High,89,2,Forest,116,73,No,compromised
+ID2656,Surveillance Camera,58,56,38,275,Yes,Low,49,4,Arctic,178,195,Yes,compromised
+ID2516,Surveillance Camera,52,32,97,406,Yes,Low,1,5,Desert,173,95,Yes,normal
+ID5930,Drone,89,3,69,361,Yes,Low,49,3,Forest,148,1,Yes,normal
+ID1454,Radar System,42,-3,43,327,Yes,High,25,2,Urban,56,195,Yes,compromised
+ID9800,Radar System,88,33,84,384,Yes,Medium,3,1,Arctic,143,99,Yes,normal
+ID1241,Surveillance Camera,14,25,50,276,No,Medium,25,2,Urban,167,44,Yes,compromised
+ID8989,Body Armor Sensor,48,28,72,415,Yes,High,25,1,Urban,149,9,Yes,normal
+ID2615,Body Armor Sensor,39,48,52,462,No,Low,32,3,Arctic,169,145,Yes,compromised
+ID6911,Communication Equipment,31,47,67,234,Yes,Low,66,3,Forest,79,45,No,compromised
+ID5704,Weapon System,28,17,73,337,Yes,High,10,4,Arctic,160,79,Yes,normal
+ID8070,Weapon System,76,8,57,132,Yes,Medium,38,4,Forest,98,48,Yes,normal
+ID3691,Weapon System,88,12,62,286,No,High,8,0,Desert,156,74,Yes,compromised
+ID3469,Radar System,67,-5,78,138,Yes,Medium,19,5,Forest,161,16,Yes,normal
+ID1201,Surveillance Camera,23,37,40,310,No,Medium,77,5,Arctic,123,73,Yes,compromised
+ID6577,Drone,15,9,69,426,No,High,93,5,Desert,124,42,No,compromised
+ID4012,Weapon System,83,12,62,456,No,Low,85,1,Forest,150,9,Yes,compromised
+ID9953,Communication Equipment,65,6,46,398,Yes,Low,40,4,Forest,131,44,Yes,normal
+ID3076,Unmanned Ground Vehicle,26,32,47,107,Yes,Low,48,5,Desert,77,91,Yes,normal
+ID5309,Drone,66,-1,64,166,Yes,High,49,0,Desert,102,90,Yes,normal
+ID6248,Drone,65,28,85,450,Yes,High,6,5,Urban,109,118,Yes,compromised
+ID2706,Weapon System,67,46,59,392,Yes,High,100,0,Urban,107,58,Yes,compromised
+ID6770,Body Armor Sensor,64,37,69,279,Yes,Medium,13,5,Urban,63,75,Yes,normal
+ID9252,Surveillance Camera,25,21,23,192,No,Low,86,2,Desert,127,120,No,compromised
+ID6771,Body Armor Sensor,40,27,30,252,Yes,Medium,43,1,Arctic,117,36,Yes,normal
+ID9486,Unmanned Ground Vehicle,33,2,60,163,Yes,High,48,0,Forest,35,97,Yes,normal
+ID3719,Surveillance Camera,62,46,87,500,Yes,Low,77,4,Desert,86,125,Yes,compromised
+ID9230,Radar System,52,58,25,216,Yes,High,56,1,Forest,54,196,Yes,compromised
+ID3783,Surveillance Camera,38,27,32,322,Yes,High,0,1,Desert,144,49,Yes,normal
+ID7479,Drone,50,0,36,254,Yes,Low,99,4,Forest,83,49,Yes,compromised
+ID6220,Weapon System,19,33,80,294,Yes,Medium,90,1,Desert,101,11,Yes,compromised
+ID8210,Weapon System,94,15,57,302,Yes,Low,50,4,Arctic,85,61,Yes,normal
+ID1907,Radar System,90,16,89,492,Yes,High,39,3,Forest,113,78,Yes,normal
+ID2050,Surveillance Camera,29,23,71,299,No,High,60,2,Desert,132,132,Yes,compromised
+ID1009,Radar System,31,33,88,293,Yes,Medium,19,2,Desert,100,97,Yes,normal
+ID1627,Communication Equipment,59,55,69,398,No,Low,53,5,Forest,79,146,No,compromised
+ID5037,Surveillance Camera,77,43,73,303,Yes,Medium,22,0,Urban,150,3,Yes,normal
+ID2644,Unmanned Ground Vehicle,52,2,70,369,No,High,71,5,Arctic,85,96,No,compromised
+ID9339,Unmanned Ground Vehicle,50,27,36,213,Yes,Low,1,1,Desert,73,42,Yes,normal
+ID4163,Radar System,82,60,76,364,Yes,Medium,8,1,Urban,160,173,Yes,compromised
+ID7255,Unmanned Ground Vehicle,81,54,22,490,Yes,High,48,1,Desert,115,35,Yes,compromised
+ID2413,Communication Equipment,98,39,64,298,Yes,Low,34,4,Urban,91,16,Yes,normal
+ID3922,Drone,89,8,99,280,Yes,Medium,20,3,Arctic,88,98,Yes,normal
+ID9983,Radar System,48,14,81,357,Yes,High,33,4,Arctic,46,76,Yes,normal
+ID4993,Surveillance Camera,71,-7,97,201,No,Low,18,5,Forest,91,157,No,compromised
+ID7432,Drone,29,28,61,231,Yes,Medium,42,2,Arctic,45,2,Yes,normal
+ID5730,Radar System,34,26,66,473,Yes,High,4,0,Arctic,71,60,Yes,normal
+ID7814,Body Armor Sensor,61,11,61,345,No,High,4,3,Arctic,66,151,Yes,compromised
+ID9435,Body Armor Sensor,81,7,46,261,Yes,Medium,27,1,Urban,64,45,Yes,normal
+ID3357,Body Armor Sensor,96,-7,53,471,Yes,High,47,0,Urban,99,11,Yes,normal
+ID2490,Radar System,35,3,51,428,Yes,High,19,2,Arctic,67,43,Yes,normal
+ID3744,Body Armor Sensor,34,41,92,280,Yes,Medium,88,2,Arctic,179,103,No,compromised
+ID1517,Surveillance Camera,36,42,55,458,Yes,Low,24,2,Urban,97,74,Yes,normal
+ID8559,Drone,29,45,36,233,Yes,Low,7,2,Forest,158,35,Yes,normal
+ID7536,Communication Equipment,58,20,30,296,Yes,Medium,19,1,Forest,168,170,Yes,compromised
+ID9765,Surveillance Camera,53,45,98,300,Yes,High,16,0,Arctic,69,60,Yes,normal
+ID6473,Surveillance Camera,31,34,56,236,Yes,High,36,5,Urban,146,45,No,compromised
+ID6336,Surveillance Camera,21,46,38,390,Yes,Low,20,1,Arctic,86,80,Yes,normal
+ID9409,Unmanned Ground Vehicle,94,11,31,469,Yes,Medium,20,1,Arctic,31,74,Yes,normal
+ID3711,Surveillance Camera,44,50,68,214,No,High,99,0,Desert,36,198,Yes,compromised
+ID4184,Radar System,38,53,100,480,Yes,Medium,69,0,Urban,61,54,No,compromised
+ID1732,Body Armor Sensor,47,-4,91,159,Yes,Low,73,3,Forest,32,62,No,compromised
+ID6203,Communication Equipment,49,24,80,213,No,Medium,64,1,Desert,115,149,Yes,compromised
+ID4265,Weapon System,100,50,66,397,No,High,89,0,Desert,123,189,Yes,compromised
+ID6714,Radar System,38,16,53,100,No,Low,20,1,Arctic,167,98,Yes,compromised
+ID7112,Weapon System,99,21,38,141,Yes,Medium,71,0,Forest,79,192,No,compromised
+ID8035,Radar System,32,11,25,146,Yes,Medium,57,4,Urban,76,184,No,compromised
+ID4596,Unmanned Ground Vehicle,64,50,37,488,Yes,High,24,2,Urban,179,99,Yes,normal
+ID9811,Drone,93,26,63,365,Yes,High,7,5,Urban,66,68,No,compromised
+ID4623,Drone,42,4,81,183,Yes,Medium,5,4,Forest,57,13,Yes,normal
+ID5213,Weapon System,22,38,34,167,Yes,Medium,28,5,Desert,67,45,No,compromised
+ID9283,Communication Equipment,38,-4,64,499,Yes,High,4,0,Desert,65,50,Yes,normal
+ID5755,Communication Equipment,38,-9,41,206,Yes,Medium,25,0,Arctic,172,56,Yes,normal
+ID2222,Weapon System,58,38,72,264,Yes,Medium,49,2,Desert,78,23,Yes,normal
+ID6724,Body Armor Sensor,50,28,69,487,Yes,High,10,5,Desert,73,97,Yes,normal
+ID1410,Surveillance Camera,84,-3,52,270,Yes,High,12,2,Urban,51,13,Yes,normal
+ID7050,Radar System,81,56,62,181,Yes,High,50,3,Arctic,149,5,No,compromised
+ID8520,Drone,21,-6,98,467,Yes,High,5,2,Urban,69,35,Yes,normal
+ID3946,Unmanned Ground Vehicle,58,23,84,322,Yes,High,77,1,Desert,33,46,Yes,compromised
+ID2124,Unmanned Ground Vehicle,18,9,58,214,Yes,Medium,31,4,Forest,60,155,Yes,compromised
+ID9534,Body Armor Sensor,27,49,27,211,No,High,64,4,Forest,96,157,Yes,compromised
+ID2488,Communication Equipment,83,20,57,473,Yes,High,23,1,Arctic,120,149,Yes,compromised
+ID4012,Drone,10,56,46,460,No,Medium,36,5,Urban,125,20,No,compromised
+ID4075,Unmanned Ground Vehicle,77,39,23,445,No,Low,39,5,Urban,43,42,No,compromised
+ID4122,Weapon System,89,2,33,264,No,Low,53,1,Desert,96,133,Yes,compromised
+ID8291,Radar System,86,22,54,397,Yes,High,94,5,Desert,35,20,Yes,compromised
+ID5316,Communication Equipment,27,34,37,467,Yes,High,32,3,Forest,99,73,Yes,normal
+ID9291,Communication Equipment,51,-2,21,144,No,Medium,93,4,Desert,55,69,Yes,compromised
+ID5864,Communication Equipment,22,-7,51,231,No,Low,40,2,Arctic,55,182,No,compromised
+ID5287,Drone,75,55,23,366,Yes,Medium,52,4,Forest,130,93,No,compromised
+ID5520,Surveillance Camera,71,22,49,177,Yes,High,57,3,Urban,58,76,No,compromised
+ID4754,Communication Equipment,71,58,24,246,No,Low,68,0,Forest,147,56,No,compromised
+ID2509,Surveillance Camera,13,36,71,219,No,Medium,31,3,Desert,157,129,No,compromised
+ID7359,Body Armor Sensor,83,17,53,465,Yes,High,41,3,Urban,110,44,No,compromised
+ID7702,Surveillance Camera,16,39,94,192,No,Low,15,3,Urban,73,135,No,compromised
+ID8003,Radar System,71,-2,73,157,Yes,Low,1,0,Desert,56,7,Yes,normal
+ID2908,Weapon System,23,12,80,172,No,High,81,1,Urban,38,14,No,compromised
+ID2860,Drone,66,59,32,464,No,Low,13,4,Forest,75,124,Yes,compromised
+ID8698,Unmanned Ground Vehicle,52,-5,63,101,Yes,Medium,43,5,Arctic,89,130,No,compromised
+ID2240,Body Armor Sensor,71,42,45,187,No,Medium,63,4,Arctic,135,127,No,compromised
+ID4559,Surveillance Camera,64,13,35,400,Yes,Medium,10,1,Desert,146,54,Yes,normal
+ID5725,Unmanned Ground Vehicle,89,1,91,101,Yes,High,15,3,Desert,33,88,Yes,normal
+ID8602,Weapon System,98,4,76,186,No,High,32,5,Desert,173,123,No,compromised
+ID7843,Unmanned Ground Vehicle,57,34,30,381,Yes,Medium,57,5,Arctic,35,192,No,compromised
+ID1584,Weapon System,71,33,76,194,Yes,Low,36,2,Desert,139,4,Yes,normal
+ID8953,Surveillance Camera,31,52,20,165,Yes,High,57,4,Arctic,165,114,Yes,compromised
+ID1137,Drone,11,6,43,127,Yes,Low,68,5,Forest,52,138,Yes,compromised
+ID4759,Radar System,43,22,36,132,Yes,Medium,38,3,Forest,113,171,No,compromised
+ID2058,Weapon System,29,-5,36,337,Yes,Medium,32,2,Urban,64,4,Yes,normal
+ID5700,Drone,61,29,55,146,Yes,Medium,39,1,Forest,158,13,Yes,normal
+ID4361,Radar System,69,5,41,246,Yes,High,19,3,Desert,39,55,Yes,normal
+ID5043,Body Armor Sensor,53,18,37,240,No,High,3,4,Desert,62,39,Yes,compromised
+ID1375,Body Armor Sensor,66,0,53,126,No,Low,18,1,Desert,176,91,Yes,compromised
+ID5942,Radar System,71,13,37,289,No,Medium,64,5,Arctic,67,198,No,compromised
+ID5485,Weapon System,99,53,73,214,Yes,Low,83,4,Desert,151,27,No,compromised
+ID1048,Unmanned Ground Vehicle,64,-7,67,185,No,Low,93,3,Urban,117,158,Yes,compromised
+ID5752,Communication Equipment,93,20,54,318,Yes,Medium,68,0,Arctic,86,197,Yes,compromised
+ID8900,Surveillance Camera,91,1,29,252,No,Low,60,2,Urban,76,84,No,compromised
+ID1325,Weapon System,15,17,80,277,Yes,Low,94,5,Urban,68,135,No,compromised
+ID7055,Surveillance Camera,25,23,99,358,No,Medium,34,5,Desert,91,114,Yes,compromised
+ID2911,Surveillance Camera,49,17,37,226,Yes,High,100,1,Desert,68,182,Yes,compromised
+ID5404,Unmanned Ground Vehicle,22,50,66,420,No,Medium,89,4,Urban,75,155,Yes,compromised
+ID7782,Surveillance Camera,17,28,95,332,No,High,72,5,Urban,119,163,No,compromised
+ID9493,Communication Equipment,16,0,80,146,Yes,High,16,3,Desert,163,156,Yes,compromised
+ID8419,Surveillance Camera,64,9,73,264,No,High,85,3,Arctic,92,59,No,compromised
+ID7815,Weapon System,36,15,92,452,Yes,High,6,1,Desert,35,140,Yes,compromised
+ID3046,Radar System,68,2,49,173,Yes,Low,3,2,Desert,142,88,Yes,normal
+ID2920,Unmanned Ground Vehicle,31,-4,49,499,Yes,High,1,1,Forest,56,40,Yes,normal
+ID2616,Radar System,57,54,42,227,No,High,35,4,Arctic,177,34,No,compromised
+ID2542,Radar System,84,32,42,179,No,Low,100,4,Arctic,140,183,Yes,compromised
+ID9526,Body Armor Sensor,27,38,94,250,Yes,High,2,0,Arctic,61,27,Yes,normal
+ID9764,Communication Equipment,89,33,97,118,Yes,Medium,8,2,Urban,136,67,Yes,normal
+ID9088,Weapon System,61,35,46,116,Yes,Low,49,2,Arctic,164,36,Yes,normal
+ID2327,Unmanned Ground Vehicle,38,46,26,222,Yes,Low,22,2,Desert,30,21,Yes,compromised
+ID3972,Radar System,16,19,72,296,Yes,Medium,33,2,Arctic,141,145,Yes,compromised
+ID6970,Drone,40,31,86,434,Yes,Medium,18,3,Forest,156,95,No,compromised
+ID4084,Unmanned Ground Vehicle,64,45,70,179,No,High,91,3,Arctic,131,48,Yes,compromised
+ID8451,Surveillance Camera,55,21,44,483,Yes,High,14,3,Urban,177,94,Yes,normal
+ID6122,Weapon System,72,-8,96,244,Yes,Low,46,3,Desert,171,179,No,compromised
+ID9121,Drone,45,19,75,273,Yes,High,48,0,Desert,55,82,Yes,normal
+ID5750,Radar System,89,40,38,400,Yes,Low,36,2,Forest,109,153,No,compromised
+ID9194,Radar System,12,24,33,148,No,Medium,77,1,Desert,112,30,No,compromised
+ID3984,Communication Equipment,33,0,93,380,Yes,Low,49,5,Forest,70,15,Yes,normal
+ID4209,Surveillance Camera,28,44,57,125,No,Low,45,0,Urban,147,171,Yes,compromised
+ID6496,Drone,97,29,96,339,No,Low,23,4,Forest,130,94,Yes,compromised
+ID9291,Unmanned Ground Vehicle,96,18,56,401,Yes,High,18,2,Desert,97,58,Yes,normal
+ID8356,Unmanned Ground Vehicle,12,8,75,404,Yes,Medium,56,5,Desert,100,16,No,compromised
+ID8892,Radar System,90,36,30,345,Yes,Low,12,4,Desert,148,24,Yes,normal
+ID1747,Unmanned Ground Vehicle,74,31,30,140,Yes,Low,85,5,Forest,39,52,No,compromised
+ID1646,Body Armor Sensor,63,-3,79,138,Yes,Medium,39,5,Urban,138,71,Yes,normal
+ID2819,Radar System,32,55,20,165,No,High,40,2,Forest,113,132,No,compromised
+ID9931,Body Armor Sensor,36,37,91,446,Yes,Medium,35,5,Urban,79,99,Yes,normal
+ID7499,Weapon System,28,11,61,373,Yes,Low,7,3,Arctic,176,42,Yes,normal
+ID8745,Drone,28,19,38,200,No,Medium,85,3,Arctic,168,189,No,compromised
+ID4224,Weapon System,35,45,61,455,No,Medium,68,0,Arctic,87,159,No,compromised
+ID6842,Unmanned Ground Vehicle,27,17,91,265,Yes,Medium,19,5,Urban,116,9,No,compromised
+ID7594,Body Armor Sensor,41,-6,92,206,Yes,High,22,3,Urban,51,64,Yes,normal
+ID1522,Weapon System,43,56,57,345,No,High,81,1,Forest,132,62,Yes,compromised
+ID8940,Radar System,45,29,29,323,Yes,Medium,70,2,Urban,87,110,No,compromised
+ID4170,Drone,86,43,81,382,Yes,Medium,23,0,Desert,30,49,Yes,normal
+ID4415,Unmanned Ground Vehicle,43,37,70,453,Yes,Medium,2,5,Arctic,102,54,Yes,normal
+ID5180,Drone,95,17,63,277,Yes,Low,39,3,Desert,85,49,Yes,normal
+ID3251,Communication Equipment,96,35,89,382,Yes,Low,34,1,Urban,34,98,Yes,normal
+ID5748,Radar System,64,46,80,285,Yes,Low,4,4,Arctic,120,77,Yes,normal
+ID6984,Radar System,98,-10,89,386,Yes,Medium,0,1,Desert,60,84,Yes,normal
+ID5222,Weapon System,24,1,31,495,No,Medium,61,5,Desert,162,17,Yes,compromised
+ID4610,Weapon System,92,56,73,147,No,Medium,24,5,Urban,167,146,No,compromised
+ID9702,Communication Equipment,35,52,84,331,Yes,Medium,29,3,Arctic,131,189,Yes,compromised
+ID9100,Surveillance Camera,55,57,25,486,Yes,High,24,0,Arctic,32,113,No,compromised
+ID5653,Drone,64,27,91,264,Yes,Low,36,2,Desert,105,16,Yes,normal
+ID5380,Radar System,37,-6,54,267,No,High,8,3,Forest,142,20,No,compromised
+ID7547,Drone,28,19,79,432,Yes,High,18,2,Forest,173,11,Yes,normal
+ID4742,Body Armor Sensor,96,29,83,233,No,Low,50,2,Desert,89,98,No,compromised
+ID7311,Communication Equipment,91,48,64,245,Yes,High,50,2,Arctic,120,96,Yes,normal
+ID1514,Unmanned Ground Vehicle,50,34,71,420,No,High,99,5,Forest,82,92,Yes,compromised
+ID7270,Unmanned Ground Vehicle,31,28,63,163,Yes,Low,38,5,Arctic,83,0,Yes,normal
+ID8412,Surveillance Camera,76,15,83,252,Yes,Low,43,5,Forest,130,63,Yes,normal
+ID9788,Body Armor Sensor,52,44,99,394,Yes,Low,10,0,Arctic,123,9,Yes,normal
+ID1717,Surveillance Camera,56,14,98,285,Yes,Medium,43,0,Arctic,107,32,Yes,normal
+ID1683,Radar System,100,51,30,186,No,High,46,3,Arctic,170,106,No,compromised
+ID5714,Body Armor Sensor,76,26,34,325,No,Medium,19,2,Forest,175,26,Yes,compromised
+ID3514,Weapon System,74,12,74,168,Yes,High,25,0,Desert,170,5,Yes,normal
+ID1935,Surveillance Camera,94,30,43,342,Yes,High,25,2,Desert,34,64,Yes,normal
+ID5284,Surveillance Camera,23,33,98,323,Yes,Low,40,1,Desert,146,152,No,compromised
+ID1269,Radar System,12,24,86,157,No,Medium,92,0,Desert,57,29,Yes,compromised
+ID8080,Weapon System,82,28,66,158,Yes,Low,49,4,Arctic,162,5,Yes,normal
+ID6383,Weapon System,92,37,93,107,Yes,High,39,5,Desert,152,87,Yes,normal
+ID9822,Body Armor Sensor,55,49,92,315,Yes,Low,33,0,Urban,105,38,Yes,normal
+ID8337,Body Armor Sensor,36,12,63,236,Yes,High,14,0,Forest,167,22,Yes,normal
+ID9646,Drone,18,17,88,443,Yes,Low,19,5,Arctic,88,157,Yes,compromised
+ID4945,Communication Equipment,34,16,42,355,Yes,Low,10,2,Forest,33,7,Yes,normal
+ID6107,Weapon System,45,33,81,321,No,Medium,0,0,Urban,170,90,No,compromised
+ID3465,Weapon System,55,-4,38,338,Yes,Medium,44,1,Desert,87,23,Yes,normal
+ID6158,Body Armor Sensor,58,18,56,203,No,High,91,2,Urban,87,133,No,compromised
+ID6022,Surveillance Camera,43,20,85,483,No,High,22,1,Arctic,117,67,Yes,compromised
+ID9703,Drone,31,50,30,344,Yes,Low,41,4,Desert,129,87,Yes,normal
+ID4152,Body Armor Sensor,47,0,70,439,Yes,Medium,31,3,Arctic,83,20,Yes,normal
+ID6900,Body Armor Sensor,95,49,48,147,Yes,High,27,5,Urban,96,61,Yes,normal
+ID4201,Communication Equipment,23,-7,70,436,No,Low,86,4,Arctic,55,58,Yes,compromised
+ID5620,Weapon System,28,50,98,145,Yes,Medium,14,4,Desert,79,65,Yes,normal
+ID3627,Communication Equipment,92,40,39,141,Yes,Low,19,0,Forest,75,68,Yes,normal
+ID4590,Surveillance Camera,49,-10,92,462,Yes,Low,14,0,Forest,58,152,No,compromised
+ID2383,Surveillance Camera,99,48,53,395,Yes,Low,91,0,Urban,56,3,Yes,compromised
+ID8535,Radar System,27,35,54,137,Yes,Medium,97,1,Urban,88,45,No,compromised
+ID7267,Communication Equipment,63,-4,29,303,Yes,Medium,2,5,Urban,58,84,Yes,compromised
+ID1298,Unmanned Ground Vehicle,22,49,74,350,Yes,Medium,11,1,Forest,166,62,Yes,normal
+ID5194,Surveillance Camera,53,22,58,305,Yes,Medium,80,4,Urban,129,168,No,compromised
+ID3969,Unmanned Ground Vehicle,65,37,37,149,Yes,High,58,0,Desert,56,109,No,compromised
+ID5290,Communication Equipment,95,31,89,301,Yes,High,33,3,Arctic,33,21,Yes,normal
+ID8860,Unmanned Ground Vehicle,55,21,47,392,No,Medium,36,0,Urban,138,67,No,compromised
+ID9638,Communication Equipment,52,39,97,425,Yes,Medium,16,1,Desert,67,82,Yes,normal
+ID4649,Unmanned Ground Vehicle,40,18,29,133,No,Medium,5,0,Desert,39,69,No,compromised
+ID3360,Unmanned Ground Vehicle,90,24,76,223,Yes,High,44,5,Desert,155,76,Yes,normal
+ID4040,Unmanned Ground Vehicle,24,-4,45,219,Yes,Medium,33,3,Urban,89,48,No,compromised
+ID2593,Surveillance Camera,27,1,25,113,No,Medium,35,4,Desert,104,168,Yes,compromised
+ID3669,Body Armor Sensor,60,-10,59,410,Yes,Medium,8,5,Arctic,93,2,Yes,normal
+ID7637,Unmanned Ground Vehicle,48,1,68,459,Yes,High,28,3,Forest,151,9,Yes,normal
+ID5120,Radar System,21,49,87,365,Yes,Medium,6,3,Urban,42,31,Yes,normal
+ID1561,Radar System,95,-9,53,182,Yes,High,31,0,Urban,113,19,Yes,normal
+ID7075,Unmanned Ground Vehicle,79,18,83,272,Yes,Medium,47,3,Arctic,160,85,Yes,normal
+ID7826,Body Armor Sensor,87,28,84,110,Yes,Low,3,3,Forest,176,45,Yes,normal
+ID9925,Drone,42,31,25,324,No,Low,41,1,Urban,145,164,No,compromised
+ID7819,Body Armor Sensor,61,-3,42,208,Yes,Low,35,0,Urban,54,72,Yes,normal
+ID4608,Communication Equipment,54,0,96,234,Yes,High,26,0,Urban,39,58,Yes,normal
+ID8103,Drone,37,44,51,136,No,High,93,2,Forest,47,30,No,compromised
+ID8413,Radar System,65,-7,58,242,Yes,High,30,0,Forest,165,51,Yes,normal
+ID7797,Communication Equipment,95,50,35,342,No,Medium,2,5,Arctic,45,52,No,compromised
+ID1196,Surveillance Camera,73,27,44,497,Yes,High,7,2,Arctic,71,84,Yes,normal
+ID9741,Communication Equipment,70,3,51,394,No,Medium,7,5,Urban,142,172,No,compromised
+ID6174,Radar System,16,44,34,409,No,High,99,2,Desert,180,174,Yes,compromised
+ID1815,Drone,94,-5,44,139,Yes,Medium,44,0,Desert,71,146,Yes,compromised
+ID5128,Drone,84,-4,33,300,Yes,High,6,0,Forest,141,148,Yes,compromised
+ID6673,Radar System,28,1,40,216,Yes,Medium,75,2,Urban,172,175,Yes,compromised
+ID7366,Body Armor Sensor,26,12,31,328,Yes,High,39,1,Desert,52,3,Yes,normal
+ID4870,Radar System,85,53,64,280,Yes,Low,5,3,Desert,135,116,No,compromised
+ID7382,Unmanned Ground Vehicle,100,-3,98,370,Yes,Low,41,2,Desert,158,71,Yes,normal
+ID4818,Body Armor Sensor,30,27,95,249,Yes,Low,77,2,Arctic,95,79,Yes,compromised
+ID3023,Unmanned Ground Vehicle,82,-1,55,440,Yes,Medium,16,3,Urban,151,57,Yes,normal
+ID1159,Radar System,92,10,85,489,Yes,High,14,0,Forest,34,33,Yes,normal
+ID4934,Weapon System,56,-6,95,380,Yes,Low,1,1,Forest,34,96,Yes,normal
+ID8049,Body Armor Sensor,44,47,80,126,Yes,Medium,48,4,Desert,152,68,Yes,normal
+ID1670,Body Armor Sensor,94,47,82,292,Yes,Low,43,5,Urban,107,34,No,compromised
+ID8311,Communication Equipment,34,22,81,323,Yes,Low,36,3,Desert,142,80,Yes,normal
+ID1488,Unmanned Ground Vehicle,61,2,92,158,Yes,Low,6,3,Desert,124,94,Yes,normal
+ID5280,Drone,39,7,63,234,Yes,Medium,30,2,Desert,64,21,Yes,normal
+ID1672,Drone,38,11,24,157,Yes,High,43,2,Urban,180,48,No,compromised
+ID2496,Unmanned Ground Vehicle,98,33,90,276,No,Medium,28,2,Urban,159,174,No,compromised
+ID9391,Surveillance Camera,28,4,37,439,Yes,Medium,32,0,Forest,167,146,No,compromised
+ID2378,Body Armor Sensor,97,48,84,349,Yes,Medium,71,4,Forest,138,91,No,compromised
+ID3598,Weapon System,96,46,76,443,Yes,Medium,0,2,Urban,110,78,Yes,normal
+ID3015,Drone,15,25,65,461,Yes,Medium,77,0,Arctic,177,134,Yes,compromised
+ID9473,Weapon System,70,14,44,300,Yes,High,78,5,Desert,44,5,Yes,compromised
+ID3242,Weapon System,89,60,87,176,No,High,67,2,Arctic,78,154,No,compromised
+ID7711,Radar System,21,32,62,115,No,High,37,4,Desert,107,50,Yes,compromised
+ID9952,Surveillance Camera,39,60,52,187,Yes,Medium,40,5,Desert,136,198,No,compromised
+ID8419,Unmanned Ground Vehicle,25,5,91,309,No,Medium,18,4,Urban,97,18,Yes,compromised
+ID4952,Unmanned Ground Vehicle,40,36,83,303,No,Low,82,2,Forest,84,124,Yes,compromised
+ID5531,Body Armor Sensor,38,1,92,320,Yes,High,1,5,Urban,42,91,Yes,normal
+ID3999,Communication Equipment,21,20,87,284,Yes,High,22,1,Desert,152,29,Yes,normal
+ID1718,Body Armor Sensor,28,2,33,332,Yes,Medium,48,2,Desert,55,67,Yes,normal
+ID8427,Radar System,23,43,68,478,Yes,High,3,0,Arctic,175,17,Yes,normal
+ID4859,Radar System,37,-8,60,244,Yes,High,82,5,Forest,65,26,Yes,compromised
+ID7338,Body Armor Sensor,82,20,80,400,Yes,Medium,60,4,Forest,113,92,No,compromised
+ID7488,Communication Equipment,46,49,87,354,Yes,High,86,5,Desert,69,98,No,compromised
+ID1821,Communication Equipment,60,24,80,466,Yes,High,65,5,Desert,129,175,Yes,compromised
+ID5136,Unmanned Ground Vehicle,37,-2,86,404,Yes,High,46,2,Arctic,106,14,Yes,normal
+ID8624,Body Armor Sensor,55,13,30,198,Yes,High,52,5,Forest,161,91,No,compromised
+ID6090,Radar System,36,-6,72,327,Yes,High,1,1,Forest,145,49,Yes,normal
+ID5417,Communication Equipment,59,50,38,233,Yes,High,22,3,Forest,83,94,Yes,normal
+ID2519,Weapon System,19,28,60,480,No,Medium,63,5,Arctic,130,117,Yes,compromised
+ID3684,Drone,89,42,36,142,Yes,Medium,37,1,Desert,59,37,Yes,normal
+ID6369,Radar System,52,27,30,374,Yes,High,16,1,Desert,39,0,Yes,normal
+ID3650,Surveillance Camera,59,17,91,181,Yes,Low,31,4,Desert,31,65,Yes,normal
+ID1409,Weapon System,60,-3,55,278,Yes,High,40,1,Forest,50,16,Yes,normal
+ID6869,Drone,94,13,70,252,Yes,Low,19,1,Arctic,73,0,Yes,normal
+ID8527,Drone,53,23,35,190,Yes,High,40,4,Arctic,158,9,Yes,normal
+ID1827,Drone,96,15,44,459,No,High,5,3,Desert,165,82,No,compromised
+ID8182,Surveillance Camera,31,36,40,317,Yes,Medium,22,4,Urban,47,5,Yes,normal
+ID9919,Body Armor Sensor,79,7,47,191,Yes,High,17,5,Urban,105,75,Yes,normal
+ID7565,Unmanned Ground Vehicle,77,36,55,165,Yes,Low,5,1,Arctic,116,81,Yes,normal
+ID5154,Body Armor Sensor,23,28,48,287,Yes,Low,26,4,Arctic,31,44,Yes,normal
+ID1545,Weapon System,80,47,70,201,Yes,High,52,0,Desert,104,134,Yes,compromised
+ID3644,Communication Equipment,74,-4,23,374,Yes,High,49,5,Forest,111,41,Yes,compromised
+ID3137,Drone,91,19,36,118,No,Low,70,2,Forest,119,102,No,compromised
+ID1068,Weapon System,70,26,30,397,Yes,Low,52,5,Forest,74,114,No,compromised
+ID4218,Surveillance Camera,70,22,72,473,Yes,Low,7,4,Urban,158,31,Yes,normal
+ID2262,Radar System,45,0,32,388,No,Low,76,5,Forest,164,68,No,compromised
+ID6384,Body Armor Sensor,91,2,59,433,Yes,High,79,0,Arctic,69,100,No,compromised
+ID1721,Surveillance Camera,39,23,49,431,Yes,High,2,4,Forest,93,144,Yes,compromised
+ID9185,Weapon System,88,-10,40,439,Yes,High,13,0,Desert,119,80,Yes,normal
+ID5851,Drone,14,24,33,259,Yes,Low,91,5,Urban,86,186,Yes,compromised
+ID3770,Weapon System,52,24,69,477,Yes,Low,23,0,Forest,41,6,Yes,normal
+ID3275,Surveillance Camera,81,39,55,426,Yes,Medium,49,4,Urban,153,46,Yes,normal
+ID8543,Drone,32,25,44,282,Yes,High,47,0,Desert,65,33,Yes,normal
+ID9789,Surveillance Camera,20,37,94,333,No,Low,32,5,Arctic,97,190,Yes,compromised
+ID8395,Surveillance Camera,55,44,93,278,Yes,High,42,5,Arctic,122,24,Yes,normal
+ID2386,Radar System,55,27,65,113,Yes,Medium,28,4,Forest,58,31,Yes,normal
+ID1776,Communication Equipment,71,44,22,453,Yes,High,29,4,Arctic,36,177,No,compromised
+ID7594,Communication Equipment,91,60,40,209,No,Medium,4,5,Arctic,83,17,No,compromised
+ID7079,Communication Equipment,96,34,61,397,Yes,Medium,50,1,Forest,89,58,Yes,normal
+ID5714,Radar System,95,-10,29,351,Yes,Low,0,0,Desert,38,24,Yes,compromised
+ID9043,Surveillance Camera,63,12,85,486,Yes,High,10,3,Forest,135,100,Yes,normal
+ID9042,Body Armor Sensor,49,28,56,490,Yes,Medium,80,4,Forest,96,50,No,compromised
+ID4482,Surveillance Camera,35,49,100,385,Yes,Low,12,3,Desert,152,13,Yes,normal
+ID3721,Communication Equipment,88,6,85,285,Yes,Medium,49,5,Arctic,76,46,Yes,normal
+ID9235,Weapon System,23,38,85,453,Yes,High,31,4,Urban,118,72,Yes,normal
+ID6760,Communication Equipment,82,9,83,164,Yes,Low,35,5,Urban,64,68,Yes,normal
+ID7391,Body Armor Sensor,35,59,32,121,Yes,Low,82,1,Desert,74,5,Yes,compromised
+ID2839,Weapon System,70,10,87,211,Yes,Medium,4,5,Forest,65,13,Yes,normal
+ID9452,Surveillance Camera,57,33,29,135,Yes,Low,25,1,Desert,71,33,Yes,compromised
+ID4901,Body Armor Sensor,21,22,62,187,Yes,Medium,13,0,Desert,96,91,Yes,normal
+ID2862,Unmanned Ground Vehicle,50,25,73,254,Yes,High,26,5,Arctic,73,70,Yes,normal
+ID8236,Body Armor Sensor,44,42,80,385,No,Medium,24,3,Forest,44,166,Yes,compromised
+ID3090,Drone,94,-3,69,311,Yes,Low,34,3,Forest,164,29,Yes,normal
+ID5928,Unmanned Ground Vehicle,92,49,31,144,Yes,Low,3,0,Urban,94,71,Yes,normal
+ID5918,Weapon System,60,7,49,193,No,Medium,62,3,Urban,88,107,Yes,compromised
+ID7190,Radar System,82,-10,72,453,Yes,Medium,97,5,Forest,134,137,No,compromised
+ID5473,Communication Equipment,76,16,97,441,Yes,Medium,29,3,Desert,65,97,Yes,normal
+ID4128,Unmanned Ground Vehicle,24,7,36,387,Yes,High,19,2,Forest,107,12,Yes,normal
+ID9086,Drone,56,-4,85,204,No,High,86,0,Arctic,51,184,No,compromised
+ID7176,Body Armor Sensor,22,46,26,302,No,Medium,94,5,Forest,124,167,Yes,compromised
+ID3171,Unmanned Ground Vehicle,62,41,100,490,Yes,High,6,0,Forest,44,19,Yes,normal
+ID8041,Body Armor Sensor,97,50,96,309,Yes,Low,42,4,Arctic,145,179,Yes,compromised
+ID7206,Weapon System,89,-3,59,209,Yes,High,3,3,Arctic,51,77,Yes,normal
+ID5578,Surveillance Camera,97,12,54,275,No,High,55,0,Urban,105,41,No,compromised
+ID7707,Body Armor Sensor,61,47,60,491,Yes,Medium,35,1,Urban,79,170,No,compromised
+ID8850,Body Armor Sensor,46,1,94,269,Yes,Low,14,2,Urban,155,79,Yes,normal
+ID1828,Surveillance Camera,97,2,20,491,No,High,83,4,Forest,80,164,No,compromised
+ID8436,Surveillance Camera,21,20,55,249,Yes,Low,31,1,Urban,163,19,Yes,normal
+ID2892,Body Armor Sensor,15,59,84,246,No,Medium,87,0,Urban,125,90,No,compromised
+ID1406,Radar System,97,35,79,204,Yes,Medium,44,4,Arctic,156,98,Yes,normal
+ID9911,Communication Equipment,49,38,96,337,Yes,High,0,1,Forest,95,8,Yes,normal
+ID4029,Body Armor Sensor,74,43,35,269,No,High,98,4,Arctic,113,165,No,compromised
+ID1160,Body Armor Sensor,72,-10,61,469,No,Low,13,2,Forest,52,19,Yes,compromised
+ID9865,Body Armor Sensor,23,26,67,285,No,High,41,4,Arctic,118,76,No,compromised
+ID3586,Drone,73,32,44,264,No,Low,77,0,Urban,30,20,No,compromised
+ID5522,Unmanned Ground Vehicle,24,9,91,383,Yes,Low,38,0,Forest,50,8,No,compromised
+ID2760,Drone,38,37,69,232,No,Low,24,1,Urban,124,97,No,compromised
+ID8091,Communication Equipment,75,31,80,325,Yes,Low,24,5,Arctic,33,78,Yes,normal
+ID5746,Drone,15,24,77,322,Yes,High,9,0,Urban,162,115,Yes,compromised
+ID5939,Surveillance Camera,96,18,21,469,Yes,Low,67,4,Urban,112,9,No,compromised
