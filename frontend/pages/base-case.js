@@ -11,6 +11,7 @@ const summaryData = [
   { title: "Total Devices", value: 5, bgColor: "bg-yellow-100" },
   { title: "Active Threats", value: 3, bgColor: "bg-blue-100" },
   { title: "Isolated Devices", value: 2, bgColor: "bg-[#fca5a5]" },
+  { title: "System Health", value: "Good", bgColor: "bg-green-100" },
   { title: "System Health", value: "Good", bgColor: "bg-green-100" }
 ];
 
@@ -197,27 +198,30 @@ const realTimeFeed = [
       <h1 className="text-5xl font-bold mb-4 mt-2 urbanist text-[#dd0000]">Network - Dashboard</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
       <div className="w-full h-[500px]">
-  <Card className="h-full">
+      <Card className="h-full">
     <CardHeader>
-      <CardTitle className="text-3xl font-semibold play text-[#890408]">
-        Network Summary
-      </CardTitle>
+        <CardTitle className="text-3xl font-semibold play text-[#890408]">
+            Network Summary
+        </CardTitle>
     </CardHeader>
     <CardContent className="h-[calc(100%-5rem)]">
-      <div className="grid grid-cols-2 grid-rows-2 gap-4 h-full poppins">
-        {summaryData.map((item, index) => (
-          <Card key={index} className={`${item.bgColor} transition-all duration-300 hover:shadow-lg flex items-center justify-center`}>
-            <CardContent className="w-full h-full flex items-center justify-center">
-              <div className="text-center">
-                <div className="text-4xl font-bold">{item.value}</div>
-                <div className="text-xl font-semibold mt-2">{item.title}</div>
-              </div>
-            </CardContent>
-          </Card>
-        ))}
-      </div>
+        <div className="grid grid-cols-3 grid-rows-2 gap-4 h-full poppins">
+            {summaryData.map((item, index) => (
+                <Card 
+                    key={index} 
+                    className={`${item.bgColor} transition-all duration-300 hover:shadow-lg flex items-center justify-center ${index < 3 ? 'col-span-1' : index === 3 ? 'col-span-2' : 'col-span-1'}`}
+                >
+                    <CardContent className="w-full h-full flex items-center justify-center">
+                        <div className="text-center">
+                            <div className="text-4xl font-bold">{item.value}</div>
+                            <div className="text-xl font-semibold mt-2">{item.title}</div>
+                        </div>
+                    </CardContent>
+                </Card>
+            ))}
+        </div>
     </CardContent>
-  </Card>
+</Card>
 </div>
   
   <div className="w-full h-[500px]">
