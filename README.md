@@ -84,7 +84,7 @@ SentinelAI is an advanced cybersecurity framework designed to safeguard the rapi
 ## **Setup Instructions**
 
 ### **Prerequisites**
-1. **Blockchain Network**: Ethereum or Hyperledger Fabric setup.
+1. **Blockchain Network**: Ethereum setup.
 2. **Python Environment**: Install Python 3.8+ and required libraries.
 3. **Mininet Simulator**: Install Mininet for IoT node simulation.
 4. **AI Frameworks**: TensorFlow Lite, PyTorch Mobile.
