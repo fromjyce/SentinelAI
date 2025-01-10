@@ -193,7 +193,7 @@ const realTimeFeed = [
   return (
     <>
     <div className="min-h-screen p-6">
-      <h1 className="text-5xl font-bold mb-4 mt-2 urbanist text-[#dd0000]">Home - Dashboard</h1>
+      <h1 className="text-5xl font-bold mb-4 mt-2 urbanist text-[#dd0000]">Home IOT - Dashboard</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
       <div className="w-full h-[500px]">
       <Card className="h-full">
