@@ -128,25 +128,25 @@ const imageData = "/images/healthcare_iot/1.png";
 
 export default function HeathCareIOT() {
   const [threats, setThreats] = useState([
-  { type: 'DDoS Attack', affectedNodes: 2, riskLevel: 'High', mitigation: 'Node Isolation' },
-  { type: 'Phishing Attack', affectedNodes: 1, riskLevel: 'Medium', mitigation: 'User Education & Block' },
-  { type: 'Malware Infection', affectedNodes: 1, riskLevel: 'High', mitigation: 'Antivirus Scan & Patch' },
-  { type: 'Brute Force Attempt', affectedNodes: 1, riskLevel: 'Low', mitigation: 'Password Strengthening' },
-]);
-
-const [insights, setInsights] = useState([
-  { title: 'Global Insight', description: 'Recent federated learning has helped detect a new type of malware with a 20% higher accuracy.' },
-  { title: 'Model Efficiency', description: 'Collaborative insights have improved the model’s prediction accuracy from 85% to 92% in identifying DDoS attacks.' },
-  { title: 'Shared Knowledge', description: 'A shared node identified multiple brute-force attempts, leading to faster global model updates.' },
-]);
-
-const realTimeFeed = [
-  { text: "Threat detected in Node A", duration: "5 minutes ago" },
-  { text: "Mitigation initiated for Node B", duration: "10 minutes ago" },
-  { text: "Update received from Node C", duration: "15 minutes ago" },
-  { text: "Node D back online", duration: "20 minutes ago" },
-  { text: "Global model updated", duration: "30 minutes ago" },
-];
+    { type: 'Unauthorized Access', affectedNodes: 2, riskLevel: 'High', mitigation: 'Access Revocation' },
+    { type: 'Firmware Vulnerability', affectedNodes: 1, riskLevel: 'Medium', mitigation: 'Firmware Update' },
+    { type: 'Signal Interference', affectedNodes: 1, riskLevel: 'High', mitigation: 'Channel Switching' },
+    { type: 'Data Breach', affectedNodes: 1, riskLevel: 'Low', mitigation: 'Encryption Upgrade' },
+  ]);
+  
+  const [insights, setInsights] = useState([
+    { title: 'Proactive Measures', description: 'Anomalies in signal strength helped identify unauthorized access attempts early.' },
+    { title: 'Collaborative Learning', description: 'Firmware patches reduced attack vectors by 40% across devices.' },
+    { title: 'Enhanced Encryption', description: 'Improved data security protocols increased breach resistance by 25%.' },
+  ]);
+  
+  const realTimeFeed = [
+    { text: "Unauthorized access detected in Node 1", duration: "5 minutes ago" },
+    { text: "Firmware update initiated for Node 3", duration: "10 minutes ago" },
+    { text: "Signal interference mitigated on Node 2", duration: "15 minutes ago" },
+    { text: "Data breach reported in Node 4", duration: "20 minutes ago" },
+    { text: "System-wide security protocols updated", duration: "30 minutes ago" },
+  ];  
 
   const [activeNodeDetails, setActiveNodeDetails] = useState(null);
   const [isolatedNodeDetails, setIsolatedNodeDetails] = useState(null);

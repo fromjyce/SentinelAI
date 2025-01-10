@@ -135,25 +135,25 @@ const imageData = "/images/military_iot/1.png";
 
 export default function MilitaryIOT() {
   const [threats, setThreats] = useState([
-  { type: 'DDoS Attack', affectedNodes: 2, riskLevel: 'High', mitigation: 'Node Isolation' },
-  { type: 'Phishing Attack', affectedNodes: 1, riskLevel: 'Medium', mitigation: 'User Education & Block' },
-  { type: 'Malware Infection', affectedNodes: 1, riskLevel: 'High', mitigation: 'Antivirus Scan & Patch' },
-  { type: 'Brute Force Attempt', affectedNodes: 1, riskLevel: 'Low', mitigation: 'Password Strengthening' },
-]);
-
-const [insights, setInsights] = useState([
-  { title: 'Global Insight', description: 'Recent federated learning has helped detect a new type of malware with a 20% higher accuracy.' },
-  { title: 'Model Efficiency', description: 'Collaborative insights have improved the model’s prediction accuracy from 85% to 92% in identifying DDoS attacks.' },
-  { title: 'Shared Knowledge', description: 'A shared node identified multiple brute-force attempts, leading to faster global model updates.' },
-]);
-
-const realTimeFeed = [
-  { text: "Threat detected in Node A", duration: "5 minutes ago" },
-  { text: "Mitigation initiated for Node B", duration: "10 minutes ago" },
-  { text: "Update received from Node C", duration: "15 minutes ago" },
-  { text: "Node D back online", duration: "20 minutes ago" },
-  { text: "Global model updated", duration: "30 minutes ago" },
-];
+    { type: 'Signal Jamming', affectedNodes: 2, riskLevel: 'High', mitigation: 'Frequency Hopping' },
+    { type: 'Unauthorized Access', affectedNodes: 1, riskLevel: 'Medium', mitigation: 'Access Control & Logging' },
+    { type: 'Firmware Exploit', affectedNodes: 1, riskLevel: 'High', mitigation: 'Firmware Update & Patch' },
+    { type: 'Data Interception', affectedNodes: 1, riskLevel: 'Low', mitigation: 'Data Encryption' },
+  ]);
+  
+  const [insights, setInsights] = useState([
+    { title: 'Real-Time Analysis', description: 'Advanced analytics detected a new signal-jamming technique with a 30% faster response time.' },
+    { title: 'Improved Coordination', description: 'Collaborative efforts enhanced response time to firmware exploits by 25%.' },
+    { title: 'Threat Sharing', description: 'Shared intelligence identified multiple unauthorized access attempts, accelerating system patches.' },
+  ]);
+  
+  const realTimeFeed = [
+    { text: "Signal jamming detected at Node 2", duration: "5 minutes ago" },
+    { text: "Unauthorized access attempt on Node 5", duration: "10 minutes ago" },
+    { text: "Firmware update deployed to Node 1", duration: "15 minutes ago" },
+    { text: "Node 4 back online", duration: "20 minutes ago" },
+    { text: "System-wide threat model updated", duration: "30 minutes ago" },
+  ];  
 
   const [activeNodeDetails, setActiveNodeDetails] = useState(null);
   const [isolatedNodeDetails, setIsolatedNodeDetails] = useState(null);
