@@ -5,7 +5,7 @@ export default function Page() {
   return (
     <div>
       <Navbar />
-      <main className="mt-20 p-6">
+      <main className="mt-20">
         <HomeIOT />
       </main>
     </div>
