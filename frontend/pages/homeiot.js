@@ -4,6 +4,7 @@ import Image from "next/image";
 import { Server, CirclePlus, CircleCheckBig, UserCog, Trophy, ChartLine, Download } from "lucide-react";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import UpdateFooter from "@/components/UpdateFooter";
 
 const summaryData = [
   { title: "Total Devices", value: 5, bgColor: "bg-yellow-100" },
@@ -189,7 +190,8 @@ const realTimeFeed = [
   };
 
   return (
-    <div className="min-h-screen">
+    <>
+    <div className="min-h-screen p-6">
       <h1 className="text-5xl font-bold mb-4 mt-2 urbanist text-[#dd0000]">Home - Dashboard</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
       <div className="w-full h-[500px]">
@@ -378,10 +380,10 @@ const realTimeFeed = [
           {threats.map((threat, index) => (
             <Card key={index} className="bg-[#f4f4f4]">
               <CardContent className="pt-6">
-                <h4 className="text-lg font-semibold mb-2">{threat.type}</h4>
-                <p><strong>Affected Nodes:</strong> {threat.affectedNodes}</p>
-                <p><strong>Risk Level:</strong> {threat.riskLevel}</p>
-                <p><strong>Mitigation:</strong> {threat.mitigation}</p>
+                <h4 className="text-lg font-semibold mb-2 urbanist">{threat.type}</h4>
+                <p className="poppins"><strong>Affected Nodes:</strong> {threat.affectedNodes}</p>
+                <p className="poppins"><strong>Risk Level:</strong> {threat.riskLevel}</p>
+                <p className="poppins"><strong>Mitigation:</strong> {threat.mitigation}</p>
               </CardContent>
             </Card>
           ))}
@@ -454,8 +456,6 @@ const realTimeFeed = [
     </Card>
   </div>
 </div>
-
-{/* Real-Time Feed */}
 <div className="mt-6">
   <Card>
     <CardHeader>
@@ -485,7 +485,6 @@ const realTimeFeed = [
         <span>Download Detailed Report</span>
       </Button>
     </div>
-
       {showAddDeviceModal && (
         <div className="fixed inset-0 flex justify-center items-center bg-black bg-opacity-50">
           <div className="bg-white p-6 rounded-lg shadow-xl urbanist">
@@ -550,6 +549,8 @@ const realTimeFeed = [
         </div>
       )}
     </div>
+    <UpdateFooter/>
+    </>
   );
 }
 
