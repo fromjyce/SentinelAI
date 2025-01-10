@@ -207,14 +207,14 @@ const UploadDashboard = () => {
   return (
     <>
       <Head>
-        <title>Your Network&apos;s Dashboard</title>
+        <title>SentinelAI | Your Network&apos;s Dashboard</title>
       </Head>
       <div className="min-h-screen flex flex-col bg-gradient-to-br from-[#f4f4f4] to-[#ffffff] p-6">
-        <h1 className="text-4xl font-bold text-center text-[#dd0000] mb-2">Your Network&apos;s Dashboard</h1>
+        <h1 className="text-4xl font-bold text-center text-[#dd0000] mb-2 urbanist">Your Network&apos;s Dashboard</h1>
         {isHighPriority ? (
-          <p className="text-center text-gray-600 mb-6">High Priority</p>
+          <p className="text-center text-gray-600 mb-6 poppins text-xl">High Priority</p>
         ) : (
-          totalDevices > 0 && <p className="text-center text-gray-600 mb-6">Low Priority</p>
+          totalDevices > 0 && <p className="text-center text-gray-600 mb-6 poppins text-xl">Low Priority</p>
         )}
 
         {loading ? (
@@ -228,10 +228,10 @@ const UploadDashboard = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
               <Card className="h-full">
                 <CardHeader>
-                  <CardTitle className="text-3xl font-semibold text-[#2b6cb0]">Network Summary</CardTitle>
+                  <CardTitle className="text-3xl font-semibold text-[#2b6cb0] play">Network Summary</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <div className="grid grid-cols-2 gap-4">
+                  <div className="grid grid-cols-2 gap-4 poppins">
                     <Card className="bg-blue-100">
                       <CardContent className="text-center">
                         <h3 className="text-xl font-semibold">Total Devices</h3>
@@ -269,9 +269,9 @@ const UploadDashboard = () => {
               <Card className="h-full">
                 <CardHeader>
                   <div className="flex justify-between items-center">
-                    <CardTitle className="text-3xl font-semibold text-[#dd6b20]">Simulation Graph</CardTitle>
+                    <CardTitle className="text-3xl font-semibold text-[#dd6b20] play">Simulation Graph</CardTitle>
                     {isHighPriority && (
-                      <Button className="bg-blue-500 text-white">Trigger Isolation</Button>
+                      <Button className="bg-blue-500 text-white poppins">Trigger Isolation</Button>
                     )}
                   </div>
                 </CardHeader>
@@ -286,15 +286,13 @@ const UploadDashboard = () => {
                 </CardContent>
               </Card>
             </div>
-
-            {/* Active Nodes and Isolated Nodes */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
               <Card>
                 <CardHeader>
                   <div className="flex justify-between items-center">
-                    <CardTitle className="text-3xl font-semibold text-[#2b6cb0]">Active Nodes</CardTitle>
+                    <CardTitle className="text-3xl font-semibold text-[#2b6cb0] play">Active Nodes</CardTitle>
                     <Button
-                      className="bg-blue-500 text-white"
+                      className="bg-blue-500 text-white urbanist"
                       onClick={openAddDeviceModal}
                     >
                       + Add Devices
@@ -303,7 +301,7 @@ const UploadDashboard = () => {
                 </CardHeader>
                 <CardContent>
                   {activeNodes.map((node) => (
-                    <div key={node.id} className="mb-4 flex justify-between items-center">
+                    <div key={node.id} className="mb-4 flex justify-between items-center poppins">
                       <div>
                         <Server className="inline-block mr-2 text-blue-500" />
                         <span>{node.name}</span> - <span>{node.status}</span>
@@ -319,18 +317,18 @@ const UploadDashboard = () => {
 
               <Card>
                 <CardHeader>
-                  <CardTitle className="text-3xl font-semibold text-[#e53e3e]">Isolated Nodes</CardTitle>
+                  <CardTitle className="text-3xl font-semibold text-[#e53e3e] play">Isolated Nodes</CardTitle>
                 </CardHeader>
                 <CardContent>
                   {isolatedNodes.map((node) => (
                     <div key={node.id} className="mb-4 flex justify-between items-center">
                       <div>
                         <Server className="inline-block mr-2 text-red-500" />
-                        <span>{node.name}</span> - <span>{node.status}</span>
+                        <span className='poppins'>{node.name}</span> - <span className='poppins'>{node.status}</span>
                       </div>
                       <div>
-                        <Button className="mr-2 bg-blue-500 text-white">Recover</Button>
-                        <Button className="bg-yellow-500 text-white">Details</Button>
+                        <Button className="mr-2 bg-blue-500 text-white poppins">Recover</Button>
+                        <Button className="bg-yellow-500 text-white poppins">Details</Button>
                       </div>
                     </div>
                   ))}
@@ -342,16 +340,16 @@ const UploadDashboard = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
               <Card>
                 <CardHeader>
-                  <CardTitle className="text-3xl font-semibold text-[#e53e3e]">Threat Analysis</CardTitle>
+                  <CardTitle className="text-3xl font-semibold text-[#e53e3e] play">Threat Analysis</CardTitle>
                 </CardHeader>
                 <CardContent>
                   {threatAnalysis.map((threat, index) => (
                     <div key={index} className="mb-4">
-                      <h4 className="font-semibold">{threat.type}</h4>
-                      <p>Affected Nodes: {threat.affectedNodes}</p>
-                      <p>Risk Level: {threat.riskLevel}</p>
-                      <p>Mitigation: {threat.mitigation}</p>
-                      <p>{threat.description}</p>
+                      <h4 className="font-bold text-lg urbanist">{threat.type}</h4>
+                      <p className='poppins text-lg'>Affected Nodes: {threat.affectedNodes}</p>
+                      <p className='poppins text-lg'>Risk Level: {threat.riskLevel}</p>
+                      <p className='poppins text-lg'>Mitigation: {threat.mitigation}</p>
+                      <p className='poppins text-lg'>{threat.description}</p>
                     </div>
                   ))}
                 </CardContent>
@@ -359,26 +357,24 @@ const UploadDashboard = () => {
 
               <Card>
                 <CardHeader>
-                  <CardTitle className="text-3xl font-semibold text-[#dd6b20]">Global Model Status</CardTitle>
+                  <CardTitle className="text-3xl font-semibold text-[#dd6b20] play">Global Model Status</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p>Accuracy: {globalModelStatus?.accuracy || 'Loading...'}</p>
-                  <p>Detection Time: {globalModelStatus?.detectionTime || 'Loading...'}</p>
+                  <p className='text-xl poppins'><strong>Accuracy</strong>: {globalModelStatus?.accuracy || 'Loading...'}</p>
+                  <p className='text-xl poppins'><strong>Detection Time</strong>: {globalModelStatus?.detectionTime || 'Loading...'}</p>
                 </CardContent>
               </Card>
             </div>
-
-            {/* Real-Time Feed */}
             <div className="mb-8">
               <Card>
                 <CardHeader>
-                  <CardTitle className="text-3xl font-semibold text-[#FF4D4D]">Real-Time Feed</CardTitle>
+                  <CardTitle className="text-3xl font-semibold text-[#FF4D4D] play">Real-Time Feed</CardTitle>
                 </CardHeader>
                 <CardContent>
                   {realTimeFeed.map((feed, index) => (
                     <div key={index} className="mb-4">
-                      <p>{feed.text}</p>
-                      <span className="text-sm text-gray-500">{feed.duration}</span>
+                      <p className='poppins'>{feed.text}</p>
+                      <span className="text-sm text-gray-500 urbanist">{feed.duration}</span>
                     </div>
                   ))}
                 </CardContent>
@@ -390,9 +386,9 @@ const UploadDashboard = () => {
         {showAddDeviceModal && (
           <div className="fixed inset-0 flex justify-center items-center bg-black bg-opacity-50">
             <div className="bg-white p-6 rounded-lg shadow-xl">
-              <h3 className="text-2xl font-semibold mb-4">Add New Device</h3>
+              <h3 className="text-2xl font-semibold mb-4 space_grotesk">Add New Device</h3>
               <form onSubmit={handleAddDevice}>
-                <div className="mb-4">
+                <div className="mb-4 poppins">
                   <label htmlFor="id" className="block text-lg font-semibold">
                     Device ID
                   </label>
@@ -434,14 +430,14 @@ const UploadDashboard = () => {
                 <div className="flex justify-between">
                   <button
                     type="button"
-                    className="px-4 py-2 bg-gray-300 rounded-lg"
+                    className="px-4 py-2 bg-gray-300 rounded-lg poppins"
                     onClick={closeAddDeviceModal}
                   >
                     Cancel
                   </button>
                   <button
                     type="submit"
-                    className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600"
+                    className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 poppins"
                   >
                     Add Device
                   </button>
