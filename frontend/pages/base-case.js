@@ -6,6 +6,7 @@ import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import UpdateFooter from "@/components/UpdateFooter";
 import Navbar from "@/components/Navbar";
+import Head from "next/head";
 
 const summaryData = [
   { title: "Total Devices", value: 5, bgColor: "bg-yellow-100" },
@@ -193,6 +194,7 @@ const realTimeFeed = [
 
   return (
     <>
+    <Head><title>SentinelAI | Network Dashboard</title></Head>
     <Navbar/>
     <div className="min-h-screen p-6 mt-20">
       <h1 className="text-5xl font-bold mb-4 mt-2 urbanist text-[#dd0000]">Network - Dashboard</h1>
