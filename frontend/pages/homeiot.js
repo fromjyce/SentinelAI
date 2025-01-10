@@ -1,7 +1,9 @@
 "use client";
 import { useState, useEffect } from "react";
 import Image from "next/image";
-import { Server, CirclePlus, CircleCheckBig, UserCog, Trophy, ChartLine } from "lucide-react";
+import { Server, CirclePlus, CircleCheckBig, UserCog, Trophy, ChartLine, Download } from "lucide-react";
+import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 
 const summaryData = [
   { title: "Total Devices", value: 5, bgColor: "bg-yellow-100" },
@@ -99,6 +101,14 @@ const [insights, setInsights] = useState([
   { title: 'Shared Knowledge', description: 'A shared node identified multiple brute-force attempts, leading to faster global model updates.' },
 ]);
 
+const realTimeFeed = [
+  { text: "Threat detected in Node A", duration: "5 minutes ago" },
+  { text: "Mitigation initiated for Node B", duration: "10 minutes ago" },
+  { text: "Update received from Node C", duration: "15 minutes ago" },
+  { text: "Node D back online", duration: "20 minutes ago" },
+  { text: "Global model updated", duration: "30 minutes ago" },
+];
+
   const [activeNodeDetails, setActiveNodeDetails] = useState(null);
   const [isolatedNodeDetails, setIsolatedNodeDetails] = useState(null);
 
@@ -140,146 +150,91 @@ const [insights, setInsights] = useState([
     closeAddDeviceModal(); // Close the modal after submission
   };
   const [step, setStep] = useState(0); // Initialize step state
-
-
   const [globalModelStatus, setGlobalModelStatus] = useState(null);
   const [learningProgress, setLearningProgress] = useState(null);
   const [nodeContributions, setNodeContributions] = useState(null);
-  const [modelPerformance, setModelPerformance] = useState(null);
-  
-
-  // Simulate fetching fake data
+  const [modelPerformance, setModelPerformance] = useState(null); // For detection accuracy
+  const [latency, setLatency] = useState(null); // For detection time
+  const [recoveryTime, setRecoveryTime] = useState(null); // For recovery time
   useEffect(() => {
-    const fetchData = () => {
-      setGlobalModelStatus("Up to Date");
-      setLearningProgress(`${(Math.random() * 100).toFixed(2)}%`);
-      setNodeContributions(Math.floor(Math.random() * 100 + 1)); // Random 1-100 nodes
-      setModelPerformance({
-        accuracy: `${(Math.random() * (100 - 80) + 80).toFixed(2)}%`, // 80-100%
-        detectionRate: `${(Math.random() * (100 - 70) + 70).toFixed(2)}%`, // 70-100%
-        improvement: `${(Math.random() * (20 - 5) + 5).toFixed(2)}%`, // 5-20%
-      });
-    };
-
-    fetchData();
-
-    // Refresh data every 5 seconds
-    const interval = setInterval(fetchData, 5000);
+    setGlobalModelStatus("Up to Date");
+    setLearningProgress(`${(Math.random() * 100).toFixed(2)}%`);
+    setNodeContributions(3);
+    setModelPerformance(`${(Math.random() * (100 - 80) + 80).toFixed(2)}%`); // 80-100%
+    setLatency(`${(Math.random() * (300 - 50) + 50).toFixed(2)} ms`); // 50-300ms
+    setRecoveryTime(`${(Math.random() * (10 - 1) + 1).toFixed(2)} s`); // 1-10s
+    const interval = setInterval(() => {
+      setStep((prev) => (prev < 4 ? prev + 1 : prev)); // Increment step until all cards are shown
+    }, 2000);
 
     return () => clearInterval(interval);
   }, []);
 
+  const CardWidget = ({ icon, title, value, className = '' }) => {
+    return (
+      <Card className={`transition-all duration-300 hover:shadow-lg ${className}`}>
+        <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
+          <CardTitle className="text-sm font-medium">{title}</CardTitle>
+          {icon && <div className="p-2 bg-gray-100 rounded-full">{icon}</div>}
+        </CardHeader>
+        <CardContent>
+          <div className="text-2xl font-bold">{value}</div>
+        </CardContent>
+      </Card>
+    );
+  };
+
+  const downloadReport = () => {
+    console.log("Downloading detailed report...");
+  };
 
   return (
     <div className="min-h-screen">
-      {/* Page Title */}
       <h1 className="text-5xl font-bold mb-4 mt-2 urbanist text-[#dd0000]">Home - Dashboard</h1>
-
-      {/* Grid Layout for Uniform Width and Height */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center justify-center">
-        {/* Left Half: Summary Section */}
-        <div className="w-full h-[400px]">
-          <h2 className="text-3xl font-semibold mb-4 play text-[#890408]">Network Summary</h2>
-
-          <div className="bg-white rounded-lg shadow-xl p-6 flex flex-col justify-between h-full">
-            <div className="grid grid-cols-2 grid-rows-2 gap-4 h-full poppins">
-              {summaryData.map((item, index) => (
-                <div
-                  key={index}
-                  className={`${item.bgColor} flex rounded-lg p-4 text-center justify-center items-center shadow-xl`}
-                >
-                  <div>
-                    <p className="text-4xl font-bold mb-2">{item.value}</p>
-                    <h3 className="text-xl font-semibold">{item.title}</h3>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-
-        {/* Right Half: Image Section */}
-        <div className="w-full h-[400px]">
-          <h2 className="text-3xl font-semibold mb-4 play text-[#890408]">Simulated Network</h2>
-
-          <div className="bg-white rounded-lg shadow-xl w-full h-full flex items-center justify-center">
-            <div className="relative w-full h-full">
-              <Image
-                src={imageData}
-                alt="IoT System Overview"
-                layout="fill"
-                objectFit="contain"
-                className="rounded-lg"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-16">
-        {/* Left Side: Active Nodes */}
-        <div className="p-6">
-          <div className="flex justify-between items-center">
-            <h2 className="text-3xl font-semibold mb-1 play text-[#2b6cb0]">Active Nodes</h2>
-            <div className="flex items-center space-x-2">
-              <CirclePlus className="text-blue-500" size={24} onClick={openAddDeviceModal} />
-              <span className="text-lg font-medium urbanist">Add a Device</span>
-            </div>
-          </div>
-          <div className="space-y-4">
-            {activeNodes.map((node) => (
-              <div
-                key={node.id}
-                className="flex justify-between items-center bg-blue-50 p-4 rounded-lg shadow-xl"
-              >
-                <div className="flex items-center space-x-3">
-                  <Server className="text-blue-500" size={24} />
-                  <span className="font-medium text-lg urbanist">{node.name}</span>
-                </div>
-                <div className="flex space-x-2">
-                  <button
-                    className="px-4 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600 poppins"
-                    onClick={() => openActiveNodeDetailsModal(node)}
-                  >
-                    View Details
-                  </button>
-                  <button className="px-4 py-2 bg-[#FB0000] text-white rounded-lg hover:bg-[#FF4D4D] poppins">
-                    Isolate
-                  </button>
-                </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div className="w-full h-[500px]">
+  <Card className="h-full">
+    <CardHeader>
+      <CardTitle className="text-3xl font-semibold play text-[#890408]">
+        Network Summary
+      </CardTitle>
+    </CardHeader>
+    <CardContent className="h-[calc(100%-5rem)]">
+      <div className="grid grid-cols-2 grid-rows-2 gap-4 h-full poppins">
+        {summaryData.map((item, index) => (
+          <Card key={index} className={`${item.bgColor} transition-all duration-300 hover:shadow-lg flex items-center justify-center`}>
+            <CardContent className="w-full h-full flex items-center justify-center">
+              <div className="text-center">
+                <div className="text-4xl font-bold">{item.value}</div>
+                <div className="text-xl font-semibold mt-2">{item.title}</div>
               </div>
-            ))}
-          </div>
-        </div>
-        <div className="p-6">
-          <h2 className="text-3xl font-semibold mb-4 play text-[#e53e3e]">Isolated Nodes</h2>
-          <div className="space-y-4">
-            {isolatedNodes.map((node) => (
-              <div
-                key={node.id}
-                className="flex justify-between items-center bg-red-50 p-4 rounded-lg shadow-xl"
-              >
-                <div className="flex items-center space-x-3">
-                  <Server className="text-red-500" size={24} />
-                  <span className="font-medium text-lg urbanist">{node.name}</span>
-                </div>
-                <div className="flex space-x-2">
-                  <button
-                    className="px-4 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600 poppins"
-                    onClick={() => openIsolatedNodeDetailsModal(node)}
-                  >
-                    View Details
-                  </button>
-                  <button className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 poppins">
-                    Recover
-                  </button>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
+            </CardContent>
+          </Card>
+        ))}
       </div>
-
+    </CardContent>
+  </Card>
+</div>
+  
+  <div className="w-full h-[500px]">
+    <Card className="h-full">
+      <CardHeader>
+        <CardTitle className="text-3xl font-semibold play text-[#890408]">
+          Simulated Network
+        </CardTitle>
+      </CardHeader>
+      <CardContent className="relative h-[calc(100%-5rem)]">
+        <Image
+          src={imageData}
+          alt="IoT System Overview"
+          layout="fill"
+          objectFit="contain"
+          className="rounded-lg"
+        />
+      </CardContent>
+    </Card>
+  </div>
+</div>
       {activeNodeDetails && (
         <div className="fixed inset-0 bg-gray-700 bg-opacity-50 flex justify-center items-center z-50">
           <div className="bg-white rounded-lg p-6 w-96 shadow-xl">
@@ -334,75 +289,203 @@ const [insights, setInsights] = useState([
     </div>
   </div>
 )}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-        <div className="col-span-2 p-6">
-      <h2 className="text-3xl font-semibold mb-4 play text-[#e53e3e]">Threat Analysis</h2>
-      <div className="mb-6">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8 mt-12">
+        <Card>
+          <CardHeader>
+            <div className="flex justify-between items-center">
+              <CardTitle className="text-3xl font-semibold play text-[#2b6cb0]">
+                Active Nodes
+              </CardTitle>
+              <button
+                onClick={openAddDeviceModal}
+                className="flex items-center space-x-2 text-blue-500"
+              >
+                <CirclePlus size={24} />
+                <span className="text-lg font-medium urbanist">Add a Device</span>
+              </button>
+            </div>
+          </CardHeader>
+          <CardContent className="space-y-4">
+            {activeNodes.map((node) => (
+              <div
+                key={node.id}
+                className="flex justify-between items-center bg-blue-50 p-4 rounded-lg"
+              >
+                <div className="flex items-center space-x-3">
+                  <Server className="text-blue-500" size={24} />
+                  <span className="font-medium text-lg urbanist">{node.name}</span>
+                </div>
+                <div className="flex space-x-2">
+                  <button
+                    className="px-4 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600 poppins"
+                    onClick={() => openActiveNodeDetailsModal(node)}
+                  >
+                    View Details
+                  </button>
+                  <button className="px-4 py-2 bg-[#FB0000] text-white rounded-lg hover:bg-[#FF4D4D] poppins">
+                    Isolate
+                  </button>
+                </div>
+              </div>
+            ))}
+          </CardContent>
+        </Card>
+
+        <Card>
+          <CardHeader>
+            <CardTitle className="text-3xl font-semibold play text-[#e53e3e]">
+              Isolated Nodes
+            </CardTitle>
+          </CardHeader>
+          <CardContent className="space-y-4">
+            {isolatedNodes.map((node) => (
+              <div
+                key={node.id}
+                className="flex justify-between items-center bg-red-50 p-4 rounded-lg"
+              >
+                <div className="flex items-center space-x-3">
+                  <Server className="text-red-500" size={24} />
+                  <span className="font-medium text-lg urbanist">{node.name}</span>
+                </div>
+                <div className="flex space-x-2">
+                  <button
+                    className="px-4 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600 poppins"
+                    onClick={() => openIsolatedNodeDetailsModal(node)}
+                  >
+                    View Details
+                  </button>
+                  <button className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 poppins">
+                    Recover
+                  </button>
+                </div>
+              </div>
+            ))}
+          </CardContent>
+        </Card>
+      </div>
+
+      {/* Global Model Status */}
+<div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+  <div className="md:col-span-2">
+    <Card>
+      <CardHeader>
+        <CardTitle className="text-3xl font-semibold play text-[#e53e3e]">
+          Threat Analysis
+        </CardTitle>
+      </CardHeader>
+      <CardContent>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mb-6">
           {threats.map((threat, index) => (
-            <div key={index} className="bg-[#f4f4f4] p-4 rounded-lg shadow-lg poppins">
-              <h4 className="text-lg font-semibold mb-2">{threat.type}</h4>
-              <p><strong>Affected Nodes:</strong> {threat.affectedNodes}</p>
-              <p><strong>Risk Level:</strong> {threat.riskLevel}</p>
-              <p><strong>Mitigation:</strong> {threat.mitigation}</p>
-            </div>
+            <Card key={index} className="bg-[#f4f4f4]">
+              <CardContent className="pt-6">
+                <h4 className="text-lg font-semibold mb-2">{threat.type}</h4>
+                <p><strong>Affected Nodes:</strong> {threat.affectedNodes}</p>
+                <p><strong>Risk Level:</strong> {threat.riskLevel}</p>
+                <p><strong>Mitigation:</strong> {threat.mitigation}</p>
+              </CardContent>
+            </Card>
           ))}
         </div>
-      </div>
-      <div className="mb-6">
-        {/* Add a graph visualization here */}
-        <div className="h-32 bg-gray-300">[Graph Placeholder]</div>
-      </div>
-      <div className="mb-6">
-        <h3 className="text-xl font-semibold mb-2 poppins text-[#890408]">Collaborative Threat Insights</h3>
-        <div className="space-y-6">
+
+        <h3 className="text-xl font-semibold mb-4 poppins text-[#890408]">
+          Collaborative Threat Insights
+        </h3>
+        <div className="space-y-4">
           {insights.map((insight, index) => (
-            <div key={index} className="bg-blue-50 p-4 rounded-lg shadow-lg">
-              <h4 className="text-lg font-semibold mb-2 poppins">{insight.title}</h4>
-              <p className="urbanist">{insight.description}</p>
-            </div>
+            <Card key={index} className="bg-blue-50">
+              <CardContent className="pt-6">
+                <h4 className="text-lg font-semibold mb-2 poppins">{insight.title}</h4>
+                <p className="urbanist">{insight.description}</p>
+              </CardContent>
+            </Card>
           ))}
         </div>
-      </div>
-    </div>
-    <div className="col-span-1 p-6">
-      <h2 className="text-3xl font-semibold mb-4 play text-[#dd6b20]">Global Model Status</h2>
-      <div className="grid grid-cols-1 gap-6 p-6">
+      </CardContent>
+    </Card>
+  </div>
+
+  <div>
+    <Card>
+      <CardHeader>
+        <CardTitle className="text-3xl font-semibold play text-[#dd6b20]">
+          Global Model Status
+        </CardTitle>
+      </CardHeader>
+      <CardContent className="space-y-4">
         {step >= 1 && (
           <CardWidget
-            icon={<CircleCheckBig className="text-green-500 text-3xl" />}
+            icon={<CircleCheckBig className="text-green-500" />}
             title="Global Model Status"
             value={globalModelStatus || "Loading..."}
           />
         )}
         {step >= 2 && (
           <CardWidget
-            icon={<ChartLine className="text-blue-500 text-3xl" />}
+            icon={<ChartLine className="text-blue-500" />}
             title="Learning Progress"
             value={learningProgress || "Loading..."}
           />
         )}
         {step >= 3 && (
           <CardWidget
-            icon={<UserCog className="text-purple-500 text-3xl" />}
+            icon={<UserCog className="text-purple-500" />}
             title="Node Contributions"
-            value={nodeContributions !== null ? `${nodeContributions} nodes` : "Loading..."}
+            value={nodeContributions ? `${nodeContributions} nodes` : "Loading..."}
           />
         )}
         {step >= 4 && (
-          <CardWidget
-            icon={<Trophy className="text-yellow-500 text-3xl" />}
-            title="Model Performance"
-            value={
-              modelPerformance
-                ? `Accuracy: ${modelPerformance.accuracy}, Detection: ${modelPerformance.detectionRate}, Improvement: ${modelPerformance.improvement}`
-                : "Loading..."
-            }
-          />
+          <Card className="bg-yellow-50">
+            <CardHeader>
+              <div className="flex items-center space-x-4">
+                <Trophy className="text-yellow-500" size={24} />
+                <CardTitle className="text-lg font-semibold urbanist">
+                  Model Performance
+                </CardTitle>
+              </div>
+            </CardHeader>
+            <CardContent className="space-y-2">
+              <p><strong>Detection Accuracy:</strong> {modelPerformance || "Data not available"}</p>
+              <p><strong>Average Latency:</strong> {latency || "Data not available"}</p>
+              <p><strong>Average Recovery Time:</strong> {recoveryTime || "Data not available"}</p>
+            </CardContent>
+          </Card>
         )}
+      </CardContent>
+    </Card>
+  </div>
+</div>
+
+{/* Real-Time Feed */}
+<div className="mt-6">
+  <Card>
+    <CardHeader>
+      <CardTitle className="text-xl font-semibold text-[#FF4D4D] play">
+        Real-Time Feed
+      </CardTitle>
+    </CardHeader>
+    <CardContent>
+      <div className="space-y-4">
+        {realTimeFeed.map((feed, index) => (
+          <div key={index} className="flex justify-between items-center bg-white p-3 rounded-md shadow">
+            <span className="text-gray-700 poppins">{feed.text}</span>
+            <span className="text-sm text-gray-500 poppins">{feed.duration}</span>
+          </div>
+        ))}
       </div>
+    </CardContent>
+  </Card>
+</div>
+
+<div className="mt-8">
+      <Button
+        onClick={downloadReport}
+        className="w-full flex items-center justify-center space-x-2"
+      >
+        <Download className="h-5 w-5" />
+        <span>Download Detailed Report</span>
+      </Button>
     </div>
-      </div>
+
       {showAddDeviceModal && (
         <div className="fixed inset-0 flex justify-center items-center bg-black bg-opacity-50">
           <div className="bg-white p-6 rounded-lg shadow-xl urbanist">
@@ -470,17 +553,3 @@ const [insights, setInsights] = useState([
   );
 }
 
-function CardWidget({ icon, title, value }) {
-  return (
-    <div className="rounded-lg shadow-md bg-white p-4 flex items-center">
-      <div className="flex items-center gap-4">
-        {icon}
-        <div className="text-left">
-          <h3 className="text-lg font-semibold">{title}</h3>
-        </div>
-      </div>
-      {/* Value */}
-      <div className="ml-auto text-xl font-bold text-gray-800">{value}</div>
-    </div>
-  );
-}
