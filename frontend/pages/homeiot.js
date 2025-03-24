@@ -8,90 +8,111 @@ import { Button } from "@/components/ui/button";
 import UpdateFooter from "@/components/UpdateFooter";
 import Head from "next/head";
 
-const summaryData = [
-  { title: "Total Devices", value: 5, bgColor: "bg-yellow-100" },
-  { title: "Active Devices", value: 3, bgColor: "bg-blue-100" },
-  { title: "Isolated Devices", value: 2, bgColor: "bg-[#fca5a5]" },
-  { title: "System Health", value: "Good", bgColor: "bg-green-100" },
-  { title: "Active Threats", value: 0, bgColor: "bg-green-100" },
-];
-
-const activeNodes = [
-  { 
-    id: 1, 
-    name: "Node 1", 
-    operatingTime: "14h", 
-    connectionQuality: "Excellent", 
-    temperature: "72°F", 
-    usageFrequency: "High", 
-    connectivityType: "Wi-Fi", 
-    priority: "High", 
-    location: "Living Room", 
-    status: "Healthy", 
-    nodeHealth: "Good" 
-  },
-  { 
-    id: 2, 
-    name: "Node 2", 
-    operatingTime: "10h", 
-    connectionQuality: "Good", 
-    temperature: "70°F", 
-    usageFrequency: "Medium", 
-    connectivityType: "Ethernet", 
-    priority: "Medium", 
-    location: "Bedroom", 
-    status: "Stable", 
-    nodeHealth: "Good" 
-  },
-  { 
-    id: 3, 
-    name: "Node 3", 
-    operatingTime: "18h", 
-    connectionQuality: "Fair", 
-    temperature: "74°F", 
-    usageFrequency: "Low", 
-    connectivityType: "Wi-Fi", 
-    priority: "Low", 
-    location: "Kitchen", 
-    status: "Stable", 
-    nodeHealth: "Fair" 
-  }
-];
-
-const isolatedNodes = [
-  { 
-    id: 1, 
-    name: "Node 4", 
-    operatingTime: "8h", 
-    connectionQuality: "Poor", 
-    temperature: "68°F", 
-    usageFrequency: "Low", 
-    connectivityType: "Wi-Fi", 
-    priority: "Low", 
-    location: "Garage", 
-    status: "Isolated", 
-    nodeHealth: "Critical",
-    ifpsStorageLink: "https://storage.link/4"
-  },
-  { 
-    id: 2, 
-    name: "Node 5", 
-    operatingTime: "5h", 
-    connectionQuality: "Fair", 
-    temperature: "71°F", 
-    usageFrequency: "Medium", 
-    connectivityType: "Ethernet", 
-    priority: "Medium", 
-    location: "Office", 
-    status: "Isolated", 
-    nodeHealth: "Fair",
-    ifpsStorageLink: "https://storage.link/5"
-  }
-];
-
-const imageData = "/images/home_iot/1.png";
-
 export default function HomeIOT() {
+  const [summaryData, setSummaryData] = useState([
+    { title: "Total Devices", value: 5, bgColor: "bg-yellow-100" },
+    { title: "Active Devices", value: 3, bgColor: "bg-blue-100" },
+    { title: "Isolated Devices", value: 2, bgColor: "bg-[#fca5a5]" },
+    { title: "System Health", value: "Good", bgColor: "bg-green-100" },
+    { title: "Active Threats", value: 0, bgColor: "bg-green-100" },
+  ]);
+
+  const [imageData, setImageData] = useState("/images/home_iot/1.png");
+
+  const [activeNodes, setActiveNodes] = useState([
+    { id: 1, name: "Node 1", operatingTime: "14h", connectionQuality: "Excellent", temperature: "72°F", usageFrequency: "High", connectivityType: "Wi-Fi", priority: "High", location: "Living Room", status: "Healthy", nodeHealth: "Good" },
+    { id: 4, name: "Node 4", operatingTime: "10h", connectionQuality: "Good", temperature: "70°F", usageFrequency: "Medium", connectivityType: "Ethernet", priority: "Medium", location: "Bedroom", status: "Stable", nodeHealth: "Good" },
+    { id: 3, name: "Node 3", operatingTime: "18h", connectionQuality: "Fair", temperature: "74°F", usageFrequency: "Low", connectivityType: "Wi-Fi", priority: "Low", location: "Kitchen", status: "Stable", nodeHealth: "Fair" },
+  ]);
+
+  const [isolatedNodes, setIsolatedNodes] = useState([
+    { id: 2, name: "Node 2", operatingTime: "8h", connectionQuality: "Poor", temperature: "68°F", usageFrequency: "Low", connectivityType: "Wi-Fi", priority: "Low", location: "Garage", status: "Isolated", nodeHealth: "Critical" },
+    { id: 5, name: "Node 5", operatingTime: "5h", connectionQuality: "Fair", temperature: "71°F", usageFrequency: "Medium", connectivityType: "Ethernet", priority: "Medium", location: "Office", status: "Isolated", nodeHealth: "Fair" },
+  ]);
+
+  const [realTimeFeed, setRealTimeFeed] = useState([
+    { text: "System initialized", duration: "Just now" },
+  ]);
+
+  const [newDeviceId, setNewDeviceId] = useState(6);
+
+  const addDevice = () => {
+    const newDevice = {
+      id: newDeviceId,
+      name: `Node ${newDeviceId}`,
+      operatingTime: "0h",
+      connectionQuality: "Excellent",
+      temperature: "72°F",
+      usageFrequency: "Low",
+      connectivityType: "Wi-Fi",
+      priority: "Medium",
+      location: "Unknown",
+      status: "Healthy",
+      nodeHealth: "Good",
+    };
+    setActiveNodes((prev) => [...prev, newDevice]);
+    setSummaryData((prev) => {
+      const updated = [...prev];
+      updated[0].value += 1; // Increment total devices
+      updated[1].value += 1; // Increment active devices
+      return updated;
+    });
+    setNewDeviceId((prev) => prev + 1);
+    setImageData(`/images/home_iot/${newDeviceId - 4}.png`);
+    setRealTimeFeed((prev) => [
+      { text: `New device (Node ${newDeviceId}) added to active nodes`, duration: "Just now" },
+      ...prev,
+    ]);
+  };
+
+  const isolateNode = (node) => {
+    setActiveNodes((prev) => prev.filter((n) => n.id !== node.id));
+    setIsolatedNodes((prev) => [...prev, node]);
+    setSummaryData((prev) => {
+      const updated = [...prev];
+      updated[1].value -= 1; // Decrement active devices
+      updated[2].value += 1; // Increment isolated devices
+      return updated;
+    });
+    setImageData(`/images/home_iot/${newDeviceId - 3}.png`);
+    setRealTimeFeed((prev) => [
+      { text: `Node ${node.name} isolated due to network packet abnormality`, duration: "Just now" },
+      ...prev,
+    ]);
+  };
+
+  const recoverNode = (node) => {
+    setIsolatedNodes((prev) => prev.filter((n) => n.id !== node.id));
+    setActiveNodes((prev) => [...prev, node]);
+    setSummaryData((prev) => {
+      const updated = [...prev];
+      updated[1].value += 1; // Increment active devices
+      updated[2].value -= 1; // Decrement isolated devices
+      return updated;
+    });
+    setImageData(`/images/home_iot/${newDeviceId - 2}.png`);
+    setRealTimeFeed((prev) => [
+      { text: `Node ${node.name} recovered successfully`, duration: "Just now" },
+      ...prev,
+    ]);
+  };
+
+  const revokeIsolation = (node) => {
+    setIsolatedNodes((prev) => prev.filter((n) => n.id !== node.id));
+    setActiveNodes((prev) => [...prev, node]);
+    setSummaryData((prev) => {
+      const updated = [...prev];
+      updated[1].value += 1; // Increment active devices
+      updated[2].value -= 1; // Decrement isolated devices
+      return updated;
+    });
+    setImageData(`/images/home_iot/${newDeviceId - 1}.png`);
+    setRealTimeFeed((prev) => [
+      { text: `Node ${node.name} moved back to active nodes`, duration: "Just now" },
+      ...prev,
+    ]);
+  };
+
   const [threats, setThreats] = useState([
   { type: 'DDoS Attack', affectedNodes: 2, riskLevel: 'High', mitigation: 'Node Isolation' },
   { type: 'Phishing Attack', affectedNodes: 1, riskLevel: 'Medium', mitigation: 'User Education & Block' },
@@ -102,14 +123,6 @@ const [insights, setInsights] = useState([
   { title: 'Model Efficiency', description: 'Collaborative insights have improved the model’s prediction accuracy from 85% to 92% in identifying DDoS attacks.' },
   { title: 'Shared Knowledge', description: 'A shared node identified multiple brute-force attempts, leading to faster global model updates.' },
 ]);
-
-const realTimeFeed = [
-  { text: "Threat detected in Node A", duration: "5 minutes ago" },
-  { text: "Mitigation initiated for Node B", duration: "10 minutes ago" },
-  { text: "Update received from Node C", duration: "15 minutes ago" },
-  { text: "Node D back online", duration: "20 minutes ago" },
-  { text: "Global model updated", duration: "30 minutes ago" },
-];
 
   const [activeNodeDetails, setActiveNodeDetails] = useState(null);
   const [isolatedNodeDetails, setIsolatedNodeDetails] = useState(null);
@@ -330,7 +343,8 @@ const realTimeFeed = [
                   >
                     View Details
                   </button>
-                  <button className="px-4 py-2 bg-[#FB0000] text-white rounded-lg hover:bg-[#FF4D4D] poppins">
+                  <button onClick={() => isolateNode(node)}
+                  className="px-4 py-2 bg-[#FB0000] text-white rounded-lg hover:bg-[#FF4D4D] poppins">
                     Isolate
                   </button>
                 </div>
@@ -362,7 +376,8 @@ const realTimeFeed = [
                   >
                     View Details
                   </button>
-                  <button className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 poppins">
+                  <button onClick={() => recoverNode(node)}
+                  className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 poppins">
                     Recover
                   </button>
                 </div>
@@ -545,6 +560,7 @@ const realTimeFeed = [
                 </button>
                 <button
                   type="submit"
+                  onClick={addDevice}
                   className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 poppins"
                 >
                   Add Device
